@@ -6,22 +6,18 @@ super + Escape + r
 
 # Launch Terminal
 super + Return
-    alacritty
+    kitty fish
 
 # Hide or Unhide Polybar
 super + p
 	sh $HOME/bin/toggle-polybar
 
-# Set random wallpaper
-super + w
-	sh $HOME/bin/random_wallpaper
-
 # Change language
 Alt_L + shift
-	sh $HOME/bin/change_language.sh
+	bspc node -t "~"{floating,tiled}
 
 Shift_L + alt
-	sh $HOME/bin/change_language.sh
+	bspc node -t "~"{floating,tiled}
     
 # Launch Rofi Menu
 super + {d,x}
@@ -72,8 +68,8 @@ super + c
     bspc node -c
 
 # alternate between the tiled and monocle layout
-super + space
-	bspc node -t "~"{floating,tiled}
+#super + space
+#	sh $HOME/bin/change_language.sh
 
 
 #
