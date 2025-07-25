@@ -7,16 +7,16 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 # wmname LG3D
 
 # workspaces
-bspc monitor DisplayPort-0 -d 0 1 2 3 4 5 6
+bspc monitor DP-1 -d 0 1 2 3 4 5 6
 
 bspc monitor HDMI-A-0 -d 0 1 2 3 4 5 6  # TODO: multiple monitors
 
 bspc config focus_follows_pointer true
 
 # Window borders (Auto-Generate)
-bspc config focused_border_color "#4A4A4A"
-bspc config normal_border_color "#1f222b"
-bspc config border_width 5
+bspc config focused_border_color "#4e4e4e"
+bspc config normal_border_color "#3c3c3c"
+bspc config border_width 3
 bspc config borderless_monocle true
 
 bspc config active_border_color "#1f222bcd"
@@ -27,7 +27,7 @@ xsetroot -cursor_name left_ptr
 
 # gaps
 bspc config gapless_monocle false
-bspc config window_gap 5
+bspc config window_gap 4
 
 # moving floating windows and resize them with mouse, hold alt key
 bspc config pointer_modifier mod4
@@ -45,8 +45,8 @@ xrdb merge ~/.Xresources
 
 # python script to always initialize with a different wallpaper:
 # TODO: Add loading of basic scripts
-~/.config/bspwm/scripts/launch.sh &
-~/.config/polybar/launch.sh
+#~/.config/bspwm/scripts/launch.sh &
+~/.config/polybar/launch.sh &
 
 
 # launch notification daemon
@@ -55,9 +55,20 @@ dunst -config $HOME/.config/bspwm/dunstrc &
 # start compositor
 picom --config $HOME/.config/bspwm/picom_configurations/1.conf &
 
-# autostart   
-sh ~/autostart.sh &
-flameshot &
+bspc rule -a "GPaste" state=floating sticky=on layer=above rectangle=500x700+2040+32
 
+# autostart   
+flameshot &
+gpaste-client &
+#~/.screenlayout/base_layout.sh &
+
+feh --bg-scale ~/.config/black_waves.jpg
+
+setxkbmap -layout us,ru -option grp:win_space_toggle
+
+xinput --set-prop 9 "libinput Accel Speed" -1 # for 2nd mouse dpi 
+
+#xrandr --output DP-1 --mode 2560x1440 --rate 165
+#xrandr --output HDMI-1 --gamma 1.1:1.1:1.1 --brightness 1.1
 
 

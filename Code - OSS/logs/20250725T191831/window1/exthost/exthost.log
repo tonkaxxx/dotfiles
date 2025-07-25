@@ -1,0 +1,19 @@
+2025-07-25 19:18:32.979 [info] Extension host with pid 1481 started
+2025-07-25 19:18:33.121 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-25 19:18:33.131 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-25 19:18:33.187 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-25 19:18:33.301 [info] Eager extensions activated
+2025-07-25 19:18:33.305 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 19:18:33.307 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 19:38:55.928 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-25 19:38:55.933 [info] Extension host with pid 1481 exiting with code 0
+2025-07-25 19:38:57.077 [info] Extension host with pid 2180 started
+2025-07-25 19:38:57.077 [info] Skipping acquiring lock for /home/user/.config/Code - OSS/User/workspaceStorage/adb5fa1305821466e065d42a902821a9.
+2025-07-25 19:38:57.093 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-07-25 19:38:57.099 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-25 19:38:57.160 [info] Eager extensions activated
+2025-07-25 19:38:57.291 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 19:38:57.294 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 19:38:59.580 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-07-25 19:39:12.044 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-25 19:39:12.051 [info] Extension host with pid 2180 exiting with code 0

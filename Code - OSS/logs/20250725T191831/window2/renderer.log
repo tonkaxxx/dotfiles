@@ -1,0 +1,7 @@
+2025-07-25 19:39:11.705 [info] Started local extension host with pid 2425.
+2025-07-25 19:39:11.989 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-25 19:39:14.414 [info] [perf] Render performance baseline is 26ms
+2025-07-25 19:51:22.224 [error] spawn linux ENOENT: Error: spawn linux ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)

@@ -36,11 +36,11 @@ wallpaper="$wdir/wallpaper"
 polybar_font='Iosevka Nerd Font:size=10;3'
 
 # Rofi
-rofi_font='Iosevka 10'
+rofi_font='JetBrainsMono Nerd Font'
 rofi_icon='Papirus-Apps'
 
 # Terminal
-terminal_font_name='JetBrainsMono Nerd Font'
+terminal_font_name='Noto Sans 9'
 terminal_font_size='10'
 
 # Geany

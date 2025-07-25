@@ -24,18 +24,23 @@ super + {d,x}
     {rofi -show drun,sh $HOME/bin/powermenu}
 
 # Launch Applications
-super + shift + {f,n,p,t,c,v,i,x,q,k,l}
+super + shift + {f,n,p,t,c,v,i,x,q,k,l,a}
 	{firefox, \
 	thunar, \
 	pavucontrol, \
-	telegram-desktop, \
+	Telegram, \
 	code, \
 	virtualbox, \
 	firefox --private-window, \
 	sh $HOME/bin/xcolor-pick, \
 	sh $HOME/bin/bible, \
 	alacritty -e calcurse, \
-	sh $HOME/bin/screen-lock}
+	sh $HOME/bin/screen-lock, \
+	AmneziaVPN}
+
+# copy manager
+super + v
+	gpaste-client ui
      
 # Select window to close
 ctrl + super + alt + k
