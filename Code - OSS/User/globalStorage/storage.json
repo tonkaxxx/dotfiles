@@ -25,10 +25,10 @@
             "backupPath": "/home/user/.config/Code - OSS/Backups/d059f8588c2905a1a8ba7edbea41a32e",
             "uiState": {
                 "mode": 1,
-                "x": 7,
-                "y": 42,
-                "width": 2546,
-                "height": 1391,
+                "x": 1285,
+                "y": 38,
+                "width": 1268,
+                "height": 1395,
                 "zoomLevel": 1
             }
         },
@@ -58,7 +58,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 300,
+            "sideBarWidth": 0,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -74,7 +74,7 @@
                     "auxiliaryBarVisible": false
                 },
                 "a34e154c4378cdaf589d84e1db30bb8b": {
-                    "sideBarVisible": true,
+                    "sideBarVisible": false,
                     "auxiliaryBarVisible": false
                 }
             }

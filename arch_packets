@@ -32,6 +32,7 @@ blas
 bluez-libs
 brotli
 bspwm
+btop
 bubblewrap
 bzip2
 c-ares
@@ -86,6 +87,8 @@ flac
 flameshot
 flatpak
 flex
+fltk
+fltk1.3
 fmt
 fontconfig
 freeglut
@@ -258,7 +261,9 @@ lib32-sqlite
 lib32-systemd
 lib32-util-linux
 lib32-vulkan-icd-loader
+lib32-vulkan-radeon
 lib32-wayland
+lib32-xcb-util-keysyms
 lib32-xz
 lib32-zlib
 lib32-zstd
@@ -583,11 +588,11 @@ tar
 tdb
 telegram-desktop
 texinfo
+tigervnc
 tinysparql
 tpm2-tss
 tslib
 ttf-fira-code
-ttf-font-awesome
 ttf-iosevka-nerd
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
@@ -604,12 +609,15 @@ vapoursynth
 vid.stab
 vmaf
 vulkan-icd-loader
+vulkan-radeon
 wayland
 webrtc-audio-processing-1
 wget
 which
+wine
 wireguard-tools
 wireplumber
+woff2-font-awesome
 wpa_supplicant
 x264
 x265
