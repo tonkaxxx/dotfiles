@@ -6,7 +6,7 @@ super + Escape + r
 
 # Launch Terminal
 super + Return
-    kitty fish
+    kitty
 
 # Hide or Unhide Polybar
 super + p

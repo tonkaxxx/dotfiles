@@ -1,0 +1,5 @@
+2025-08-02 01:16:25.571 [info] Started local extension host with pid 17251.
+2025-08-02 01:16:25.600 [info] Started initializing default profile extensions in extensions installation folder. file:///home/user/.vscode-oss/extensions
+2025-08-02 01:16:25.639 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-08-02 01:16:25.856 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/user/.vscode-oss/extensions
+2025-08-02 01:16:28.662 [info] [perf] Render performance baseline is 26ms

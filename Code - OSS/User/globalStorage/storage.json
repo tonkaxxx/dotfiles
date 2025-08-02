@@ -1,7 +1,7 @@
 {
     "telemetry.sqmId": "",
     "telemetry.machineId": "9abf4e23af80e6339e2ea4fa870403a8e7a5df0963f17c19039d3f7214cadb96",
-    "telemetry.devDeviceId": "8743f99d-3dfe-4937-bbd7-0f72dd30f305",
+    "telemetry.devDeviceId": "c0faab21-8278-4f1d-9e64-f3ddd609d4a6",
     "backupWorkspaces": {
         "workspaces": [],
         "folders": [
@@ -58,7 +58,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 300,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -75,6 +75,10 @@
                 },
                 "a34e154c4378cdaf589d84e1db30bb8b": {
                     "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "7c7612b681b8789346704ae9279d3b40": {
+                    "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }
             }
