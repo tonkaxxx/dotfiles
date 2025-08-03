@@ -1,5 +1,0 @@
-[]
-
-while True:
-    time = time()
-    
