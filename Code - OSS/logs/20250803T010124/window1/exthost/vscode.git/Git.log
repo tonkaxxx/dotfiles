@@ -1,0 +1,37 @@
+2025-08-03 01:01:26.822 [info] [main] Log level: Info
+2025-08-03 01:01:26.822 [info] [main] Validating found git in: "git"
+2025-08-03 01:01:26.822 [info] [main] Using git "2.50.1" from "git"
+2025-08-03 01:01:26.822 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-03 01:01:26.822 [info] > git rev-parse --show-toplevel [9ms]
+2025-08-03 01:01:26.822 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-08-03 01:01:26.822 [info] [Model][openRepository] Opened repository (path): /home/user/homelab
+2025-08-03 01:01:26.822 [info] [Model][openRepository] Opened repository (real path): /home/user/homelab
+2025-08-03 01:01:26.822 [info] > git rev-parse --show-toplevel [3ms]
+2025-08-03 01:01:26.822 [info] > git config --get commit.template [12ms]
+2025-08-03 01:01:26.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-08-03 01:01:26.822 [info] > git rev-parse --show-toplevel [26ms]
+2025-08-03 01:01:26.822 [info] > git status -z -uall [28ms]
+2025-08-03 01:01:26.822 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [20ms]
+2025-08-03 01:01:26.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-08-03 01:01:26.822 [info] > git rev-parse --show-toplevel [60ms]
+2025-08-03 01:01:26.822 [info] > git config --get --local branch.main.vscode-merge-base [244ms]
+2025-08-03 01:01:26.822 [warning] [Git][config] git config failed: Failed to execute git
+2025-08-03 01:01:26.822 [info] > git config --get commit.template [256ms]
+2025-08-03 01:01:26.824 [info] > git reflog main --grep-reflog=branch: Created from *. [13ms]
+2025-08-03 01:01:26.831 [info] > git rev-parse --show-toplevel [26ms]
+2025-08-03 01:01:26.831 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-03 01:01:26.839 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [9ms]
+2025-08-03 01:01:26.839 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-08-03 01:01:26.840 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-08-03 01:01:26.841 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-08-03 01:01:26.852 [info] > git status -z -uall [5ms]
+2025-08-03 01:01:26.853 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-08-03 01:01:27.087 [info] > git check-ignore -v -z --stdin [7ms]
+2025-08-03 01:01:27.379 [info] > git show --textconv :docs/deploy_all.md [18ms]
+2025-08-03 01:01:27.380 [info] > git ls-files --stage -- docs/deploy_all.md [10ms]
+2025-08-03 01:01:27.407 [info] > git cat-file -s 47ad90b01082ad1d06cf861d911bb79b2ff3ab0b [20ms]
+2025-08-03 01:01:27.493 [info] > git blame --root --incremental b5e863454b666917f8df1138388288ce5844d6d9 -- docs/deploy_all.md [3ms]
+2025-08-03 01:01:28.661 [info] > git config --get commit.template [2ms]
+2025-08-03 01:01:28.669 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-08-03 01:01:28.685 [info] > git status -z -uall [9ms]
+2025-08-03 01:01:28.685 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]

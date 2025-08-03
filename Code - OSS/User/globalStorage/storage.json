@@ -6,7 +6,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/user/.config/polybar"
+                "folderUri": "file:///home/user/homelab"
             }
         ],
         "emptyWindows": []
@@ -15,19 +15,20 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/user/.config/polybar/scripts": "__default__profile__",
-            "file:///home/user/.config/polybar": "__default__profile__"
+            "file:///home/user/.config/polybar": "__default__profile__",
+            "file:///home/user/homelab": "__default__profile__"
         },
         "emptyWindows": {}
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/user/.config/polybar",
-            "backupPath": "/home/user/.config/Code - OSS/Backups/d059f8588c2905a1a8ba7edbea41a32e",
+            "folder": "file:///home/user/homelab",
+            "backupPath": "/home/user/.config/Code - OSS/Backups/9e678c6dbfff141b8cd1500ca2d5cda6",
             "uiState": {
                 "mode": 1,
-                "x": 1285,
+                "x": 7,
                 "y": 38,
-                "width": 1268,
+                "width": 2546,
                 "height": 1395,
                 "zoomLevel": 1
             }
@@ -58,7 +59,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 300,
+            "sideBarWidth": 170,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -66,7 +67,7 @@
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 300,
+            "sideBarWidth": 170,
             "auxiliaryBarWidth": 300,
             "workspaces": {
                 "adb5fa1305821466e065d42a902821a9": {
@@ -78,6 +79,10 @@
                     "auxiliaryBarVisible": false
                 },
                 "7c7612b681b8789346704ae9279d3b40": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "547f2fa0c714d458d7ca8ebff9cfd952": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

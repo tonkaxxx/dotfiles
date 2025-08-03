@@ -1,0 +1,217 @@
+2025-08-02 20:22:15.434 [info] [2025-08-02 17:22:15.418] [         31ms] [/home/user/homelab] git rev-parse --show-toplevel • FAILED
+2025-08-02 20:22:15.434 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-08-02 20:22:15.513 [info] [2025-08-02 17:22:15.513] [         27ms] [/home/user/homelab] git rev-parse --show-toplevel • FAILED
+2025-08-02 20:22:15.513 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-08-02 20:22:19.337 [info] [2025-08-02 17:22:19.337] [          6ms] [/home/user/homelab/lenses/app] git rev-parse --show-toplevel • FAILED
+2025-08-02 20:22:19.337 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-08-02 20:22:20.582 [info] [2025-08-02 17:22:20.582] [          5ms] [/home/user/homelab] git rev-parse --show-toplevel • FAILED
+2025-08-02 20:22:20.582 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-08-02 20:22:23.850 [info] [2025-08-02 17:22:23.850] [          6ms] [/home/user/homelab] git rev-parse --show-toplevel • FAILED
+2025-08-02 20:22:23.850 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-08-02 20:26:17.302 [info] [2025-08-02 17:26:17.302] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:26:17.302 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:26:17.310 [info] [2025-08-02 17:26:17.310] [          7ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:26:17.310 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:26:30.434 [info] [2025-08-02 17:26:30.433] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:26:30.434 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:26:30.439 [info] [2025-08-02 17:26:30.439] [          5ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:26:30.440 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:26:41.813 [info] [2025-08-02 17:26:41.813] [          9ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:26:41.813 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:26:41.823 [info] [2025-08-02 17:26:41.823] [         10ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:26:41.823 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:27:29.378 [info] [2025-08-02 17:27:29.378] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:27:29.378 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:27:29.385 [info] [2025-08-02 17:27:29.385] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:27:29.385 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:27:29.878 [info] [2025-08-02 17:27:29.878] [          5ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:27:29.878 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:27:29.884 [info] [2025-08-02 17:27:29.884] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:27:29.884 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:27:31.903 [info] [2025-08-02 17:27:31.903] [          5ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L6,6:lenses/Dockerfile • FAILED
+2025-08-02 20:27:31.903 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:27:31.909 [info] [2025-08-02 17:27:31.909] [          5ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:27:31.909 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:28:15.857 [info] [2025-08-02 17:28:15.857] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:28:15.857 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:28:15.864 [info] [2025-08-02 17:28:15.864] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:28:15.864 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:30:00.736 [info] [2025-08-02 17:30:00.736] [          7ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:30:00.736 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:30:00.741 [info] [2025-08-02 17:30:00.741] [          5ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:30:00.741 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:30:10.025 [info] [2025-08-02 17:30:10.025] [          7ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:30:10.025 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:30:10.032 [info] [2025-08-02 17:30:10.032] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:30:10.032 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:49:46.985 [info] [2025-08-02 17:49:46.985] [          7ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:49:46.985 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:49:46.992 [info] [2025-08-02 17:49:46.992] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:49:46.992 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:49:47.647 [info] [2025-08-02 17:49:47.647] [         14ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:49:47.647 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:49:47.658 [info] [2025-08-02 17:49:47.658] [         10ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:49:47.658 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:49:48.398 [info] [2025-08-02 17:49:48.398] [          7ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:49:48.398 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:49:48.408 [info] [2025-08-02 17:49:48.408] [          9ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:49:48.408 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:50:44.484 [info] [2025-08-02 17:50:44.484] [          7ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:50:44.484 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:50:44.491 [info] [2025-08-02 17:50:44.491] [          7ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:50:44.491 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:56:35.812 [info] [2025-08-02 17:56:35.812] [          7ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:56:35.812 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:56:35.819 [info] [2025-08-02 17:56:35.819] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:56:35.819 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 20:56:41.721 [info] [2025-08-02 17:56:41.721] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 20:56:41.721 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 20:56:41.728 [info] [2025-08-02 17:56:41.728] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 20:56:41.728 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 21:04:50.118 [info] [2025-08-02 18:04:50.118] [          5ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 21:04:50.118 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 21:04:50.123 [info] [2025-08-02 18:04:50.123] [          5ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 21:04:50.123 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 21:04:51.044 [info] [2025-08-02 18:04:51.044] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 21:04:51.044 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 21:04:51.050 [info] [2025-08-02 18:04:51.050] [          5ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 21:04:51.050 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 23:30:37.615 [info] [2025-08-02 20:30:37.614] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 23:30:37.615 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 23:30:37.622 [info] [2025-08-02 20:30:37.622] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 23:30:37.622 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 23:42:35.194 [info] [2025-08-02 20:42:35.194] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 23:42:35.194 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 23:42:35.200 [info] [2025-08-02 20:42:35.200] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 23:42:35.200 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 23:57:39.730 [info] [2025-08-02 20:57:39.730] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:k8s/lenses.yaml • FAILED
+2025-08-02 23:57:39.730 [info] 
+Error: fatal: There is no path k8s/lenses.yaml in the commit
+
+2025-08-02 23:57:51.176 [info] [2025-08-02 20:57:51.176] [          7ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/app/requirements.txt • FAILED
+2025-08-02 23:57:51.176 [info] 
+Error: fatal: There is no path lenses/app/requirements.txt in the commit
+
+2025-08-02 23:57:53.893 [info] [2025-08-02 20:57:53.893] [          5ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/docker-compose.yaml • FAILED
+2025-08-02 23:57:53.893 [info] 
+Error: fatal: There is no path lenses/docker-compose.yaml in the commit
+
+2025-08-02 23:58:01.433 [info] [2025-08-02 20:58:01.433] [          5ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/docker-compose.yaml • FAILED
+2025-08-02 23:58:01.433 [info] 
+Error: fatal: There is no path lenses/docker-compose.yaml in the commit
+
+2025-08-02 23:58:02.191 [info] [2025-08-02 20:58:02.191] [          5ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:lenses/Dockerfile • FAILED
+2025-08-02 23:58:02.191 [info] 
+Error: fatal: file lenses/Dockerfile has only 0 lines
+
+2025-08-02 23:58:02.197 [info] [2025-08-02 20:58:02.197] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L0,0:lenses/Dockerfile • FAILED
+2025-08-02 23:58:02.197 [info] 
+Error: fatal: -L invalid line number: 0
+
+2025-08-02 23:58:17.426 [info] [2025-08-02 20:58:17.426] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:docs/deploy_all.md • FAILED
+2025-08-02 23:58:17.426 [info] 
+Error: fatal: There is no path docs/deploy_all.md in the commit
+
+2025-08-02 23:58:18.696 [info] [2025-08-02 20:58:18.696] [          7ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L14,14:docs/deploy_all.md • FAILED
+2025-08-02 23:58:18.696 [info] 
+Error: fatal: There is no path docs/deploy_all.md in the commit
+
+2025-08-02 23:58:35.116 [info] [2025-08-02 20:58:35.116] [          6ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L1,1:k8s/lenses.yaml • FAILED
+2025-08-02 23:58:35.117 [info] 
+Error: fatal: There is no path k8s/lenses.yaml in the commit
+
+2025-08-03 00:56:19.964 [info] [2025-08-02 21:56:19.964] [          9ms] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L19,19:docs/deploy_all.md • FAILED
+2025-08-03 00:56:19.964 [info] 
+Error: fatal: file docs/deploy_all.md has only 14 lines
+

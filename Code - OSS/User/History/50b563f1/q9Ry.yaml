@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lenses-bot
+  labels:
+    app: lenses-bot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lenses-bot
+  template:
+    metadata:
+      labels:
+        app: lenses-bot
+    spec:
+      containers:
+      - name: lenses-bot
+        image: tonkaxxx/lenses-bot:latest
+        ports:
+        - containerPort: 80  # Укажите нужный порт
+        volumeMounts:
+        - name: timezone
+          mountPath: /etc/localtime
+          readOnly: true
+        envFrom:
+        - secretRef:
+            name: lenses-bot-secrets
+      volumes:
+      - name: timezone
+        hostPath:
+          path: /etc/localtime
+          type: File

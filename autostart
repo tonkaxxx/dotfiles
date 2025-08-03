@@ -9,3 +9,5 @@ xinput --set-prop 12 "libinput Accel Speed" -1 # for 2nd mouse dpi
 
 xrandr --output DP-1 --mode 2560x1440 --rate 165
 xrandr --output HDMI-1 --gamma 1.1:1.1:1.1 --brightness 1.1
+
+sudo swapon /swapfile

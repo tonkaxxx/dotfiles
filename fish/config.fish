@@ -12,4 +12,9 @@ if status is-interactive
     abbr -a k "kubectl"
 
     abbr -a auto "/home/user/.config/autostart"
+
+    export DOCKER_BUILDKIT=1
+    export COMPOSE_DOCKER_CLI_BUILD=1
+    export EDITOR=micro
+    export KUBECONFIG=/home/user/.kube/homelab_adm
 end

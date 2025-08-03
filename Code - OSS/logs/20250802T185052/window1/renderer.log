@@ -1,0 +1,9 @@
+2025-08-02 18:50:53.253 [info] Started local extension host with pid 38190.
+2025-08-02 18:50:53.315 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-08-02 18:50:55.912 [info] [perf] Render performance baseline is 28ms
+2025-08-02 18:52:12.924 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-02 18:52:27.936 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-02 18:52:28.436 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-02 18:53:01.735 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-02 18:53:13.434 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-02 18:53:27.459 [warning] Settings pattern "mcp" doesn't match any settings

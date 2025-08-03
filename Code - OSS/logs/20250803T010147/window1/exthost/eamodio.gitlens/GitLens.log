@@ -1,0 +1,19 @@
+2025-08-03 01:01:50.263 [info] GitLens v17.3.3 activating in Code - OSS (1.102.3) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (someValue.machineId|someValue.sessionId)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-08-03 01:01:54.769 [info] [2025-08-02 22:01:54.701] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x1E%H%x1D -n2 -L15,15:docs/deploy_all.md): fatal: file docs/deploy_all.md has only 14 lines
+
+[2025-08-02 22:01:54.702] [GIT          ] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L15,15:docs/deploy_all.md • file docs/deploy_all.md has only 14 lines [6ms]
+
+2025-08-03 01:06:21.631 [info] [2025-08-02 22:06:21.131] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x1E%H%x1D -n2 -L34,34:docs/deploy_all.md): fatal: file docs/deploy_all.md has only 14 lines
+
+[2025-08-02 22:06:21.132] [GIT          ] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L34,34:docs/deploy_all.md • file docs/deploy_all.md has only 14 lines [7ms]
+
+2025-08-03 01:11:06.450 [info] [2025-08-02 22:11:05.949] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x1E%H%x1D -n2 -L45,45:docs/deploy_all.md): fatal: file docs/deploy_all.md has only 14 lines
+
+[2025-08-02 22:11:05.949] [GIT          ] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L45,45:docs/deploy_all.md • file docs/deploy_all.md has only 14 lines [6ms]
+
+2025-08-03 01:11:07.951 [info] [2025-08-02 22:11:07.946] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x1E%H%x1D -n2 -L45,45:docs/deploy_all.md): fatal: file docs/deploy_all.md has only 14 lines
+
+[2025-08-02 22:11:07.946] [GIT          ] [/home/user/homelab] git log --format=%x1E%H%x1D -n2 -L45,45:docs/deploy_all.md • file docs/deploy_all.md has only 14 lines [6ms]
+

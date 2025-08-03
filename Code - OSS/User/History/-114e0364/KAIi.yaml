@@ -1,0 +1,8 @@
+services:
+  lenses-bot:
+    build: .
+    container_name: lenses_bot
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    env_file:
+      - ./app/env
