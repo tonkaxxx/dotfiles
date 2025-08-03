@@ -1,6 +1,5 @@
 #! /bin/sh
 
-
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 # fix some Java applications
@@ -9,7 +8,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 # workspaces
 bspc monitor DP-1 -d 0 1 2 3 4 5 6
 
-bspc monitor HDMI-A-0 -d 0 1 2 3 4 5 6  # TODO: multiple monitors
+#bspc monitor HDMI-A-0 -d 0 1 2 3 4 5 6  # TODO: multiple monitors
 
 bspc config focus_follows_pointer true
 
@@ -29,7 +28,7 @@ xsetroot -cursor_name left_ptr
 bspc config gapless_monocle false
 bspc config window_gap 4
 
-# moving floating windows and resize them with mouse, hold alt key
+# moving floating windows and resize them with mouse
 bspc config pointer_modifier mod4
 bspc config pointer_action1 move
 bspc config pointer_action2 resize_side
@@ -37,7 +36,6 @@ bspc config pointer_action3 re
 
 # bspc rule -a firefox state=floating
 # rules
-bspc rule -a feh state=floating
 # bspc rule -a firefox desktop='^2' follow=on
 
 # start resousize_cornerrces
@@ -55,8 +53,6 @@ dunst -config $HOME/.config/bspwm/dunstrc &
 # start compositor
 picom --config $HOME/.config/bspwm/picom_configurations/1.conf &
 
-bspc rule -a "GPaste" state=floating sticky=on layer=above rectangle=500x700+2040+32
-
 # autostart   
 flameshot &
 gpaste-client &
@@ -71,4 +67,5 @@ xinput --set-prop 12 "libinput Accel Speed" -1 # for 2nd mouse dpi
 xrandr --output DP-1 --mode 2560x1440 --rate 165
 xrandr --output HDMI-1 --gamma 1.1:1.1:1.1 --brightness 1.1
 
+bspc rule -a "GPaste" state=floating sticky=on layer=above rectangle=500x700+2040+32
 
