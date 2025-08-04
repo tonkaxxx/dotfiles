@@ -67,5 +67,5 @@ xinput --set-prop 12 "libinput Accel Speed" -1 # for 2nd mouse dpi
 xrandr --output DP-1 --mode 2560x1440 --rate 165
 xrandr --output HDMI-1 --gamma 1.1:1.1:1.1 --brightness 1.1
 
-bspc rule -a "GPaste" state=floating sticky=on layer=above rectangle=500x700+2040+32
+# bspc rule -a "GPaste" state=floating sticky=on layer=above rectangle=500x700+2040+32
 
