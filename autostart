@@ -1,5 +1,5 @@
 #!/bin/bash
-~/.screenlayout/base_layout.sh
+~/.config/.screenlayout.sh
 
 feh --bg-scale ~/.config/black_waves.jpg
 

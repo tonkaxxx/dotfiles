@@ -1,0 +1,10 @@
+git clone https://github.com/tonkaxxx/dotfiles.git
+
+mv dotfiles .config
+
+nano /etc/pacman.conf
+
+sudo pacman -S - < arch_packages
+
+sudo nano /etc/X11/xinit/xinitrc
+change "exec bspwm"
