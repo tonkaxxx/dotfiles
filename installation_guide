@@ -1,3 +1,5 @@
+u need fresh arch
+
 git clone https://github.com/tonkaxxx/dotfiles.git
 
 mv dotfiles .config
@@ -8,3 +10,8 @@ sudo pacman -S - < arch_packages
 
 sudo nano /etc/X11/xinit/xinitrc
 change "exec bspwm"
+
+reboot
+
+login
+startx
