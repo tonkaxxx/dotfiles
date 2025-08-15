@@ -5,9 +5,8 @@ feh --bg-scale ~/.config/black_waves.jpg
 
 setxkbmap -layout us,ru -option grp:win_space_toggle
 
-xinput --set-prop 12 "libinput Accel Speed" -1 # for 2nd mouse dpi 
+xinput --set-prop 9 "libinput Accel Speed" -0.65 # for 2nd mouse dpi 
 
 xrandr --output DP-1 --mode 2560x1440 --rate 165
 xrandr --output HDMI-1 --gamma 1.1:1.1:1.1 --brightness 1.1
 
-sudo swapon /swapfile

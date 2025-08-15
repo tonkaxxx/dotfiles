@@ -1,0 +1,34 @@
+{
+ "Week": "2025-07-24",
+ "LastWeek": "",
+ "X": 0.26673967795277975,
+ "Programs": [
+  {
+   "Program": "cmd/go",
+   "Version": "go1.24.5",
+   "GoVersion": "go1.24.5",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/build/flag/buildmode:pie": 6,
+    "go/build/flag:buildmode": 6,
+    "go/build/flag:ldflags": 6,
+    "go/build/flag:mod": 6,
+    "go/build/flag:modcacherw": 6,
+    "go/build/flag:o": 6,
+    "go/build/flag:trimpath": 6,
+    "go/goroot:usr-lib-go": 6,
+    "go/invocations": 6,
+    "go/mode:module": 6,
+    "go/platform/host/linux/major-version:6": 6,
+    "go/platform/host/linux/version:6-15": 6,
+    "go/platform/target/goamd64:v1": 6,
+    "go/platform/target/goarch:amd64": 6,
+    "go/platform/target/goos:linux": 6,
+    "go/subcommand:build": 6
+   },
+   "Stacks": {}
+  }
+ ],
+ "Config": "v0.0.0-0"
+}
