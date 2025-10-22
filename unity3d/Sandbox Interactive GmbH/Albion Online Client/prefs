@@ -1,0 +1,54 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="AttentionItemManagerState" type="string">IEFDVElWSVRZX0hVQl9QRVJTT05BTF9DSEFMTEVOR0VfQURDU0VBU09OXzEwQDIwMjU=</pref>
+	<pref name="CombinedTrackerHudEntryGuiArenaQueueTracker" type="string">eyJhIjpmYWxzZX0=</pref>
+	<pref name="CombinedTrackerHudEntryGuiChallengeTracker" type="string">eyJhIjpmYWxzZX0=</pref>
+	<pref name="CombinedTrackerHudEntryGuiClusterQueueTracker" type="string">eyJhIjpmYWxzZX0=</pref>
+	<pref name="CombinedTrackerHudEntryGuiDestinyTracker" type="string">eyJhIjpmYWxzZX0=</pref>
+	<pref name="CombinedTrackerHudEntryGuiExpeditionQueueTracker" type="string">eyJhIjpmYWxzZX0=</pref>
+	<pref name="CombinedTrackerHudEntryGuiJournalTracker" type="string">eyJhIjpmYWxzZX0=</pref>
+	<pref name="CombinedTrackerHudEntryGuiPartyFinderTracker" type="string">eyJhIjpmYWxzZX0=</pref>
+	<pref name="CombinedTrackerHudEntryGuiQuestTracker" type="string">eyJhIjpmYWxzZX0=</pref>
+	<pref name="Decision_EquipmentItemSelectSpells" type="int">3</pref>
+	<pref name="DestinyTrackerShowPercentage" type="string">MQ==</pref>
+	<pref name="DevideId" type="string">ZDdlMTY0MzAtMDVhZS00ODg5LTkzNDItMjQ1MTM2YzdlYTJk</pref>
+	<pref name="FreeMemory" type="int">-1</pref>
+	<pref name="HudEditorOpened" type="int">1</pref>
+	<pref name="InventoryOptionsSelectedSizeIndex" type="string">MA==</pref>
+	<pref name="IpAddresses" type="string">OTIuMjIzLjg0Ljg0LDJhMDM6OTBjMDo5OTk0Ojo5OTk0LA==</pref>
+	<pref name="JournalLastCategoryBase1d79da77-0e63-4a43-8d52-3c08e964f27f" type="string">VFVUT1JJQUw=</pref>
+	<pref name="JournalLastSubCategory1d79da77-0e63-4a43-8d52-3c08e964f27f" type="string">VFVUT1JJQUxfUk9MRV9QVkU=</pref>
+	<pref name="LastKnownApplicationState" type="string">UXVpdA==</pref>
+	<pref name="LastKnownState" type="string">SW5HYW1l</pref>
+	<pref name="LastUsedAccountId" type="string">NDE5Nzg4Njk=</pref>
+	<pref name="LogLevel" type="int">2</pref>
+	<pref name="PlayTimeSec" type="int">305</pref>
+	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Fullscreen mode Default" type="int">1</pref>
+	<pref name="Screenmanager Is Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">1440</pref>
+	<pref name="Screenmanager Resolution Height Default" type="int">768</pref>
+	<pref name="Screenmanager Resolution Use Native" type="int">1</pref>
+	<pref name="Screenmanager Resolution Use Native Default" type="int">1</pref>
+	<pref name="Screenmanager Resolution Width" type="int">2560</pref>
+	<pref name="Screenmanager Resolution Width Default" type="int">1024</pref>
+	<pref name="Screenmanager Window Position X" type="int">0</pref>
+	<pref name="Screenmanager Window Position Y" type="int">0</pref>
+	<pref name="SeenAchievements.San4osKiller777" type="string">UFZFX1Q1O0NPTUJBVF9MRUFUSEVSX1NIT0VTO0NPTUJBVF9MRUFUSEVSX0hFQURTO0NPTUJBVF9MRUFUSEVSX0FSTU9SUztDT01CQVRfQk9XUztBRFZFTlRVUkVSX0VYUEVSVDs=</pref>
+	<pref name="SellPreference" type="string">U2VsbA==</pref>
+	<pref name="ServerLocationBeforeEuropeBeta" type="string">RXVyb3Bl</pref>
+	<pref name="SteamId" type="string">NzY1NjExOTg0NDc3MzY5MzU=</pref>
+	<pref name="SteamIdAccountEnabled" type="int">1</pref>
+	<pref name="SteamLinkedAccount" type="string">bWFsdHNldi55YXJAZ21haWwuY29t</pref>
+	<pref name="SteamLinkedServer" type="string">bGl2ZTAzLWxvZ2luc2VydmVyLmFtcy5hbGJpb24uem9uZTo1MDU1</pref>
+	<pref name="UnityGraphicsQuality" type="int">1</pref>
+	<pref name="UnitySelectMonitor" type="int">0</pref>
+	<pref name="__stored_keys__" type="string">WyJDb21iaW5lZFRyYWNrZXJIdWRFbnRyeUd1aVF1ZXN0VHJhY2tlciIsIkNvbWJpbmVkVHJhY2tlckh1ZEVudHJ5R3VpSm91cm5hbFRyYWNrZXIiLCJDb21iaW5lZFRyYWNrZXJIdWRFbnRyeUd1aURlc3RpbnlUcmFja2VyIiwiQ29tYmluZWRUcmFja2VySHVkRW50cnlHdWlDaGFsbGVuZ2VUcmFja2VyIiwiQ29tYmluZWRUcmFja2VySHVkRW50cnlHdWlBcmVuYVF1ZXVlVHJhY2tlciIsIkNvbWJpbmVkVHJhY2tlckh1ZEVudHJ5R3VpRXhwZWRpdGlvblF1ZXVlVHJhY2tlciIsIkNvbWJpbmVkVHJhY2tlckh1ZEVudHJ5R3VpUGFydHlGaW5kZXJUcmFja2VyIiwiQ29tYmluZWRUcmFja2VySHVkRW50cnlHdWlDbHVzdGVyUXVldWVUcmFja2VyIl0=</pref>
+	<pref name="live03-loginserver.ams.albion.zone:5055_SeenShopTiles" type="string">MjQ4XzAgMTMwXzBfUyAxMzFfMF9T</pref>
+	<pref name="login.accountname" type="string">bWFsdHNldi55YXJAZ21haWwuY29t</pref>
+	<pref name="login.auto" type="string">MA==</pref>
+	<pref name="login.auto.decision" type="string">MA==</pref>
+	<pref name="login.last" type="string">NjM4OTYyMjU5NDE3MjIxNzQw</pref>
+	<pref name="unity.cloud_userid" type="string">YjM0MTcyZWYyZmU1ZTM0ZTU4MTMxMmU1MDU3ZGM4OTE=</pref>
+	<pref name="unity.player_session_count" type="string">Mw==</pref>
+	<pref name="unity.player_sessionid" type="string">MTg1NDczODczNzQ0ODQwNjM4Mw==</pref>
+</unity_prefs>

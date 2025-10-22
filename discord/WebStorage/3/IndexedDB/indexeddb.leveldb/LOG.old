@@ -1,0 +1,6 @@
+2025/09/26-16:59:37.095 1852 Creating DB /home/user/.config/discord/WebStorage/3/IndexedDB/indexeddb.leveldb since it was missing.
+2025/09/26-16:59:37.096 1852 Reusing MANIFEST /home/user/.config/discord/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/09/26-16:59:37.099 186f Level-0 table #5: started
+2025/09/26-16:59:37.100 186f Level-0 table #5: 712 bytes OK
+2025/09/26-16:59:37.100 186f Delete type=0 #3
+2025/09/26-16:59:37.101 186e Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

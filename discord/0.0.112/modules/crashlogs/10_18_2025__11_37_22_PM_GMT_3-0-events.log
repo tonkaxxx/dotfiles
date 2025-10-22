@@ -1,0 +1,14 @@
+10/18/2025, 11:37:22 PM GMT+3 0: 
+
+----------------------------------------------
+10/18/2025, 11:37:22 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.112"}, modulepath: /home/user/.config/discord/0.0.112/modules
+10/18/2025, 11:37:22 PM GMT+3 2: ✅ webContents.created web1 ""
+10/18/2025, 11:37:22 PM GMT+3 3: ✅ window.created win1 "discord"
+10/18/2025, 11:37:23 PM GMT+3 4: ✅ webContents.did-finish-load web1
+10/18/2025, 11:37:31 PM GMT+3 5: ✅ webContents.created web2 ""
+10/18/2025, 11:37:31 PM GMT+3 6: ✅ window.created win2 "Discord"
+10/18/2025, 11:37:33 PM GMT+3 7: ✅ webContents.did-finish-load web2
+10/18/2025, 11:37:34 PM GMT+3 8: window.close win1
+10/18/2025, 11:37:34 PM GMT+3 9: webContents.destroyed web1
+10/18/2025, 11:37:34 PM GMT+3 10: window.closed win1
+10/19/2025, 2:15:44 AM GMT+3 11: before-quit

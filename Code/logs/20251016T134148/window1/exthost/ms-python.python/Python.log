@@ -1,0 +1,21 @@
+2025-10-16 13:41:52.668 [info] Native locator: Refresh started
+2025-10-16 13:41:55.341 [info] > pyenv which python
+2025-10-16 13:41:55.341 [info] cwd: .
+2025-10-16 13:41:57.004 [info] Active interpreter [/home/user/repos]:  /bin/python
+2025-10-16 13:41:57.005 [info] Native locator: Refresh finished in 4369 ms
+2025-10-16 13:41:57.686 [info] Discover tests for workspace name: repos - uri: /home/user/repos
+2025-10-16 13:41:58.977 [info] Starting Pylance language server.
+2025-10-16 13:48:52.272 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-10-16 13:49:00.087 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-10-16 13:49:05.522 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-10-16 13:49:19.890 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-10-16 13:49:20.310 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-10-16 13:50:08.900 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-10-16 13:50:44.982 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-10-16 13:51:18.314 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-10-16 14:28:07.177 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python_files/normalizeSelection.py
+2025-10-16 14:28:07.461 [info] Send text to terminal: /bin/python
+2025-10-16 14:28:07.518 [info] Send text to terminal: print(prediction)
+
+2025-10-16 14:28:27.462 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-10-16 14:43:46.575 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py

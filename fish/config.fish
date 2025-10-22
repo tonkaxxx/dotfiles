@@ -12,6 +12,7 @@ if status is-interactive
     abbr -a k "kubectl"
 
     abbr -a auto "/home/user/.config/autostart"
+    abbr -a obhod "sudo bash zapret-discord-youtube-linux/main_script.sh -nointeractive"
 
     export DOCKER_BUILDKIT=1
     export COMPOSE_DOCKER_CLI_BUILD=1

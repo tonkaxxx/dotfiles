@@ -1,0 +1,110 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "9abf4e23af80e6339e2ea4fa870403a8e7a5df0963f17c19039d3f7214cadb96",
+    "telemetry.devDeviceId": "cab0b4de-c38d-4601-8e37-ffde3299638c",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/user/repos"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1760661614715"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/user/repos/weather_predictor": "__default__profile__",
+            "file:///home/user/repos": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1760661614715": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/user/.config/Code/Backups/1760661614715",
+            "uiState": {
+                "mode": 1,
+                "x": 3,
+                "y": 34,
+                "width": 2548,
+                "height": 1397
+            }
+        },
+        "openedWindows": [
+            {
+                "folder": "file:///home/user/repos",
+                "backupPath": "/home/user/.config/Code/Backups/e36985a15b2878eef0d7310ea911050e",
+                "uiState": {
+                    "mode": 1,
+                    "x": 3,
+                    "y": 737,
+                    "width": 915,
+                    "height": 694,
+                    "zoomLevel": 1
+                }
+            },
+            {
+                "backupPath": "/home/user/.config/Code/Backups/1760661614715",
+                "uiState": {
+                    "mode": 1,
+                    "x": 3,
+                    "y": 34,
+                    "width": 2548,
+                    "height": 1397
+                }
+            }
+        ]
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "c24ceb3344045d0b788538a59bc936df": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "e7db87391173ea5138bc490d90f9122e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

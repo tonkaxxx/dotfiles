@@ -1,3 +1,9 @@
-2025/07/12-16:31:06.382 4 Reusing MANIFEST /home/user/.config/chromium/Default/Session Storage/MANIFEST-000001
-2025/07/12-16:31:06.384 4 Recovering log #3
-2025/07/12-16:31:06.386 4 Reusing old log /home/user/.config/chromium/Default/Session Storage/000003.log 
+2025/10/19-13:19:41.635 5 Reusing MANIFEST /home/user/.config/chromium/Default/Session Storage/MANIFEST-000001
+2025/10/19-13:19:41.636 5 Recovering log #3
+2025/10/19-13:19:41.637 5 Reusing old log /home/user/.config/chromium/Default/Session Storage/000003.log 
+2025/10/19-16:16:33.301 5 Level-0 table #5: started
+2025/10/19-16:16:33.311 5 Level-0 table #5: 487089 bytes OK
+2025/10/19-16:16:33.313 5 Delete type=0 #3
+2025/10/19-16:20:26.590 7 Level-0 table #7: started
+2025/10/19-16:20:26.594 7 Level-0 table #7: 162744 bytes OK
+2025/10/19-16:20:26.595 7 Delete type=0 #4

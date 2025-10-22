@@ -1,0 +1,46 @@
+2025/10/14-18:48:26.060 8c4b Reusing MANIFEST /home/user/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/10/14-18:48:26.098 8c4b Recovering log #1663
+2025/10/14-18:48:26.102 8c4b Reusing old log /home/user/.config/discord/Local Storage/leveldb/001663.log 
+2025/10/14-18:49:27.366 8c4c Level-0 table #1667: started
+2025/10/14-18:49:27.368 8c4c Level-0 table #1667: 46820 bytes OK
+2025/10/14-18:49:27.368 8c4c Delete type=0 #1663
+2025/10/14-18:54:01.685 8c4c Level-0 table #1669: started
+2025/10/14-18:54:01.710 8c4c Level-0 table #1669: 2270071 bytes OK
+2025/10/14-18:54:01.711 8c4c Delete type=0 #1666
+2025/10/14-18:58:27.357 8c4c Level-0 table #1671: started
+2025/10/14-18:58:27.358 8c4c Level-0 table #1671: 32812 bytes OK
+2025/10/14-18:58:27.359 8c4c Delete type=0 #1668
+2025/10/14-18:58:27.359 8c4c Compacting 4@0 + 2@1 files
+2025/10/14-18:58:27.395 8c4c Generated table #1672@0: 41 keys, 2249972 bytes
+2025/10/14-18:58:27.420 8c4c Generated table #1673@0: 84 keys, 1649737 bytes
+2025/10/14-18:58:27.420 8c4c Compacted 4@0 + 2@1 files => 3899709 bytes
+2025/10/14-18:58:27.421 8c4c compacted to: files[ 0 3 1 0 0 0 0 ]
+2025/10/14-18:58:27.421 8c4c Delete type=2 #1671
+2025/10/14-18:58:27.421 8c4c Delete type=2 #1667
+2025/10/14-18:58:27.421 8c4c Delete type=2 #1664
+2025/10/14-18:58:27.421 8c4c Delete type=2 #1661
+2025/10/14-18:58:27.421 8c4c Delete type=2 #1669
+2025/10/14-18:58:27.421 8c4c Delete type=2 #1662
+2025/10/14-19:06:27.358 8c4c Level-0 table #1675: started
+2025/10/14-19:06:27.359 8c4c Level-0 table #1675: 33964 bytes OK
+2025/10/14-19:06:27.360 8c4c Delete type=0 #1670
+2025/10/14-19:12:27.357 8c4c Level-0 table #1677: started
+2025/10/14-19:12:27.358 8c4c Level-0 table #1677: 37439 bytes OK
+2025/10/14-19:12:27.359 8c4c Delete type=0 #1674
+2025/10/14-19:20:27.357 8c4c Level-0 table #1679: started
+2025/10/14-19:20:27.359 8c4c Level-0 table #1679: 32936 bytes OK
+2025/10/14-19:20:27.359 8c4c Delete type=0 #1676
+2025/10/14-19:24:27.358 8c4c Level-0 table #1681: started
+2025/10/14-19:24:27.361 8c4c Level-0 table #1681: 34489 bytes OK
+2025/10/14-19:24:27.362 8c4c Delete type=0 #1678
+2025/10/14-19:24:27.362 8c4c Compacting 4@0 + 2@1 files
+2025/10/14-19:24:27.393 8c4c Generated table #1682@0: 41 keys, 2250708 bytes
+2025/10/14-19:24:27.415 8c4c Generated table #1683@0: 84 keys, 1649801 bytes
+2025/10/14-19:24:27.415 8c4c Compacted 4@0 + 2@1 files => 3900509 bytes
+2025/10/14-19:24:27.416 8c4c compacted to: files[ 0 3 1 0 0 0 0 ]
+2025/10/14-19:24:27.416 8c4c Delete type=2 #1681
+2025/10/14-19:24:27.416 8c4c Delete type=2 #1677
+2025/10/14-19:24:27.416 8c4c Delete type=2 #1672
+2025/10/14-19:24:27.416 8c4c Delete type=2 #1675
+2025/10/14-19:24:27.416 8c4c Delete type=2 #1673
+2025/10/14-19:24:27.416 8c4c Delete type=2 #1679

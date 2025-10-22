@@ -1,0 +1,387 @@
+{
+  "support": "https://discord.gg/BMghwmkAyy",
+  "twitter": "https://x.com/TradeWiz_Bot",
+  "axiom.trade": {
+    "patterns": [
+      {
+        "path": "/discover",
+        "type": "axiom-discover"
+      },
+      {
+        "path": "/pulse",
+        "type": "axiom-pulse",
+        "elementSelectors": {
+          "containers": [
+            ".flex-1.border-primaryStroke.bg-backgroundSecondary",
+            ".flex.flex-row.w-full.justify-start.items-start"
+          ],
+          "cards": [
+            "div[style*='position: absolute'][style*='width: 100%']"
+          ],
+          "buttonsClasses": [
+            "bg-primaryBlue",
+            "bg-transparent",
+            "bg-primaryStroke"
+          ],
+          "buttons": [
+            "button.bg-transparent"
+          ],
+          "copyButtons": [
+            "button.group\\/copy"
+          ],
+          "symbolContainers": [
+            ".min-w-0"
+          ],
+          "observer": {
+            "filter": [
+              "ri-crosshair-2-fill",
+              "div[style*='position: absolute'][style*='width: 100%']"
+            ]
+          },
+          "tokenAddresses": {
+            "selector": "img[src*='axiomtrading.sfo3.cdn.digitaloceanspaces.com']",
+            "match": "/([A-Za-z0-9]+)\\.\\w+$"
+          }
+        }
+      },
+      {
+        "path": "/meme",
+        "type": "axiom-token",
+        "extract": {
+          "method": "querySelectorHref",
+          "postProcess": "trim",
+          "selector": ".border-primaryStroke .ri-search-line",
+          "from": "parentElement",
+          "property": "href",
+          "match": "[?&]q=([^&]+)"
+        },
+        "extractLp": {
+          "method": "split",
+          "splitBy": "/meme/"
+        }
+      },
+      {
+        "path": "/tracker",
+        "type": "axiom-tracker"
+      }
+    ],
+    "defaultType": "axiom"
+  },
+  "photon-sol.tinyastro.io": {
+    "patterns": [
+      {
+        "path": "/memescope",
+        "type": "photon-memescope"
+      },
+      {
+        "path": "/lp/",
+        "type": "photon-token",
+        "extract": {
+          "method": "querySelectorHref",
+          "postProcess": "trim",
+          "selector": ".p-show__bar__link",
+          "property": "href",
+          "match": "account\/([A-Za-z0-9]+)"
+        },
+        "extractLp": {
+          "method": "split",
+          "splitBy": "/lp/"
+        }
+      },
+      {
+        "path": "/discover",
+        "type": "photon-discover"
+      },
+      {
+        "path": "/trending",
+        "type": "photon-trending"
+      }
+    ],
+    "defaultType": "photon"
+  },
+  "trade.padre.gg": {
+    "patterns": [
+      {
+        "path": "/trade/solana/",
+        "type": "padre-token",
+        "extract": {
+          "method": "querySelectorHref",
+          "postProcess": "trim",
+          "selector": ".desktopTokenInfo .MuiAvatar-root.MuiAvatar-circular.lens-opacity-token-avatar .MuiAvatar-img",
+          "property": "src",
+          "match": "SOLANA-([A-Za-z0-9]+)"
+        },
+        "extractLp": {
+          "method": "split",
+          "splitBy": "/trade/solana/"
+        }
+      },
+      {
+        "path": "/trenches",
+        "type": "padre-trenches",
+        "elementSelectors": {
+          "containers": [
+            ".ReactVirtualized__Grid"
+          ],
+          "cards": [
+            "[role='gridcell']"
+          ],
+          "copyButtons": [
+            ".MuiButton-root"
+          ],
+          "tokenAddresses": {
+            "selector": "a",
+            "match": "([A-Za-z0-9]{43,})"
+          }
+        }
+      }
+    ],
+    "defaultType": "padre"
+  },
+  "neo.bullx.io": {
+    "patterns": [
+      {
+        "path": "/terminal",
+        "type": "neo-token",
+        "extract": {
+          "method": "searchParams",
+          "key": "address"
+        }
+      },
+      {
+        "path": "https://neo.bullx.io/",
+        "type": "neo-vision"
+      }
+    ],
+    "defaultType": "neo"
+  },
+  "bullx.io": {
+    "patterns": [
+      {
+        "path": "/terminal",
+        "type": "bullx-token",
+        "extract": {
+          "method": "searchParams",
+          "key": "address"
+        }
+      },
+      {
+        "path": "/pump-vision",
+        "type": "pump-vision"
+      }
+    ],
+    "defaultType": "bullx"
+  },
+  "gmgn.ai": {
+    "patterns": [
+      {
+        "path": "/token",
+        "type": "gmgn-token",
+        "extract": {
+          "method": "regex",
+          "postProcess": "splitUnderscoreSecond",
+          "match": "/token\/([^?]+)"
+        }
+      },
+      {
+        "path": "/meme/solscan",
+        "type": "gmgn-meme"
+      },
+      {
+        "path": "/sol/address",
+        "type": "gmgn-address"
+      },
+      {
+        "path": "/trenches",
+        "type": "gmgn-meme"
+      },
+      {
+        "path": "/new-pair",
+        "type": "new-pair"
+      },
+      {
+        "path": "chain=sol",
+        "type": "gmgn-meme"
+      }
+    ],
+    "defaultType": "gmgn"
+  },
+  "xxyy.io": {
+    "patterns": [
+      {
+        "path": "/sol/",
+        "type": "xxyy-token",
+        "extract": {
+          "method": "querySelectorHref",
+          "postProcess": "trim",
+          "selector": ".token-info .info .base .pool .token",
+          "property": "data-clipboard-text"
+        },
+        "extractLp": {
+          "method": "split",
+          "splitBy": "/sol/"
+        }
+      }
+    ],
+    "defaultType": "xxyy"
+  },
+  "ape.pro": {
+    "patterns": [
+      {
+        "path": "/solana/",
+        "type": "ape-token",
+        "extract": {
+          "method": "regex",
+          "postProcess": "trim",
+          "match": "\/solana\/([^?]+)"
+        }
+      },
+      {
+        "path": "/gems",
+        "type": "ape-gems"
+      }
+    ],
+    "defaultType": "ape"
+  },
+  "app.debot.ai": {
+    "patterns": [
+      {
+        "path": "/token/solana/",
+        "type": "debot-token",
+        "extract": {
+          "method": "split",
+          "splitBy": "token/solana/"
+        }
+      },
+      {
+        "path": "/meme",
+        "type": "debot-meme"
+      }
+    ],
+    "defaultType": "debot"
+  },
+  "dexscreener.com": {
+    "patterns": [
+      {
+        "path": "/solana/",
+        "type": "dexscreener-filter",
+        "condition": "shortPath"
+      },
+      {
+        "path": "/solana/",
+        "type": "dexscreener-token",
+        "extract": {
+          "method": "querySelectorMultiple",
+          "postProcess": "splitLastSegment",
+          "selector": "a.chakra-link",
+          "property": "href",
+          "filter": {
+            "includes": "solscan.io/token/"
+          }
+        },
+        "extractLp": {
+          "method": "split",
+          "splitBy": "/solana/"
+        }
+      }
+    ],
+    "defaultType": "dexscreener"
+  },
+  "x.com": {
+    "patterns": [
+      {
+        "path": "x.com",
+        "type": "twitter-home"
+      }
+    ],
+    "defaultType": "twitter"
+  },
+  "kolscan.io": {
+    "patterns": [
+      {
+        "path": "/account",
+        "type": "kolscan-account",
+        "extract": {
+          "method": "split",
+          "splitBy": "/account/"
+        }
+      }
+    ],
+    "defaultType": "kolscan"
+  },
+  "fastradewiz.com": {
+    "patterns": [],
+    "defaultType": "fastradewiz"
+  },
+  "solscan.io": {
+    "patterns": [
+      {
+        "path": "/account",
+        "type": "solscan-account",
+        "extract": {
+          "method": "split",
+          "splitBy": "/account/"
+        }
+      },
+      {
+        "path": "/tx",
+        "type": "solscan-tx",
+        "extract": {
+          "method": "split",
+          "splitBy": "/tx/"
+        }
+      }
+    ],
+    "defaultType": "solscan"
+  },
+  "transactionFailed": {
+    "timeout": "The transaction result has timed out. Please manually check whether the transaction is successful",
+    "not enough token": "Insufficient Token Balance. Please check if you still hold a position and try selling manually if needed.",
+    "not enough sol": "Insufficient balance, unable to initiate transaction.Please increase your sol balance",
+    "no lp": "This is due to the mechanism of PUMP, when enough people buy on the bonding curve it reaches a market cap of $69k, $12k of liquidity is then deposited in pumpswap and burned,The token cannot be traded during this period.",
+    "transaction failed": "Unknown error, please report in the dc. For other known failure issues, follow the problem description",
+    "exceed slippage": "Failed due to exceeding the slippage range, please try again",
+    "account frozen": "This is a honeypot. The dev doesn't allow you to sell this token. Please reduce purchases of tokens without renounced ownership.",
+    "exceed upper limit": "SOL Spending Limit has been spent. To continue copying this address, please increase SOL Spending Limit",
+    "lp not burned": "Tokens are not burned in the pool, so do not buy them",
+    "lp not renounced": "Tokens are not renounced in the pool, so do not buy them",
+    "no token available": "You do not hold this token,So no need to sell",
+    "unsupported swap": "This transaction is not a SOL trading pair and is not supported yet",
+    "lp too small": "LP is lower than the range you set",
+    "mc too small": "The marketcap exceeds the range you set",
+    "mc too big": "The marketcap exceeds the range you set",
+    "exceed max token age": "The max age exceeds the range you set",
+    "exceed min token age": "The in age exceeds the range you set",
+    "skip pumpfun tx": "You have set not to copy PUMP transactions; this purchase will not be copied",
+    "skip raydium tx": "You have set not to copy Raydium transactions; this purchase will not be copied",
+    "skip meteora tx": "You have set not to copy Meteora transactions; this purchase will not be copied",
+    "skip_moonshot_tx": "You have set not to copy Moonshot transactions; this purchase will not be copied",
+    "skip pumpamm tx": "You have set not to copy PUMPAMM transactions; this purchase will not be copied",
+    "skip jupiter aggregator tx": "You have set not to copy Jupiter Aggregator transactions; this purchase will not be copied",
+    "exceed buy times": "You have set to copy  the transaction buy times; this purchase will not be copied",
+    "max tokens per user exceeded": "A maximum of 50 limit orders can be created, please delete and try again",
+    "insufficient balance": "Insufficient balance, unable to initiate transaction.Please increase your sol balance",
+    "insufficient fund": "You do not hold this token,So no need to sell",
+    "insufficient for rent": "Insufficient rental balance, unable to initiate transaction. Please increase your SOL balance",
+    "pumpfun to ray": "This is due to the mechanism of PUMP. When enough people buy on the bonding curve and it reaches a certain market cap, a portion of liquidity is deposited into pumpswap and burned. The token cannot be traded during this period.",
+    "ray launchpad migrated": "This is due to the mechanism of Ray LaunchLab, when enough people buy along the bonding curve, a portion of the liquidity is deposited into Raydium and burned. During this period, the token cannot be traded.",
+    "meteora dbc migrated": "Liquidity pool is migrating—hang tight, trading will reopen shortly. 🚀",
+    "account recreate": "Each token needs to create a token account. Initiating two transactions creates an account, resulting in duplicate account creation, which leads to transaction failure.",
+    "exceed target sol max buy": "The other party buys more sol than the sol you set, so the transaction will not be copied.",
+    "less target sol min buy": "The other party buys less SOL than the SOL amount you set, so the transaction will not be copied.",
+    "invalid tip fee,please reset": "The tip value is invalid, please edit the value again",
+    "compute_budget_exceeded": "The transaction exceeds the network's allowed computational budget",
+    "invalid_input": "The transaction amount is too small",
+    "close not zero account": "Each token requires a unique token account. Attempting to close an account while there are still holdings can result in transaction failure.",
+    "each token only buy once": "You set each token to be purchased only once",
+    "not copy position addition": "You have enabled 'No Duplicate Buys from Target Wallet', so the purchase failed",
+    "default broadcast failed": "The service provider is down.",
+    "bloxroute broadcast failed": "The service provider is down.",
+    "nextblock broadcast failed": "The service provider is down.",
+    "temporal broadcast failed": "The service provider is down.",
+    "error building swap instructions: not correct pool": "Sorry, we don’t support trading this type of token",
+    "not correct pool": "Sorry, we don’t support trading this type of token",
+    "user not found": "The user does not exist",
+    "liquidity pool not found": "The liquidity pool does not exist"
+  }
+}

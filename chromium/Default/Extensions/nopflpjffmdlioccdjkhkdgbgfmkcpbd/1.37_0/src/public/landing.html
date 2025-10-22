@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>TradeWiz</title>
+
+  <link rel="stylesheet" href="style/common.css" />
+  <link rel="stylesheet" href="style/landing.css" />
+  <script src="plugins/index.js"></script>
+</head>
+
+<body>
+  <div class="main">
+    <img class="landing-bg" src="assets/images/landing-bg.png" alt="">
+    <div class="main-form">
+      <div class="main-form-code">
+        <span>
+          Enter Code
+        </span>
+        <div id="getCode" class="main-form-code-button">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12.0806 0.8427C12.0806 0.8427 13.2139 0.388192 13.1194 1.49199C13.0879 1.94649 12.8046 3.53724 12.5843 5.25786L11.8288 10.3548C11.8288 10.3548 11.7659 11.1014 11.1992 11.2313C10.6326 11.3611 9.78275 10.7768 9.62533 10.6469C9.49941 10.5495 7.26448 9.08864 6.47752 8.37443C6.25715 8.17964 6.00533 7.79006 6.50899 7.33557L9.81421 4.08914C10.192 3.69957 10.5697 2.79057 8.99577 3.89436L4.58883 6.97848C4.58883 6.97848 4.08517 7.30311 3.14084 7.01094L1.09475 6.36165C1.09475 6.36165 0.33927 5.87469 1.62987 5.3877C4.77771 3.86186 8.64953 2.30358 12.0806 0.8427H12.0806Z"
+              fill="currentColor" />
+          </svg>
+          Get Code from Telegram
+        </div>
+      </div>
+      <div class="main-form-input">
+        <input id="code" type="text" id="code" placeholder="Click 'Get Code' first" value="" autocomplete="off" />
+        <div class="error" />
+      </div>
+    </div>
+    <div class="landing_buttons">
+      <button style="display: none;"></button>
+      <button type="button" id="verify" disabled>Verify</button>
+    </div>
+    <div class="footer">
+      <div>
+        TradeWiz Extension v1.37
+      </div>
+      <div class="footer-icons">
+        <button class="discord-btn">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M4.65326 2.16728L2.83322 2.67893C1.91763 2.93633 1.22893 3.62807 1.03679 4.48329L0.0449868 8.89796C-0.140911 9.72541 0.260074 10.5706 1.049 11.0142L2.34333 11.7419C3.03188 12.129 3.9328 11.7694 4.08724 11.0458C4.13334 10.8298 4.36429 10.6903 4.60197 10.7295C6.28053 11.006 7.70662 11.006 9.38517 10.7295C9.62286 10.6903 9.85381 10.8298 9.89991 11.0458C10.0543 11.7694 10.9553 12.129 11.6438 11.7419L12.9474 11.0089C13.7323 10.5677 14.1352 9.72977 13.9591 8.905L12.9154 4.01471C12.7479 3.22977 12.0788 2.61355 11.2191 2.45243L9.40529 2.11249C8.99289 2.0352 8.60648 2.32219 8.60648 2.70577C8.60648 2.90364 8.4008 3.05072 8.18577 3.02294C7.49859 2.93418 6.555 2.93195 5.85495 3.01626C5.61237 3.04547 5.38066 2.87924 5.38066 2.65632C5.38066 2.31181 5.01459 2.06569 4.65326 2.16728ZM5.74923 7.25278C5.74923 8.08752 5.19216 8.76421 4.50499 8.76421C3.81781 8.76421 3.26074 8.08752 3.26074 7.25278C3.26074 6.41805 3.81781 5.74136 4.50499 5.74136C5.19216 5.74136 5.74923 6.41805 5.74923 7.25278ZM10.7262 7.25278C10.7262 8.0085 10.3115 8.76421 9.48197 8.76421C8.65247 8.76421 8.23772 8.0085 8.23772 7.25278C8.23772 6.49707 8.65247 5.74136 9.48197 5.74136C10.3115 5.74136 10.7262 6.49707 10.7262 7.25278Z"
+              fill="currentColor" />
+          </svg>
+        </button>
+        <button class="twiter-btn">
+          <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M5.35128 6.72081L0.878235 0.3125H5.24786L7.75218 3.90668L10.8216 0.3125H12.4604L8.49461 4.97309L13.1733 11.6875H8.81719L6.09618 7.78845L2.77802 11.6875H1.1134L5.35128 6.72081ZM4.59039 1.57639H3.29883L9.47343 10.4236H10.7539L4.59039 1.57639Z"
+              fill="currentColor" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="scripts/landing.js"></script>
+  <script src="/src/lib/self-execution.js"></script>
+</body>
+
+</html>

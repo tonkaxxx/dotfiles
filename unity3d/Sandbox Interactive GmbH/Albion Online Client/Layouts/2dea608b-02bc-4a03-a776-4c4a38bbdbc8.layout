@@ -1,0 +1,541 @@
+{
+  "Name": "Моя схема",
+  "id": "2dea608b-02bc-4a03-a776-4c4a38bbdbc8",
+  "bid": "Desktop",
+  "el": [
+    {
+      "id": "Chat",
+      "e": true,
+      "p": {
+        "x": -0.243537545,
+        "y": -0.31292522
+      },
+      "pv": 6,
+      "s": 1.0,
+      "a": 1.0,
+      "v": 0
+    },
+    {
+      "id": "MainHand1",
+      "e": true,
+      "p": {
+        "x": -0.739479542,
+        "y": 0.2459662
+      },
+      "pv": 7,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Spells",
+      "v": 0
+    },
+    {
+      "id": "MainHand2",
+      "e": true,
+      "p": {
+        "x": -0.583229542,
+        "y": 0.2459662
+      },
+      "pv": 7,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Spells",
+      "v": 0
+    },
+    {
+      "id": "OffHand",
+      "e": true,
+      "p": {
+        "x": -0.426979572,
+        "y": 0.2459662
+      },
+      "pv": 7,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Spells",
+      "v": 0
+    },
+    {
+      "id": "Armor",
+      "e": true,
+      "p": {
+        "x": -0.270729572,
+        "y": 0.2459662
+      },
+      "pv": 7,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Spells",
+      "v": 0
+    },
+    {
+      "id": "Head",
+      "e": true,
+      "p": {
+        "x": -0.382533371,
+        "y": 0.0897161961
+      },
+      "pv": 7,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Spells",
+      "v": 0
+    },
+    {
+      "id": "Shoes",
+      "e": true,
+      "p": {
+        "x": -0.226283371,
+        "y": 0.0897161961
+      },
+      "pv": 7,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Spells",
+      "v": 0
+    },
+    {
+      "id": "Potion",
+      "e": true,
+      "p": {
+        "x": -0.7695726,
+        "y": 0.4022162
+      },
+      "pv": 7,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Spells",
+      "v": 0
+    },
+    {
+      "id": "Food",
+      "e": true,
+      "p": {
+        "x": -0.6133226,
+        "y": 0.4022162
+      },
+      "pv": 7,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Spells",
+      "v": 0
+    },
+    {
+      "id": "Mount",
+      "e": true,
+      "p": {
+        "x": -0.7073052,
+        "y": 0.0897161961
+      },
+      "pv": 7,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Spells",
+      "v": 0
+    },
+    {
+      "id": "Overcharge",
+      "e": true,
+      "p": {
+        "x": -0.0607772768,
+        "y": 0.4022162
+      },
+      "pv": 7,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Spells",
+      "v": 0
+    },
+    {
+      "id": "Vanity",
+      "e": true,
+      "p": {
+        "x": 0.819401741,
+        "y": 0.0
+      },
+      "pv": 7,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Spells",
+      "v": 0
+    },
+    {
+      "id": "Activities",
+      "e": true,
+      "p": {
+        "x": -1.0330317,
+        "y": -0.0200641155
+      },
+      "pv": 2,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Menu Bar",
+      "v": 0
+    },
+    {
+      "id": "Mail",
+      "e": true,
+      "p": {
+        "x": -0.929848135,
+        "y": -0.0200641155
+      },
+      "pv": 2,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Menu Bar",
+      "v": 0
+    },
+    {
+      "id": "Inventory",
+      "e": true,
+      "p": {
+        "x": -0.8266657,
+        "y": -0.0200641155
+      },
+      "pv": 2,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Menu Bar",
+      "v": 0
+    },
+    {
+      "id": "Guild",
+      "e": true,
+      "p": {
+        "x": -0.7234827,
+        "y": -0.0200641155
+      },
+      "pv": 2,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Menu Bar",
+      "v": 0
+    },
+    {
+      "id": "Ranking",
+      "e": true,
+      "p": {
+        "x": -0.6203003,
+        "y": -0.0200641155
+      },
+      "pv": 2,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Menu Bar",
+      "v": 0
+    },
+    {
+      "id": "Friends",
+      "e": true,
+      "p": {
+        "x": -0.517117143,
+        "y": -0.0200641155
+      },
+      "pv": 2,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Menu Bar",
+      "v": 0
+    },
+    {
+      "id": "GoldMarket",
+      "e": true,
+      "p": {
+        "x": -0.372290164,
+        "y": -0.02006409
+      },
+      "pv": 2,
+      "s": 1.0,
+      "a": 1.0,
+      "v": 0
+    },
+    {
+      "id": "Premium",
+      "e": true,
+      "p": {
+        "x": -0.264073253,
+        "y": -0.02006409
+      },
+      "pv": 2,
+      "s": 1.0,
+      "a": 1.0,
+      "v": 0
+    },
+    {
+      "id": "ProcuctShop",
+      "e": true,
+      "p": {
+        "x": -0.1551986,
+        "y": -0.02006409
+      },
+      "pv": 2,
+      "s": 1.0,
+      "a": 1.0,
+      "v": 0
+    },
+    {
+      "id": "Settings",
+      "e": true,
+      "p": {
+        "x": -0.0174637325,
+        "y": -0.02006409
+      },
+      "pv": 2,
+      "s": 1.0,
+      "a": 1.0,
+      "v": 0
+    },
+    {
+      "id": "PlayerFrame",
+      "e": true,
+      "p": {
+        "x": 0.0213332176,
+        "y": -0.0200641155
+      },
+      "pv": 0,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "PlayerInfo",
+      "v": 0
+    },
+    {
+      "id": "PlayerEffectStack",
+      "e": true,
+      "p": {
+        "x": 0.172374845,
+        "y": -0.202355742
+      },
+      "pv": 0,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "PlayerInfo",
+      "v": 0
+    },
+    {
+      "id": "TargetFrame",
+      "e": true,
+      "p": {
+        "x": 0.6500534,
+        "y": -0.0200640559
+      },
+      "pv": 0,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "TargetInfo",
+      "v": 0
+    },
+    {
+      "id": "TargetEffectStack",
+      "e": true,
+      "p": {
+        "x": 0.801095068,
+        "y": -0.202355683
+      },
+      "pv": 0,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "TargetInfo",
+      "v": 0
+    },
+    {
+      "id": "DurabilityWarning",
+      "e": true,
+      "p": {
+        "x": 0.008638501,
+        "y": -0.27734375
+      },
+      "pv": 4,
+      "s": 1.0,
+      "a": 1.0,
+      "v": 0
+    },
+    {
+      "id": "CastBar",
+      "e": true,
+      "p": {
+        "x": 0.47032547,
+        "y": 0.376174569
+      },
+      "pv": 7,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "Spells",
+      "v": 0
+    },
+    {
+      "id": "Trackers",
+      "e": true,
+      "p": {
+        "x": -0.0174636841,
+        "y": -0.167654455
+      },
+      "pv": 2,
+      "s": 1.0,
+      "a": 1.0,
+      "v": 0
+    },
+    {
+      "id": "PartySettings",
+      "e": true,
+      "p": {
+        "x": 0.0213332176,
+        "y": -0.245729566
+      },
+      "pv": 0,
+      "s": 1.0,
+      "a": 1.0,
+      "v": 0
+    },
+    {
+      "id": "PartyView",
+      "e": true,
+      "p": {
+        "x": 0.0213332176,
+        "y": -0.455942631
+      },
+      "pv": 0,
+      "s": 1.0,
+      "a": 1.0,
+      "v": 0
+    },
+    {
+      "id": "PerformanceInfo",
+      "e": true,
+      "p": {
+        "x": -0.636926,
+        "y": 0.158762023
+      },
+      "pv": 8,
+      "s": 1.0,
+      "a": 1.0,
+      "v": 0
+    },
+    {
+      "id": "ClusterInfo",
+      "e": true,
+      "p": {
+        "x": -0.0552243,
+        "y": 0.0386550426
+      },
+      "pv": 8,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "MiniMapGroup",
+      "v": 0
+    },
+    {
+      "id": "Minimap",
+      "e": true,
+      "p": {
+        "x": -0.0174642727,
+        "y": 0.113129154
+      },
+      "pv": 8,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "MiniMapGroup",
+      "v": 0
+    },
+    {
+      "id": "MapButtonPing",
+      "e": true,
+      "p": {
+        "x": -0.2640733,
+        "y": 0.6011214
+      },
+      "pv": 8,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "MiniMapGroup",
+      "v": 0
+    },
+    {
+      "id": "MapButtonTravelMode",
+      "e": true,
+      "p": {
+        "x": -0.182692751,
+        "y": 0.547659338
+      },
+      "pv": 8,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "MiniMapGroup",
+      "v": 0
+    },
+    {
+      "id": "MapButtonClusterMap",
+      "e": true,
+      "p": {
+        "x": -0.102371626,
+        "y": 0.49458912
+      },
+      "pv": 8,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "MiniMapGroup",
+      "v": 0
+    },
+    {
+      "id": "MapButtonWorldMap",
+      "e": true,
+      "p": {
+        "x": -0.0265476312,
+        "y": 0.4363952
+      },
+      "pv": 8,
+      "s": 1.0,
+      "a": 1.0,
+      "g": "MiniMapGroup",
+      "v": 0
+    }
+  ],
+  "gr": [
+    {
+      "id": "Spells",
+      "pv": 7,
+      "n": "@CUSTOMIZABLE_HUD_GROUP_SPELLS"
+    },
+    {
+      "id": "Menu Bar",
+      "pv": 2,
+      "n": "@CUSTOMIZABLE_HUD_GROUP_MENU_BAR"
+    },
+    {
+      "id": "PlayerInfo",
+      "pv": 0,
+      "n": "@CUSTOMIZABLE_HUD_GROUP_PLAYER_INFO"
+    },
+    {
+      "id": "TargetInfo",
+      "pv": 0,
+      "n": "@CUSTOMIZABLE_HUD_GROUP_TARGET_INFO"
+    },
+    {
+      "id": "MiniMapGroup",
+      "pv": 8,
+      "n": "@CUSTOMIZABLE_HUD_GROUP_MINIMAP"
+    }
+  ],
+  "Version": 1,
+  "Values": {
+    "MainHand1/CanClickThrough": false,
+    "MainHand2/CanClickThrough": false,
+    "OffHand/CanClickThrough": false,
+    "Armor/CanClickThrough": false,
+    "Head/CanClickThrough": false,
+    "Shoes/CanClickThrough": false,
+    "Potion/CanClickThrough": false,
+    "Food/CanClickThrough": false,
+    "Mount/CanClickThrough": false,
+    "Overcharge/CanClickThrough": false,
+    "PlayerFrame/CanClickThrough": false,
+    "TargetFrame/CanClickThrough": false,
+    "PlayerEffectStack/RowCount": 2,
+    "PlayerEffectStack/ColumnCount": 4,
+    "TargetEffectStack/RowCount": 2,
+    "TargetEffectStack/ColumnCount": 4,
+    "Trackers/JournalTracker": true,
+    "Trackers/DestinyBoardTracker": true,
+    "Trackers/ADC": true,
+    "Minimap/CanClickThrough": false
+  }
+}

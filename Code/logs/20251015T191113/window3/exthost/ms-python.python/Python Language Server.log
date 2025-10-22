@@ -1,0 +1,21 @@
+2025-10-15 19:14:47.361 [info] (Client) Pylance client (2025.8.3) started with python extension (2025.16.0)
+2025-10-15 19:14:48.650 [info] (67464) Server root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-15 19:14:48.651 [info] (67464) Pylance language server 2025.8.3 (pyright version 1.1.405, commit d64f3fa0) starting
+2025-10-15 19:14:48.657 [info] (67464) Starting service instance "repos" for workspace "/home/user/repos"
+2025-10-15 19:14:48.770 [info] (67464) Starting Mcp server id:5234 ...
+2025-10-15 19:14:48.806 [info] (67464) Setting environmentName for service "repos": "Python 3.13.7"
+2025-10-15 19:14:48.806 [info] (67464) Setting pythonPath for service "repos": "/bin/python"
+2025-10-15 19:14:48.806 [info] (67464) No include entries specified; assuming /home/user/repos
+2025-10-15 19:14:48.807 [info] (67464) Auto-excluding **/node_modules
+2025-10-15 19:14:48.807 [info] (67464) Auto-excluding **/__pycache__
+2025-10-15 19:14:48.808 [info] (67464) Auto-excluding **/.*
+2025-10-15 19:14:48.846 [info] (67464) Assuming Python version 3.13.7.final.0
+2025-10-15 19:14:48.951 [info] (67464) Settings have not changed. Skipping update.
+2025-10-15 19:14:48.989 [info] (67464) Found 14 source files
+2025-10-15 19:14:49.812 [info] (67464) BG: Priority queue background worker(2) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-15 19:14:49.812 [info] (67464) BG: Priority queue background worker(2) started
+2025-10-15 19:14:49.952 [info] (67464) BG: Indexer background runner(3) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist (index)
+2025-10-15 19:14:49.952 [info] (67464) BG: Indexing(3) started
+2025-10-15 19:14:50.773 [info] (67464) BG: scanned(3) 852 files over 1 exec env
+2025-10-15 19:14:52.200 [info] (67464) BG: [BG(1)] Long operation: checking: file:///home/user/repos/weather_predictor/main.py (2039ms)
+2025-10-15 19:14:52.200 [info] (67464) BG: [BG(1)] Long operation: analyzing: file:///home/user/repos/weather_predictor/main.py (2220ms)

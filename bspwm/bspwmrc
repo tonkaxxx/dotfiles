@@ -26,7 +26,7 @@ xsetroot -cursor_name left_ptr
 
 # gaps
 bspc config gapless_monocle false
-bspc config window_gap 4
+bspc config window_gap 3
 
 # moving floating windows and resize them with mouse
 bspc config pointer_modifier mod4
@@ -61,10 +61,11 @@ feh --bg-scale ~/.config/black_waves.jpg
 
 setxkbmap -layout us,ru -option grp:win_space_toggle
 
-xinput --set-prop 9 "libinput Accel Speed" -0.6 # for 2nd mouse dpi 
+xinput --set-prop 8 "libinput Accel Speed" -0.7 # for 1st mouse dpi
+# xinput --set-prop 9 "libinput Accel Speed" -0.6 # for 2nd mouse dpi 
 
 xrandr --output DP-1 --mode 2560x1440 --rate 165
-xrandr --output HDMI-1 --gamma 1.1:1.1:1.1 --brightness 1.1
+xrandr --output HDMI-1 --gamma 1.0:1.0:1.0 --brightness 1.0
 
 # bspc rule -a "GPaste" state=floating sticky=on layer=above rectangle=500x700+2040+32
 
