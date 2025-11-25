@@ -1,0 +1,42 @@
+2025-11-12 18:18:23.675 [info] (Client) Pylance client (2025.9.1) started with python extension (2025.16.0)
+2025-11-12 18:18:24.502 [info] (64686) Server root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-12 18:18:24.502 [info] (64686) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-11-12 18:18:24.509 [info] (64686) Starting service instance "repos" for workspace "/home/user/repos"
+2025-11-12 18:18:24.615 [info] (64686) Starting Mcp server id:4767 ...
+2025-11-12 18:18:24.657 [info] (64686) Setting environmentName for service "repos": "Python 3.13.7"
+2025-11-12 18:18:24.658 [info] (64686) Setting pythonPath for service "repos": "/bin/python"
+2025-11-12 18:18:24.658 [info] (64686) No include entries specified; assuming /home/user/repos
+2025-11-12 18:18:24.659 [info] (64686) Auto-excluding **/node_modules
+2025-11-12 18:18:24.660 [info] (64686) Auto-excluding **/__pycache__
+2025-11-12 18:18:24.660 [info] (64686) Auto-excluding **/.*
+2025-11-12 18:18:24.696 [info] (64686) Assuming Python version 3.13.7.final.0
+2025-11-12 18:18:24.852 [info] (64686) Settings have not changed. Skipping update.
+2025-11-12 18:18:24.861 [info] (64686) Found 19 source files
+2025-11-12 18:18:24.882 [info] (64686) Settings have not changed. Skipping update.
+2025-11-12 18:18:24.885 [info] (64686) Settings have not changed. Skipping update.
+2025-11-12 18:18:25.696 [info] (64686) BG: Priority queue background worker(2) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-12 18:18:25.697 [info] (64686) BG: Priority queue background worker(2) started
+2025-11-12 18:18:25.919 [info] (64686) BG: Indexer background runner(3) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-11-12 18:18:25.919 [info] (64686) BG: Indexing(3) started
+2025-11-12 18:18:26.748 [info] (64686) BG: scanned(3) 290 files over 1 exec env
+2025-11-12 18:18:27.126 [info] (64686) BG: indexed(3) 290 files over 1 exec env
+2025-11-12 18:18:27.353 [info] (64686) BG: Indexing finished(3).
+2025-11-12 18:18:27.958 [info] (64686) BG: [BG(1)] Long operation: SemanticTokens range 54:0 - 218:65 at file:///home/user/repos/weather_predictor/main.py (2101ms)
+2025-11-12 18:18:35.730 [info] (64686) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (7531ms)
+2025-11-12 18:18:35.734 [info] (64686) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (7587ms)
+2025-11-12 18:18:36.508 [info] (64686) BG: [BG(1)] Long operation: checking: file:///home/user/repos/weather_predictor/back/assistant.py (8415ms)
+2025-11-12 18:18:36.508 [info] (64686) BG: [BG(1)] Long operation: analyzing: file:///home/user/repos/weather_predictor/back/assistant.py (8424ms)
+2025-11-12 18:24:03.683 [info] (64686) [FG] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (7716ms)
+2025-11-12 18:24:03.687 [info] (64686) [FG] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (7794ms)
+2025-11-12 18:36:30.214 [info] (64686) Starting service instance "<default>" for workspace ""
+2025-11-12 18:36:30.277 [info] (64686) Setting environmentName for service "<default>": "Python 3.13.7"
+2025-11-12 18:36:30.278 [info] (64686) Setting pythonPath for service "<default>": "/bin/python"
+2025-11-12 18:36:30.278 [info] (64686) No include entries specified; assuming /<default workspace root>
+2025-11-12 18:36:30.278 [info] (64686) Auto-excluding **/node_modules
+2025-11-12 18:36:30.279 [info] (64686) Auto-excluding **/__pycache__
+2025-11-12 18:36:30.279 [info] (64686) Auto-excluding **/.*
+2025-11-12 18:36:30.323 [info] (64686) Assuming Python version 3.13.7.final.0
+2025-11-12 18:36:30.395 [error] (64686) File or directory "/<default workspace root>" does not exist.
+2025-11-12 18:36:30.395 [info] (64686) No source files found.
+2025-11-12 18:36:31.144 [info] (64686) BG: Priority queue background worker(5) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-12 18:36:31.146 [info] (64686) BG: Priority queue background worker(5) started

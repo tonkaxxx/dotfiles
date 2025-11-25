@@ -1,2 +1,3 @@
-2025/10/16-13:54:58.086 574a Creating DB /home/user/.config/Code/Service Worker/Database since it was missing.
-2025/10/16-13:54:58.088 574a Reusing MANIFEST /home/user/.config/Code/Service Worker/Database/MANIFEST-000001
+2025/11/24-22:20:05.829 19da3 Reusing MANIFEST /home/user/.config/Code/Service Worker/Database/MANIFEST-000001
+2025/11/24-22:20:05.843 19da3 Recovering log #3
+2025/11/24-22:20:05.845 19da3 Reusing old log /home/user/.config/Code/Service Worker/Database/000003.log 

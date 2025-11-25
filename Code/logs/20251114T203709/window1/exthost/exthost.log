@@ -1,0 +1,47 @@
+2025-11-14 20:37:12.164 [info] Extension host with pid 48886 started
+2025-11-14 20:37:12.164 [info] Skipping acquiring lock for /home/user/.config/Code/User/workspaceStorage/e7db87391173ea5138bc490d90f9122e.
+2025-11-14 20:37:12.893 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-14 20:37:12.923 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-14 20:37:12.947 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-11-14 20:37:13.207 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-11-14 20:37:13.798 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-11-14 20:37:13.868 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2025-11-14 20:37:15.161 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-14 20:37:15.180 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-14 20:37:15.290 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-11-14 20:37:15.358 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-14 20:37:15.412 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-14 20:37:15.734 [info] Eager extensions activated
+2025-11-14 20:37:15.737 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-11-14 20:37:15.814 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-14 20:37:15.815 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-14 20:37:15.835 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-11-14 20:37:18.482 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at XKt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:511:6057)
+2025-11-14 20:37:22.323 [error] Error: Failed to get copilot token
+    at LG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.1/dist/extension.js:4043:32667)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at LG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.1/dist/extension.js:4043:30347)
+    at QV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.1/dist/extension.js:963:26597)
+    at B_._fetchModels (/home/user/.vscode/extensions/github.copilot-chat-0.33.1/dist/extension.js:5715:4808)
+    at B_.getAllChatModels (/home/user/.vscode/extensions/github.copilot-chat-0.33.1/dist/extension.js:5715:2686)
+    at EN.getAllChatEndpoints (/home/user/.vscode/extensions/github.copilot-chat-0.33.1/dist/extension.js:5715:15119)
+2025-11-14 20:37:23.132 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-11-14 20:37:23.135 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-11-14 20:37:23.150 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-11-14 20:37:23.172 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-11-14 21:18:19.516 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-11-14 23:20:12.567 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-14 23:20:12.595 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+    at Object.G [as deactivate] (/home/user/.vscode/extensions/ms-python.vscode-python-envs-1.12.0-linux-x64/dist/extension.js:2:681672)
+    at xX.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11850)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10000
+    at Array.map (<anonymous>)
+    at xX.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9988)
+    at xX.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10231)
+    at rN.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Fs (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:10411)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:6949)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-11-14 23:20:12.596 [info] Extension host with pid 48886 exiting with code 0

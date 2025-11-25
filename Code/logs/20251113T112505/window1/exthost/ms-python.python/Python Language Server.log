@@ -1,0 +1,71 @@
+2025-11-13 11:25:18.102 [info] (Client) Pylance client (2025.9.1) started with python extension (2025.16.0)
+2025-11-13 11:25:19.136 [info] (11708) Server root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-13 11:25:19.137 [info] (11708) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-11-13 11:25:19.143 [info] (11708) Starting service instance "repos" for workspace "/home/user/repos"
+2025-11-13 11:25:19.227 [info] (11708) Starting Mcp server id:3352 ...
+2025-11-13 11:25:19.268 [info] (11708) Setting environmentName for service "repos": "Python 3.13.7"
+2025-11-13 11:25:19.268 [info] (11708) Setting pythonPath for service "repos": "/bin/python"
+2025-11-13 11:25:19.269 [info] (11708) No include entries specified; assuming /home/user/repos
+2025-11-13 11:25:19.270 [info] (11708) Auto-excluding **/node_modules
+2025-11-13 11:25:19.270 [info] (11708) Auto-excluding **/__pycache__
+2025-11-13 11:25:19.270 [info] (11708) Auto-excluding **/.*
+2025-11-13 11:25:19.306 [info] (11708) Assuming Python version 3.13.7.final.0
+2025-11-13 11:25:19.442 [info] (11708) Found 19 source files
+2025-11-13 11:25:19.484 [info] (11708) Settings have not changed. Skipping update.
+2025-11-13 11:25:19.505 [info] (11708) Settings have not changed. Skipping update.
+2025-11-13 11:25:19.508 [info] (11708) Settings have not changed. Skipping update.
+2025-11-13 11:25:20.465 [info] (11708) BG: Priority queue background worker(2) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-13 11:25:20.467 [info] (11708) BG: Priority queue background worker(2) started
+2025-11-13 11:25:20.668 [info] (11708) BG: Indexer background runner(3) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-11-13 11:25:20.668 [info] (11708) BG: Indexing(3) started
+2025-11-13 11:25:21.795 [info] (11708) BG: scanned(3) 290 files over 1 exec env
+2025-11-13 11:25:22.240 [info] (11708) BG: indexed(3) 290 files over 1 exec env
+2025-11-13 11:25:22.493 [info] (11708) BG: Indexing finished(3).
+2025-11-13 11:25:32.595 [info] (11708) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (9899ms)
+2025-11-13 11:25:32.602 [info] (11708) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (10020ms)
+2025-11-13 11:25:33.650 [info] (11708) BG: [BG(1)] Long operation: SemanticTokens range 0:0 - 57:0 at file:///home/user/repos/weather_predictor/back/assistant.py (11184ms)
+2025-11-13 11:28:16.628 [info] (11708) BG: Indexer background runner(4) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-11-13 11:28:16.628 [info] (11708) BG: Indexing(4) started
+2025-11-13 11:28:17.404 [info] (11708) BG: scanned(4) 291 files over 1 exec env
+2025-11-13 11:28:18.130 [info] (11708) BG: indexed(4) 291 files over 1 exec env
+2025-11-13 11:28:18.358 [info] (11708) BG: Indexing finished(4).
+2025-11-13 11:28:25.918 [info] (11708) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (9948ms)
+2025-11-13 11:28:25.923 [info] (11708) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (10029ms)
+2025-11-13 11:28:27.105 [info] (11708) BG: [BG(1)] Long operation: checking: file:///home/user/repos/weather_predictor/back/assistant.py (11273ms)
+2025-11-13 11:28:27.105 [info] (11708) BG: [BG(1)] Long operation: analyzing: file:///home/user/repos/weather_predictor/back/assistant.py (11424ms)
+2025-11-13 11:29:20.830 [info] (11708) [FG] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (9635ms)
+2025-11-13 11:29:20.835 [info] (11708) [FG] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (9723ms)
+2025-11-13 12:00:32.541 [info] (11708) Starting service instance "<default>" for workspace ""
+2025-11-13 12:00:32.600 [info] (11708) Setting environmentName for service "<default>": "Python 3.13.7"
+2025-11-13 12:00:32.601 [info] (11708) Setting pythonPath for service "<default>": "/bin/python"
+2025-11-13 12:00:32.601 [info] (11708) No include entries specified; assuming /<default workspace root>
+2025-11-13 12:00:32.601 [info] (11708) Auto-excluding **/node_modules
+2025-11-13 12:00:32.602 [info] (11708) Auto-excluding **/__pycache__
+2025-11-13 12:00:32.602 [info] (11708) Auto-excluding **/.*
+2025-11-13 12:00:32.646 [info] (11708) Assuming Python version 3.13.7.final.0
+2025-11-13 12:00:32.728 [error] (11708) File or directory "/<default workspace root>" does not exist.
+2025-11-13 12:00:32.728 [info] (11708) No source files found.
+2025-11-13 12:00:33.459 [info] (11708) BG: Priority queue background worker(6) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-13 12:00:33.461 [info] (11708) BG: Priority queue background worker(6) started
+2025-11-13 12:15:41.968 [info] (11708) Settings have not changed. Skipping update.
+2025-11-13 12:15:41.968 [info] (11708) Settings have not changed. Skipping update.
+2025-11-13 17:52:38.997 [info] (11708) BG: Indexer background runner(7) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-11-13 17:52:38.997 [info] (11708) BG: Indexing(7) started
+2025-11-13 17:52:39.645 [info] (11708) BG: scanned(7) 292 files over 1 exec env
+2025-11-13 17:52:40.434 [info] (11708) BG: indexed(7) 292 files over 1 exec env
+2025-11-13 17:52:41.149 [info] (11708) BG: Indexing finished(7).
+2025-11-13 17:52:48.531 [info] (11708) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (10120ms)
+2025-11-13 17:52:48.537 [info] (11708) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (10181ms)
+2025-11-13 17:52:50.005 [info] (11708) BG: [BG(1)] Long operation: checking: file:///home/user/repos/weather_predictor/back/assistant.py (11713ms)
+2025-11-13 17:52:50.005 [info] (11708) BG: [BG(1)] Long operation: analyzing: file:///home/user/repos/weather_predictor/back/assistant.py (11808ms)
+2025-11-13 17:52:55.429 [info] (11708) BG: Indexer background runner(8) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-11-13 17:52:55.429 [info] (11708) BG: Indexing(8) started
+2025-11-13 17:52:56.205 [info] (11708) BG: scanned(8) 302 files over 1 exec env
+2025-11-13 17:52:56.725 [info] (11708) BG: indexed(8) 302 files over 1 exec env
+2025-11-13 17:52:56.911 [info] (11708) BG: Indexing finished(8).
+2025-11-13 17:53:08.899 [info] (11708) [FG] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (11580ms)
+2025-11-13 17:53:08.903 [info] (11708) [FG] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (11657ms)
+2025-11-13 17:53:08.922 [info] (11708) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (9515ms)
+2025-11-13 17:53:08.922 [info] (11708) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (9573ms)
+2025-11-13 17:53:08.922 [info] (11708) BG: [BG(1)] Long operation: checking: file:///home/user/repos/weather_predictor/back/assistant.py (9616ms)
+2025-11-13 17:53:08.923 [info] (11708) BG: [BG(1)] Long operation: analyzing: file:///home/user/repos/weather_predictor/back/assistant.py (9692ms)

@@ -1,0 +1,72 @@
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
+
+model_name = "Qwen/Qwen3-4B-Instruct-2507"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    dtype="auto",
+    device_map="auto"
+)
+
+weather_data = """
+- Температура: 25°C
+- Погодные условия: дождь
+- Скорость ветра: 2 м/с
+- Влажность: 77%
+"""
+
+print("Погодный ассистент запущен. Введите ваш вопрос:")
+
+if __name__ == "__main__":
+    if torch.cuda.is_available():
+        device = "cuda"
+    elif hasattr(torch, 'xpu') and torch.xpu.is_available():
+        device = "xpu"
+    else:
+        device = "cpu"
+
+    print(f"Используется устройство: {device}")
+
+
+    while True:
+        user_input = input("\nВы: ")
+        if user_input.lower() in ['выход', 'exit']:
+            break
+
+        prompt = f"""
+    Ты - ассистент погоды. Отвечай ТОЛЬКО на основе данных о погоде.
+    Если данных нет - скажи "В прогнозе нет этой информации".
+
+    Данные о погоде на сегодня: {weather_data}
+
+    Вопрос: {user_input}
+
+    Ответ:"""
+
+        messages = [{"role": "user", "content": prompt}]
+        text = tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,
+            # enable_thinking=False
+        )
+        
+        model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
+        generated_ids = model.generate(
+            **model_inputs,
+            max_new_tokens=512
+        )
+        
+        output_ids = generated_ids[0][len(model_inputs.input_ids[0]):].tolist()
+        
+        try:
+            index = len(output_ids) - output_ids[::-1].index(151668)
+            thinking_content = tokenizer.decode(output_ids[:index], skip_special_tokens=True)
+            content = tokenizer.decode(output_ids[index:], skip_special_tokens=True)
+        except:
+            content = tokenizer.decode(output_ids, skip_special_tokens=True)
+
+        print(f"Ассистент: {content.strip()}")
+
+    print("До свидания!")

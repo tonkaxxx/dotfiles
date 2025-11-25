@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>v1.39 Update</title>
+  <link rel="stylesheet" href="/src/public/style/common.css" />
+  <link rel="stylesheet" href="/src/public/style/header.css" />
+  <link rel="stylesheet" href="/src/public/style/whats_new.css" />
+  <script src="/src/lib/api.js"></script>
+  <script src="/src/lib/fmt.js"></script>
+  <script src="/src/public/scripts/header.js"></script>
+</head>
+
+<body class="mainContainer">
+  <div class="header" style="display: none;">
+    <img src="/src/public/assets/images/logo2.png" alt="TradeWiz Logo" class="logo">
+    <div class="headerSplit"></div>
+    <div class="headerNav">
+      <a href="/src/public/settings.html" class="active">
+        <div>Quick Buy Setting</div>
+      </a>
+      <!-- <a href="/src/public/copy/add.html">
+        <div>Copy Trade</div>
+      </a> -->
+      <a href="/src/public/signal/tradewiz.html">
+        <div>Signal</div>
+      </a>
+      <a href="/src/public/walletlist.html">
+        <div>Wallet Manager</div>
+      </a>
+      <a href="/src/public/referral/index.html">
+        <div>Referral</div>
+      </a>
+    </div>
+    <div class="headerWallet">
+      <div class="address">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M10.2424 0.4375C12.3091 0.4375 14 2.18122 14 4.31249V4.38451C13.9397 4.37998 13.8795 4.37494 13.8182 4.37494H10.909C9.50904 4.37494 8.36357 5.55621 8.36357 6.99996C8.36357 8.44371 9.50904 9.62497 10.909 9.62497H13.8182C13.8796 9.62497 13.9397 9.61993 14 9.61549V9.68751C14 11.8188 12.3091 13.5625 10.2424 13.5625H3.75757C1.69088 13.5625 0 11.8188 0 9.68751V4.31249C0 2.18122 1.69088 0.4375 3.75757 0.4375H10.2424ZM13.5834 5.50002C13.8135 5.50002 14 5.69238 14 5.92967V8.07033C14 8.1843 13.9561 8.2936 13.878 8.37419C13.7999 8.45479 13.6939 8.50007 13.5834 8.50007H10.9091C10.1091 8.50007 9.45455 7.82507 9.45455 7.00004C9.45455 6.17502 10.1091 5.50002 10.9091 5.50002H13.5834ZM11.091 6.43742C10.7897 6.43742 10.5455 6.68927 10.5455 6.99996C10.5455 7.31064 10.7897 7.5625 11.091 7.5625C11.3922 7.5625 11.6364 7.31064 11.6364 6.99996C11.6364 6.68927 11.3922 6.43742 11.091 6.43742ZM7.18183 3.25012H3.36363C3.01219 3.25012 2.7273 3.54391 2.7273 3.90633C2.7273 4.26874 3.01219 4.56254 3.36363 4.56254H7.18183C7.53326 4.56254 7.81816 4.26874 7.81816 3.90633C7.81816 3.54391 7.53326 3.25012 7.18183 3.25012Z"
+            fill="currentColor" />
+        </svg>
+        <div class="copy-icon">
+          <span class="wallet-info-public-key"></span>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_4292_917)">
+              <path
+                d="M12.2227 0C13.2043 0 14 0.795744 14 1.77734V9.59766C14 10.5793 13.2043 11.375 12.2227 11.375H11.375V12.2227C11.375 13.2043 10.5793 14 9.59766 14H1.77734C0.795744 14 0 13.2043 0 12.2227V4.40234C0 3.42074 0.795744 2.625 1.77734 2.625H2.625V1.77734C2.625 0.795744 3.42074 0 4.40234 0H12.2227ZM9.59766 4.375H1.77734C1.76224 4.375 1.75 4.38724 1.75 4.40234V12.2227C1.75 12.2378 1.76224 12.25 1.77734 12.25H9.59766C9.61276 12.25 9.625 12.2378 9.625 12.2227V4.40234C9.625 4.38724 9.61276 4.375 9.59766 4.375ZM12.2227 1.75H4.40234C4.38724 1.75 4.375 1.76224 4.375 1.77734V2.625H9.59766C10.5793 2.625 11.375 3.42074 11.375 4.40234V9.625H12.2227C12.2378 9.625 12.25 9.61276 12.25 9.59766V1.77734C12.25 1.76224 12.2378 1.75 12.2227 1.75Z"
+                fill="currentColor" />
+            </g>
+            <defs>
+              <clipPath id="clip0_4292_917">
+                <rect width="14" height="14" fill="currentColor" />
+              </clipPath>
+            </defs>
+          </svg>
+          <svg width="14" height="14" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            style="display: none;">
+            <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+              <g transform="translate(-521.000000, -1894.000000)" fill="rgba(173, 173, 204, 0.6)" fillRule="nonzero">
+                <g transform="translate(92.000000, 1881.000000)">
+                  <g transform="translate(73.000000, 0.000000)">
+                    <g transform="translate(356.000000, 13.000000)">
+                      <path
+                        d="M12.7196056,2.74628263 C13.1629092,3.1975024 13.1629092,3.9274976 12.7196056,4.37871737 L5.96521964,11.2537174 C5.51979678,11.7070942 4.7959927,11.7070942 4.35056983,11.2537174 L1.28039439,8.12871737 C0.837090758,7.6774976 0.837090758,6.9475024 1.28039439,6.49628263 C1.72581726,6.04290579 2.44962134,6.04290579 2.89505044,6.49628898 L5.15754167,8.799875 L11.1049558,2.74628263 C11.5503787,2.29290579 12.2741827,2.29290579 12.7196056,2.74628263 Z">
+                      </path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <a class="address balance" href="http://solscan.io/account/" target="_blank">
+        <img src="/src/public/assets/images/solana.png" alt="">
+        <span class="wallet-info-balance-text"></span>
+      </a>
+    </div>
+  </div>
+  <div class="wrap">
+    <img src="/src/public/assets/images/whats-new-logo.png" alt="TradeWiz Logo" class="logo">
+    <div class="content">
+      <div class="content-title">
+        Extension v1.39 Update
+      </div>
+      <div class="description">
+        <p>TradeWiz Extension Now Supports BSC Meme Coins!</p>
+        <p>TradeWiz Extension now fully supports BSC chain trading, including Binance Exclusive Pre-Migration Tokens.
+        </p>
+        <p>Enjoy lightning-fast swaps with Auto-Sell support — so you can trade, monitor, and exit positions seamlessly.
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="/src/public/scripts/whats_new.js"></script>
+</body>
+
+</html>

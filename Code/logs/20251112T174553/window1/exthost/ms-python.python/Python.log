@@ -1,0 +1,16 @@
+2025-11-12 17:45:57.985 [info] Native locator: Refresh started
+2025-11-12 17:46:01.812 [info] > pyenv which python
+2025-11-12 17:46:01.812 [info] cwd: .
+2025-11-12 17:46:03.963 [info] Active interpreter [/home/user/repos]:  /bin/python
+2025-11-12 17:46:03.964 [info] Native locator: Refresh finished in 5979 ms
+2025-11-12 17:46:04.093 [info] Discover tests for workspace name: repos - uri: /home/user/repos
+2025-11-12 17:46:05.514 [info] Starting Pylance language server.
+2025-11-12 17:50:11.290 [info] Active interpreter [global]:  /bin/python
+2025-11-12 17:50:11.292 [info] Discover tests for workspace name: repos - uri: /home/user/repos
+2025-11-12 18:04:49.392 [info] Discover tests for workspace name: undefined - uri: /home/user/.config/Code/User/settings.json
+2025-11-12 18:07:37.623 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/predictor.py
+2025-11-12 18:07:39.397 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/predictor.py
+2025-11-12 18:07:41.006 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/predictor.py
+2025-11-12 18:17:16.700 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:17:35.020 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:17:48.849 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py

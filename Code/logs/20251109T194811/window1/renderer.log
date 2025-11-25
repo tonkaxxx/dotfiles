@@ -1,0 +1,54 @@
+2025-11-09 19:48:13.079 [info] Started local extension host with pid 4481.
+2025-11-09 19:48:14.205 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-11-09 19:48:14.266 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-09 19:48:14.725 [error] [Extension Host] (node:4481) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-11-09 19:48:15.507 [error] Failed to fetch token entitlements Server returned 403
+2025-11-09 19:48:15.690 [info] [perf] Render performance baseline is 29ms
+2025-11-09 19:48:17.682 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-09 19:48:19.500 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-09 19:48:39.274 [error] Canceled: Canceled
+    at K0 (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:37249
+    at Array.forEach (<anonymous>)
+    at nLt.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:37189)
+    at ZRe.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:48866)
+    at agn.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3821:7731)
+    at ogn.stopAllInReverse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3821:7033)
+    at async Wkt.tb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3820:15899)
+2025-11-09 19:48:39.979 [info] Started local extension host with pid 5291.
+2025-11-09 19:48:41.275 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-11-09 19:48:41.382 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-09 19:48:42.343 [error] Failed to fetch token entitlements Server returned 403
+2025-11-09 19:48:42.621 [info] [perf] Render performance baseline is 26ms
+2025-11-09 19:48:44.863 [error] [Extension Host] (node:5291) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-11-09 19:48:45.227 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-09 19:48:47.571 [error] Collection or definition not found for ms-python.vscode-pylance/pylanceMcp and ms-python.vscode-pylance/pylance mcp server: Error: Collection or definition not found for ms-python.vscode-pylance/pylanceMcp and ms-python.vscode-pylance/pylance mcp server
+    at qct.resolveConnection (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2240:2218)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2240:13693
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:73168
+2025-11-09 19:48:48.074 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at z6 (file:///opt/visual-studio-code/resources/app/out/main.js:30:64302)
+    at new nd (file:///opt/visual-studio-code/resources/app/out/main.js:30:67682)
+    at new zr (file:///opt/visual-studio-code/resources/app/out/main.js:30:69120)
+    at nd.revive (file:///opt/visual-studio-code/resources/app/out/main.js:30:68897)
+    at o5.call (file:///opt/visual-studio-code/resources/app/out/main.js:88:105739)
+    at Lf.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14859)
+    at Lf.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14382)
+    at Xo.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13784)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2660)
+    at Xo.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5145)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at Xo.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5333)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at F (file:///opt/visual-studio-code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10776)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106370)
+    at Session.emit (node:events:519:28)
+2025-11-09 19:48:48.304 [error] An unknown error occurred. Please consult the log for more details.

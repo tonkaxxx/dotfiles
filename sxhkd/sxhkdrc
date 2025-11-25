@@ -17,12 +17,13 @@ super + d
     rofi -show drun
 
 # Launch Applications
-super + shift + {f,n,t,c,l,a}
+super + shift + {f,n,t,k,c,a}
 	{firefox, \
 	thunar, \
 	Telegram, \
+	kitty --title "calc" -e fish -c "python; fish", \
 	code, \
-	AmneziaVPN}
+	bash /home/user/.config/start.sh}
 
 # copy manager
 super + v

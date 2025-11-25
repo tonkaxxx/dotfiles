@@ -1,0 +1,95 @@
+2025-11-12 18:18:20.303 [info] Native locator: Refresh started
+2025-11-12 18:18:20.925 [info] > pyenv which python
+2025-11-12 18:18:20.926 [info] cwd: .
+2025-11-12 18:18:22.984 [info] Active interpreter [/home/user/repos]:  /bin/python
+2025-11-12 18:18:22.985 [info] Native locator: Refresh finished in 2683 ms
+2025-11-12 18:18:23.113 [info] Discover tests for workspace name: repos - uri: /home/user/repos
+2025-11-12 18:18:24.531 [info] Starting Pylance language server.
+2025-11-12 18:19:22.835 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/predictor.py
+2025-11-12 18:21:48.110 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:21:56.271 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:22:07.035 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:24:12.604 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant.py
+2025-11-12 18:24:40.426 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant.py
+2025-11-12 18:24:41.624 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant.py
+2025-11-12 18:24:50.104 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant.py
+2025-11-12 18:26:18.958 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant.py
+2025-11-12 18:29:08.410 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant.py
+2025-11-12 18:29:09.248 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant.py
+2025-11-12 18:31:33.816 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:33:20.266 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:35:51.599 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:36:01.524 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:36:16.217 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:36:16.677 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:36:44.983 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python_files/normalizeSelection.py
+2025-11-12 18:36:45.266 [info] Send text to terminal: def api_get_24hrs():
+    try:
+        data = request.get_json()
+        city = data.get('city', '')
+        if city.isdigit(): # почему-то при 4ех или 5ти значных числах апи выдает города... 
+            return render_template(
+                'error.html',
+                city=city
+            )
+        data = get_data(city)
+        if not data:
+            return render_template(
+                'error.html',
+                city=city
+            )
+        forecast_24h = get_24h_forecast(data)
+        dates_24h, display_times, temps_24h, humidity_24h, pressure_24h, wind_speed_24h = extract_all_data(forecast_24h)
+        time_series = pd.to_datetime(dates_24h).strftime('%H:%M')
+        hours_mins = time_series.tolist()
+        df24 = pd.DataFrame({
+            'temperature': temps_24h,
+            'humidity': humidity_24h,
+            'pressure': pressure_24h,
+            'wind_speed': wind_speed_24h
+        }, index=hours_mins)
+        df24 = df24.rename(columns={
+            'temperature': 'Температура, °C',
+            'humidity': 'Влажность, %', 
+            'pressure': 'Давление, гПа',
+            'wind_speed': 'Скорость ветра, м/с'
+        })
+        df24 = from_data_to_dataframe(data)
+        result = json.loads(df24)
+        df = pd.read_csv(pd.compat.StringIO(result['response']), delim_whitespace=True)
+        print("===================")
+        print("")
+        return jsonify({
+            'status': 'success',
+            'response': str(df)
+        })
+    except Exception as e:
+        return jsonify({
+            'status': 'error',
+            'message': str(e)
+        }), 500
+
+
+2025-11-12 18:36:45.348 [info] Send text to terminal: /bin/python
+2025-11-12 18:36:53.160 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:38:15.635 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:38:17.208 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:38:28.015 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:39:31.416 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant.py
+2025-11-12 18:39:33.774 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant.py
+2025-11-12 18:41:41.664 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:41:42.398 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:45:20.973 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:45:21.524 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:48:03.466 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:53:10.752 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:53:56.475 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:53:58.411 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:54:56.718 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:54:56.990 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:54:57.273 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:55:11.812 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:55:12.089 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 18:55:30.189 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py
+2025-11-12 19:05:26.610 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant.py
+2025-11-12 19:05:26.882 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant.py

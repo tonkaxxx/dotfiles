@@ -1,0 +1,30 @@
+2025-11-14 20:37:15.696 [info] Native locator: Refresh started
+2025-11-14 20:37:18.022 [info] > pyenv which python
+2025-11-14 20:37:18.022 [info] cwd: .
+2025-11-14 20:37:20.937 [info] Active interpreter [/home/user/repos]:  /bin/python
+2025-11-14 20:37:20.940 [info] Native locator: Refresh finished in 5280 ms
+2025-11-14 20:37:21.523 [info] Discover tests for workspace name: repos - uri: /home/user/repos
+2025-11-14 20:37:22.939 [info] Starting Pylance language server.
+2025-11-14 20:42:26.352 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:44:08.247 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:44:46.328 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:44:55.511 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:45:06.583 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:45:18.219 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:45:18.505 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:45:56.711 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:46:22.617 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:46:40.291 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:47:59.375 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:48:28.381 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:48:31.767 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 20:48:39.807 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 21:16:27.849 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 21:16:34.067 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 21:17:08.550 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 21:17:22.846 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 22:04:33.288 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 22:40:50.021 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 22:40:50.282 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 23:18:51.613 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
+2025-11-14 23:20:11.998 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/main.py

@@ -1,46 +1,127 @@
-2025/10/14-18:48:26.060 8c4b Reusing MANIFEST /home/user/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2025/10/14-18:48:26.098 8c4b Recovering log #1663
-2025/10/14-18:48:26.102 8c4b Reusing old log /home/user/.config/discord/Local Storage/leveldb/001663.log 
-2025/10/14-18:49:27.366 8c4c Level-0 table #1667: started
-2025/10/14-18:49:27.368 8c4c Level-0 table #1667: 46820 bytes OK
-2025/10/14-18:49:27.368 8c4c Delete type=0 #1663
-2025/10/14-18:54:01.685 8c4c Level-0 table #1669: started
-2025/10/14-18:54:01.710 8c4c Level-0 table #1669: 2270071 bytes OK
-2025/10/14-18:54:01.711 8c4c Delete type=0 #1666
-2025/10/14-18:58:27.357 8c4c Level-0 table #1671: started
-2025/10/14-18:58:27.358 8c4c Level-0 table #1671: 32812 bytes OK
-2025/10/14-18:58:27.359 8c4c Delete type=0 #1668
-2025/10/14-18:58:27.359 8c4c Compacting 4@0 + 2@1 files
-2025/10/14-18:58:27.395 8c4c Generated table #1672@0: 41 keys, 2249972 bytes
-2025/10/14-18:58:27.420 8c4c Generated table #1673@0: 84 keys, 1649737 bytes
-2025/10/14-18:58:27.420 8c4c Compacted 4@0 + 2@1 files => 3899709 bytes
-2025/10/14-18:58:27.421 8c4c compacted to: files[ 0 3 1 0 0 0 0 ]
-2025/10/14-18:58:27.421 8c4c Delete type=2 #1671
-2025/10/14-18:58:27.421 8c4c Delete type=2 #1667
-2025/10/14-18:58:27.421 8c4c Delete type=2 #1664
-2025/10/14-18:58:27.421 8c4c Delete type=2 #1661
-2025/10/14-18:58:27.421 8c4c Delete type=2 #1669
-2025/10/14-18:58:27.421 8c4c Delete type=2 #1662
-2025/10/14-19:06:27.358 8c4c Level-0 table #1675: started
-2025/10/14-19:06:27.359 8c4c Level-0 table #1675: 33964 bytes OK
-2025/10/14-19:06:27.360 8c4c Delete type=0 #1670
-2025/10/14-19:12:27.357 8c4c Level-0 table #1677: started
-2025/10/14-19:12:27.358 8c4c Level-0 table #1677: 37439 bytes OK
-2025/10/14-19:12:27.359 8c4c Delete type=0 #1674
-2025/10/14-19:20:27.357 8c4c Level-0 table #1679: started
-2025/10/14-19:20:27.359 8c4c Level-0 table #1679: 32936 bytes OK
-2025/10/14-19:20:27.359 8c4c Delete type=0 #1676
-2025/10/14-19:24:27.358 8c4c Level-0 table #1681: started
-2025/10/14-19:24:27.361 8c4c Level-0 table #1681: 34489 bytes OK
-2025/10/14-19:24:27.362 8c4c Delete type=0 #1678
-2025/10/14-19:24:27.362 8c4c Compacting 4@0 + 2@1 files
-2025/10/14-19:24:27.393 8c4c Generated table #1682@0: 41 keys, 2250708 bytes
-2025/10/14-19:24:27.415 8c4c Generated table #1683@0: 84 keys, 1649801 bytes
-2025/10/14-19:24:27.415 8c4c Compacted 4@0 + 2@1 files => 3900509 bytes
-2025/10/14-19:24:27.416 8c4c compacted to: files[ 0 3 1 0 0 0 0 ]
-2025/10/14-19:24:27.416 8c4c Delete type=2 #1681
-2025/10/14-19:24:27.416 8c4c Delete type=2 #1677
-2025/10/14-19:24:27.416 8c4c Delete type=2 #1672
-2025/10/14-19:24:27.416 8c4c Delete type=2 #1675
-2025/10/14-19:24:27.416 8c4c Delete type=2 #1673
-2025/10/14-19:24:27.416 8c4c Delete type=2 #1679
+2025/11/19-16:02:37.831 f37d Reusing MANIFEST /home/user/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/11/19-16:02:37.872 f37d Recovering log #2415
+2025/11/19-16:02:37.874 f37d Reusing old log /home/user/.config/discord/Local Storage/leveldb/002415.log 
+2025/11/19-16:04:24.673 f37e Level-0 table #2421: started
+2025/11/19-16:04:24.708 f37e Level-0 table #2421: 3111201 bytes OK
+2025/11/19-16:04:24.709 f37e Delete type=0 #2415
+2025/11/19-16:10:16.362 f37e Level-0 table #2423: started
+2025/11/19-16:10:16.364 f37e Level-0 table #2423: 60401 bytes OK
+2025/11/19-16:10:16.365 f37e Delete type=0 #2420
+2025/11/19-16:10:34.351 f37e Level-0 table #2425: started
+2025/11/19-16:10:34.352 f37e Level-0 table #2425: 33928 bytes OK
+2025/11/19-16:10:34.353 f37e Delete type=0 #2422
+2025/11/19-16:11:46.787 f37e Level-0 table #2427: started
+2025/11/19-16:11:46.788 f37e Level-0 table #2427: 35217 bytes OK
+2025/11/19-16:11:46.789 f37e Delete type=0 #2424
+2025/11/19-16:11:46.789 f37e Compacting 4@0 + 2@1 files
+2025/11/19-16:11:46.834 f37e Generated table #2428@0: 45 keys, 3072499 bytes
+2025/11/19-16:11:46.858 f37e Generated table #2429@0: 118 keys, 1698394 bytes
+2025/11/19-16:11:46.858 f37e Compacted 4@0 + 2@1 files => 4770893 bytes
+2025/11/19-16:11:46.859 f37e compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/11/19-16:11:46.859 f37e Delete type=2 #2427
+2025/11/19-16:11:46.859 f37e Delete type=2 #2423
+2025/11/19-16:11:46.859 f37e Delete type=2 #2425
+2025/11/19-16:11:46.859 f37e Delete type=2 #2418
+2025/11/19-16:11:46.859 f37e Delete type=2 #2421
+2025/11/19-16:11:46.859 f37e Delete type=2 #2417
+2025/11/19-16:13:46.787 f37e Level-0 table #2431: started
+2025/11/19-16:13:46.789 f37e Level-0 table #2431: 35402 bytes OK
+2025/11/19-16:13:46.790 f37e Delete type=0 #2426
+2025/11/19-16:17:31.736 f37e Level-0 table #2433: started
+2025/11/19-16:17:31.737 f37e Level-0 table #2433: 39395 bytes OK
+2025/11/19-16:17:31.738 f37e Delete type=0 #2430
+2025/11/19-16:19:00.236 f37e Level-0 table #2435: started
+2025/11/19-16:19:00.237 f37e Level-0 table #2435: 34144 bytes OK
+2025/11/19-16:19:00.238 f37e Delete type=0 #2432
+2025/11/19-16:22:55.254 f37e Level-0 table #2437: started
+2025/11/19-16:22:55.256 f37e Level-0 table #2437: 23205 bytes OK
+2025/11/19-16:22:55.257 f37e Delete type=0 #2434
+2025/11/19-16:22:55.257 f37e Compacting 4@0 + 2@1 files
+2025/11/19-16:22:55.296 f37e Generated table #2438@0: 45 keys, 3071760 bytes
+2025/11/19-16:22:55.318 f37e Generated table #2439@0: 118 keys, 1698756 bytes
+2025/11/19-16:22:55.318 f37e Compacted 4@0 + 2@1 files => 4770516 bytes
+2025/11/19-16:22:55.318 f37e compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/11/19-16:22:55.319 f37e Delete type=2 #2433
+2025/11/19-16:22:55.319 f37e Delete type=2 #2437
+2025/11/19-16:22:55.319 f37e Delete type=2 #2435
+2025/11/19-16:22:55.319 f37e Delete type=2 #2428
+2025/11/19-16:22:55.319 f37e Delete type=2 #2431
+2025/11/19-16:22:55.319 f37e Delete type=2 #2429
+2025/11/19-16:25:46.788 f37e Level-0 table #2441: started
+2025/11/19-16:25:46.789 f37e Level-0 table #2441: 36965 bytes OK
+2025/11/19-16:25:46.790 f37e Delete type=0 #2436
+2025/11/19-16:27:46.788 f37e Level-0 table #2443: started
+2025/11/19-16:27:46.789 f37e Level-0 table #2443: 37256 bytes OK
+2025/11/19-16:27:46.789 f37e Delete type=0 #2440
+2025/11/19-16:29:46.788 f37e Level-0 table #2445: started
+2025/11/19-16:29:46.789 f37e Level-0 table #2445: 42296 bytes OK
+2025/11/19-16:29:46.790 f37e Delete type=0 #2442
+2025/11/19-16:32:52.374 f37e Level-0 table #2447: started
+2025/11/19-16:32:52.377 f37e Level-0 table #2447: 37564 bytes OK
+2025/11/19-16:32:52.377 f37e Delete type=0 #2444
+2025/11/19-16:32:52.377 f37e Compacting 4@0 + 2@1 files
+2025/11/19-16:32:52.420 f37e Generated table #2448@0: 45 keys, 3073010 bytes
+2025/11/19-16:32:52.446 f37e Generated table #2449@0: 119 keys, 1699314 bytes
+2025/11/19-16:32:52.446 f37e Compacted 4@0 + 2@1 files => 4772324 bytes
+2025/11/19-16:32:52.446 f37e compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/11/19-16:32:52.447 f37e Delete type=2 #2445
+2025/11/19-16:32:52.447 f37e Delete type=2 #2447
+2025/11/19-16:32:52.447 f37e Delete type=2 #2443
+2025/11/19-16:32:52.447 f37e Delete type=2 #2439
+2025/11/19-16:32:52.447 f37e Delete type=2 #2438
+2025/11/19-16:32:52.447 f37e Delete type=2 #2441
+2025/11/19-16:37:13.608 f37e Level-0 table #2451: started
+2025/11/19-16:37:13.610 f37e Level-0 table #2451: 37475 bytes OK
+2025/11/19-16:37:13.610 f37e Delete type=0 #2446
+2025/11/19-16:37:26.528 f37e Level-0 table #2453: started
+2025/11/19-16:37:26.529 f37e Level-0 table #2453: 38073 bytes OK
+2025/11/19-16:37:26.529 f37e Delete type=0 #2450
+2025/11/19-16:37:46.788 f37e Level-0 table #2455: started
+2025/11/19-16:37:46.790 f37e Level-0 table #2455: 35551 bytes OK
+2025/11/19-16:37:46.791 f37e Delete type=0 #2452
+2025/11/19-16:41:00.095 f37e Level-0 table #2457: started
+2025/11/19-16:41:00.097 f37e Level-0 table #2457: 39801 bytes OK
+2025/11/19-16:41:00.098 f37e Delete type=0 #2454
+2025/11/19-16:41:00.098 f37e Compacting 4@0 + 2@1 files
+2025/11/19-16:41:00.139 f37e Generated table #2458@0: 45 keys, 3073132 bytes
+2025/11/19-16:41:00.166 f37e Generated table #2459@0: 119 keys, 1699424 bytes
+2025/11/19-16:41:00.166 f37e Compacted 4@0 + 2@1 files => 4772556 bytes
+2025/11/19-16:41:00.166 f37e compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/11/19-16:41:00.167 f37e Delete type=2 #2457
+2025/11/19-16:41:00.167 f37e Delete type=2 #2448
+2025/11/19-16:41:00.167 f37e Delete type=2 #2453
+2025/11/19-16:41:00.167 f37e Delete type=2 #2451
+2025/11/19-16:41:00.167 f37e Delete type=2 #2455
+2025/11/19-16:41:00.167 f37e Delete type=2 #2449
+2025/11/19-16:42:07.626 f37e Level-0 table #2461: started
+2025/11/19-16:42:07.628 f37e Level-0 table #2461: 35230 bytes OK
+2025/11/19-16:42:07.628 f37e Delete type=0 #2456
+2025/11/19-16:48:53.287 f37e Level-0 table #2463: started
+2025/11/19-16:48:53.291 f37e Level-0 table #2463: 38075 bytes OK
+2025/11/19-16:48:53.292 f37e Delete type=0 #2460
+2025/11/19-16:51:46.789 f37e Level-0 table #2465: started
+2025/11/19-16:51:46.792 f37e Level-0 table #2465: 38926 bytes OK
+2025/11/19-16:51:46.794 f37e Delete type=0 #2462
+2025/11/19-16:53:46.788 f37e Level-0 table #2467: started
+2025/11/19-16:53:46.790 f37e Level-0 table #2467: 35967 bytes OK
+2025/11/19-16:53:46.791 f37e Delete type=0 #2464
+2025/11/19-16:53:46.792 f37e Compacting 4@0 + 2@1 files
+2025/11/19-16:53:46.831 f37e Generated table #2468@0: 45 keys, 3073237 bytes
+2025/11/19-16:53:46.856 f37e Generated table #2469@0: 119 keys, 1700626 bytes
+2025/11/19-16:53:46.856 f37e Compacted 4@0 + 2@1 files => 4773863 bytes
+2025/11/19-16:53:46.857 f37e compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/11/19-16:53:46.857 f37e Delete type=2 #2463
+2025/11/19-16:53:46.857 f37e Delete type=2 #2459
+2025/11/19-16:53:46.857 f37e Delete type=2 #2461
+2025/11/19-16:53:46.857 f37e Delete type=2 #2467
+2025/11/19-16:53:46.857 f37e Delete type=2 #2465
+2025/11/19-16:53:46.857 f37e Delete type=2 #2458
+2025/11/19-16:55:46.788 f37e Level-0 table #2471: started
+2025/11/19-16:55:46.789 f37e Level-0 table #2471: 36026 bytes OK
+2025/11/19-16:55:46.790 f37e Delete type=0 #2466
+2025/11/19-16:57:46.787 f37e Level-0 table #2473: started
+2025/11/19-16:57:46.789 f37e Level-0 table #2473: 35955 bytes OK
+2025/11/19-16:57:46.789 f37e Delete type=0 #2470
+2025/11/19-17:52:21.041 f37e Level-0 table #2475: started
+2025/11/19-17:52:21.042 f37e Level-0 table #2475: 24412 bytes OK
+2025/11/19-17:52:21.043 f37e Delete type=0 #2472

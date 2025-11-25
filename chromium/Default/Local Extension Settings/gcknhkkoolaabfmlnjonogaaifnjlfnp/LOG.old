@@ -1,2 +1,3 @@
-2025/10/19-13:33:58.251 291c Creating DB /home/user/.config/chromium/Default/Local Extension Settings/gcknhkkoolaabfmlnjonogaaifnjlfnp since it was missing.
-2025/10/19-13:33:58.254 291c Reusing MANIFEST /home/user/.config/chromium/Default/Local Extension Settings/gcknhkkoolaabfmlnjonogaaifnjlfnp/MANIFEST-000001
+2025/10/19-21:09:01.540 25715 Reusing MANIFEST /home/user/.config/chromium/Default/Local Extension Settings/gcknhkkoolaabfmlnjonogaaifnjlfnp/MANIFEST-000001
+2025/10/19-21:09:01.540 25715 Recovering log #3
+2025/10/19-21:09:01.540 25715 Reusing old log /home/user/.config/chromium/Default/Local Extension Settings/gcknhkkoolaabfmlnjonogaaifnjlfnp/000003.log 

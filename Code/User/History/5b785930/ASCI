@@ -1,0 +1,6 @@
+*.env
+!example.env
+__pycache__
+*.pkl
+*.pth
+model_cache

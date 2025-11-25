@@ -9,21 +9,17 @@
                 "folderUri": "file:///home/user/repos"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1760661614715"
-            }
-        ]
+        "emptyWindows": []
     },
-    "windowControlHeight": 35,
+    "windowControlHeight": 42,
     "profileAssociations": {
         "workspaces": {
             "file:///home/user/repos/weather_predictor": "__default__profile__",
-            "file:///home/user/repos": "__default__profile__"
+            "file:///home/user/repos": "__default__profile__",
+            "file:///home/user/.config/polybar": "__default__profile__",
+            "file:///home/user/repos/weather_predictor/static": "__default__profile__"
         },
-        "emptyWindows": {
-            "1760661614715": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
@@ -49,7 +45,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 223,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -57,44 +53,23 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/user/.config/Code/Backups/1760661614715",
+            "folder": "file:///home/user/repos",
+            "backupPath": "/home/user/.config/Code/Backups/e36985a15b2878eef0d7310ea911050e",
             "uiState": {
                 "mode": 1,
-                "x": 3,
-                "y": 34,
-                "width": 2548,
-                "height": 1397
+                "x": 3521,
+                "y": 363,
+                "width": 950,
+                "height": 1068,
+                "zoomLevel": 1
             }
         },
-        "openedWindows": [
-            {
-                "folder": "file:///home/user/repos",
-                "backupPath": "/home/user/.config/Code/Backups/e36985a15b2878eef0d7310ea911050e",
-                "uiState": {
-                    "mode": 1,
-                    "x": 3,
-                    "y": 737,
-                    "width": 915,
-                    "height": 694,
-                    "zoomLevel": 1
-                }
-            },
-            {
-                "backupPath": "/home/user/.config/Code/Backups/1760661614715",
-                "uiState": {
-                    "mode": 1,
-                    "x": 3,
-                    "y": 34,
-                    "width": 2548,
-                    "height": 1397
-                }
-            }
-        ]
+        "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 300,
-            "auxiliaryBarWidth": 300,
+            "sideBarWidth": 223,
+            "auxiliaryBarWidth": 237,
             "workspaces": {
                 "c24ceb3344045d0b788538a59bc936df": {
                     "sideBarVisible": true,
@@ -103,6 +78,14 @@
                 "e7db87391173ea5138bc490d90f9122e": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
+                },
+                "155d18b0b2b2673c4827549ee6e89a3d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "f9829983d549c44783bf111cd5c4c4a7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
                 }
             }
         }

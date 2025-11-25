@@ -1,0 +1,7 @@
+2025-11-09 19:48:42.165 [info] Native locator: Refresh started
+2025-11-09 19:48:42.298 [info] > pyenv which python
+2025-11-09 19:48:42.298 [info] cwd: .
+2025-11-09 19:48:46.990 [info] Active interpreter [/home/user/repos]:  /bin/python
+2025-11-09 19:48:46.991 [info] Native locator: Refresh finished in 4845 ms
+2025-11-09 19:48:47.515 [info] Discover tests for workspace name: repos - uri: /home/user/repos
+2025-11-09 19:48:48.965 [info] Starting Pylance language server.

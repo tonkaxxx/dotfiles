@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>TradeWiz Add New Copy</title>
+  <link rel="stylesheet" href="/src/public/style/common.css" />
+  <link rel="stylesheet" href="/src/public/style/header.css" />
+  <link rel="stylesheet" href="/src/public/style/copyadd.css" />
+
+  <script src="/src/public/plugins/index.js"></script>
+  <script src="/src/lib/api.js"></script>
+  <script src="/src/lib/index.js"></script>
+  <script src="/src/lib/dom-utils.js"></script>
+  <script src="/src/lib/fmt.js"></script>
+  <script src="/src/public/scripts/header.js"></script>
+  <script src="/src/lib/pos.js"></script>
+  <script src="/src/lib/self-position.js"></script>
+</head>
+
+<body class="mainContainer">
+  <div class="header">
+    <img src="/src/public/assets/images/logo2.png" alt="TradeWiz Logo" class="logo">
+    <div class="headerSplit"></div>
+    <div class="headerNav">
+      <a href="/src/public/settings.html">
+        <div>Quick Buy Setting</div>
+      </a>
+      <!-- <a href="/src/public/copytrade.html" class="active">
+        <div>Copy Trade</div>
+      </a> -->
+      <a href="/src/public/signal/tradewiz.html">
+        <div>Signal</div>
+      </a>
+      <a href="/src/public/walletlist.html">
+        <div>Wallet Manager</div>
+      </a>
+    </div>
+    <div class="headerWallet">
+      <div class="address">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M10.2424 0.4375C12.3091 0.4375 14 2.18122 14 4.31249V4.38451C13.9397 4.37998 13.8795 4.37494 13.8182 4.37494H10.909C9.50904 4.37494 8.36357 5.55621 8.36357 6.99996C8.36357 8.44371 9.50904 9.62497 10.909 9.62497H13.8182C13.8796 9.62497 13.9397 9.61993 14 9.61549V9.68751C14 11.8188 12.3091 13.5625 10.2424 13.5625H3.75757C1.69088 13.5625 0 11.8188 0 9.68751V4.31249C0 2.18122 1.69088 0.4375 3.75757 0.4375H10.2424ZM13.5834 5.50002C13.8135 5.50002 14 5.69238 14 5.92967V8.07033C14 8.1843 13.9561 8.2936 13.878 8.37419C13.7999 8.45479 13.6939 8.50007 13.5834 8.50007H10.9091C10.1091 8.50007 9.45455 7.82507 9.45455 7.00004C9.45455 6.17502 10.1091 5.50002 10.9091 5.50002H13.5834ZM11.091 6.43742C10.7897 6.43742 10.5455 6.68927 10.5455 6.99996C10.5455 7.31064 10.7897 7.5625 11.091 7.5625C11.3922 7.5625 11.6364 7.31064 11.6364 6.99996C11.6364 6.68927 11.3922 6.43742 11.091 6.43742ZM7.18183 3.25012H3.36363C3.01219 3.25012 2.7273 3.54391 2.7273 3.90633C2.7273 4.26874 3.01219 4.56254 3.36363 4.56254H7.18183C7.53326 4.56254 7.81816 4.26874 7.81816 3.90633C7.81816 3.54391 7.53326 3.25012 7.18183 3.25012Z"
+            fill="currentColor" />
+        </svg>
+        <div class="copy-icon">
+          <span class="wallet-info-public-key"></span>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_4292_917)">
+              <path
+                d="M12.2227 0C13.2043 0 14 0.795744 14 1.77734V9.59766C14 10.5793 13.2043 11.375 12.2227 11.375H11.375V12.2227C11.375 13.2043 10.5793 14 9.59766 14H1.77734C0.795744 14 0 13.2043 0 12.2227V4.40234C0 3.42074 0.795744 2.625 1.77734 2.625H2.625V1.77734C2.625 0.795744 3.42074 0 4.40234 0H12.2227ZM9.59766 4.375H1.77734C1.76224 4.375 1.75 4.38724 1.75 4.40234V12.2227C1.75 12.2378 1.76224 12.25 1.77734 12.25H9.59766C9.61276 12.25 9.625 12.2378 9.625 12.2227V4.40234C9.625 4.38724 9.61276 4.375 9.59766 4.375ZM12.2227 1.75H4.40234C4.38724 1.75 4.375 1.76224 4.375 1.77734V2.625H9.59766C10.5793 2.625 11.375 3.42074 11.375 4.40234V9.625H12.2227C12.2378 9.625 12.25 9.61276 12.25 9.59766V1.77734C12.25 1.76224 12.2378 1.75 12.2227 1.75Z"
+                fill="currentColor" />
+            </g>
+            <defs>
+              <clipPath id="clip0_4292_917">
+                <rect width="14" height="14" fill="currentColor" />
+              </clipPath>
+            </defs>
+          </svg>
+          <svg width="14" height="14" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            style="display: none;">
+            <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+              <g transform="translate(-521.000000, -1894.000000)" fill="rgba(173, 173, 204, 0.6)" fillRule="nonzero">
+                <g transform="translate(92.000000, 1881.000000)">
+                  <g transform="translate(73.000000, 0.000000)">
+                    <g transform="translate(356.000000, 13.000000)">
+                      <path
+                        d="M12.7196056,2.74628263 C13.1629092,3.1975024 13.1629092,3.9274976 12.7196056,4.37871737 L5.96521964,11.2537174 C5.51979678,11.7070942 4.7959927,11.7070942 4.35056983,11.2537174 L1.28039439,8.12871737 C0.837090758,7.6774976 0.837090758,6.9475024 1.28039439,6.49628263 C1.72581726,6.04290579 2.44962134,6.04290579 2.89505044,6.49628898 L5.15754167,8.799875 L11.1049558,2.74628263 C11.5503787,2.29290579 12.2741827,2.29290579 12.7196056,2.74628263 Z">
+                      </path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <a class="address balance" href="http://solscan.io/account/" target="_blank">
+        <img src="/src/public/assets/images/solana.png" alt="">
+        <span class="wallet-info-balance-text"></span>
+      </a>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="sidebar">
+      <a href="/src/public/copy/add.html" class="active">Add New Copy</a>
+      <a href="/src/public/copy/list.html">My Copies</a>
+    </div>
+    <div class="wrapContent">
+      <div class="copy-title">
+        <div class="copy-title-left">Add New Copy</div>
+        <div class="sk-chase">
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+        </div>
+        <a href="https://tradewiz.gitbook.io/tradewiz/copy-trading" target="_blank">
+          <svg t="1750053038553" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="1699" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+            <path
+              d="M469.5 463h-150c-16.6 0-30-13.4-30-30s13.4-30 30-30h150c16.6 0 30 13.4 30 30s-13.4 30-30 30zM700 583H320c-16.6 0-30-13.4-30-30s13.4-30 30-30h380c16.6 0 30 13.4 30 30s-13.4 30-30 30zM700 703H320c-16.6 0-30-13.4-30-30s13.4-30 30-30h380c16.6 0 30 13.4 30 30s-13.4 30-30 30z"
+              fill="currentColor" p-id="1700"></path>
+            <path
+              d="M536.1 173l246.1 246.1c5.6 5.6 8.8 13.3 8.8 21.2V823c0 16.6-13.4 30-30 30H261c-16.6 0-30-13.4-30-30V203c0-16.6 13.4-30 30-30h275.1m24.9-60H231c-33.1 0-60 26.9-60 60v680c0 33.1 26.9 60 60 60h560c33.1 0 60-26.9 60-60V403L561 113z"
+              fill="currentColor" p-id="1701"></path>
+            <path d="M621 257.9l85.1 85.1H621v-85.1M561 113v260c0 16.6 13.4 30 30 30h260L561 113z" fill="currentColor"
+              p-id="1702">
+            </path>
+          </svg>
+          Tutorial
+        </a>
+      </div>
+      <div class="copy-content">
+        <div class="copy-content-item">
+          <div class="fieldsWrapper">
+            <div class="inputRow">
+              <label for="tag">Tag<sup>*</sup></label>
+              <input type="text" id="tag" placeholder="Tag" />
+              <div class="inputWrapperSwitch" style="margin-left: 20px;">
+                <div class="switch-label help" data-tip="Fast React lets you copy trades before they’re confirmed on-chain, giving you a speed edge in<br/>
+                    competitive markets. To maximize speed, the following advanced Copy-Trading options will be<br />
+                    disabled:<br />
+
+                    • Max / Min SOL for target wallet<br />
+                    • Sell proportionally to target wallet No Duplicate Buys from Target Wallet<br />
+                    • LP size & Market-Cap filters (Min LP, Min/Max MC)<br />
+                    • Unrenounced / Unburned status filters">
+                  Turbo
+                  <svg t="1750041993643" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" p-id="4312" xmlns:xlink="http://www.w3.org/1999/xlink" width="16"
+                    height="16">
+                    <path
+                      d="M512 42.666667c260.266667 0 469.333333 209.066667 469.333333 469.333333s-209.066667 469.333333-469.333333 469.333333S42.666667 772.266667 42.666667 512 251.733333 42.666667 512 42.666667z m0 85.333333C300.8 128 128 300.8 128 512s172.8 384 384 384 384-172.8 384-384S723.2 128 512 128z m0 576c29.866667 0 53.333333 23.466667 53.333333 53.333333S541.866667 810.666667 512 810.666667s-53.333333-23.466667-53.333333-53.333334S482.133333 704 512 704z m0-490.666667c91.733333 0 168.533333 72.533333 170.666667 166.4v14.933334c0 40.533333-17.066667 76.8-49.066667 102.4l-4.266667 4.266666-40.533333 29.866667c-19.2 14.933333-32 38.4-34.133333 64V608c0 23.466667-19.2 42.666667-42.666667 42.666667s-40.533333-17.066667-42.666667-40.533334v-10.666666c0-51.2 23.466667-100.266667 64-132.266667l4.266667-4.266667 40.533333-29.866666c10.666667-8.533333 17.066667-21.333333 19.2-34.133334V384c0-46.933333-38.4-85.333333-85.333333-85.333333-44.8 0-83.2 36.266667-85.333333 81.066666v14.933334c0 23.466667-19.2 42.666667-42.666667 42.666666s-40.533333-17.066667-42.666667-40.533333V384c0-93.866667 76.8-170.666667 170.666667-170.666667z"
+                      fill="#fff" p-id="4313"></path>
+                  </svg>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="enableTurbo" checked />
+                  <span class="slider"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="fieldsWrapper">
+            <div class="inputRow">
+              <label for="target">Target Wallet<sup>*</sup></label>
+              <input type="text" id="target" placeholder="Target Wallet" />
+            </div>
+          </div>
+          <div class="fieldsWrapper">
+            <div class="inputRow">
+              <label for="ratio">Buy Percentage<sup>*</sup></label>
+              <div class="inputRow">
+                <div class="inputWrapper full">
+                  <input type="number" placeholder="Buy Percentage" id="ratio" value="100" />
+                  <div class="suffix">%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fieldsWrapper">
+            <div class="inputRow">
+              <label for="lowerLimitOfOneTransaction">Buy Amount</label>
+              <div class="inputRow">
+                <div class="inputWrapper">
+                  <input type="number" placeholder="Min Buy" id="lowerLimitOfOneTransaction" />
+                  <div class="suffix">SOL</div>
+                </div>
+                <span class="wave"> ~ </span>
+                <div class="inputWrapper">
+                  <input type="number" placeholder="Max Buy" id="upperLimitOfOneTransaction" />
+                  <div class="suffix">SOL</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fieldsWrapper">
+            <div class="inputRow">
+              <label for="totalAvailable">Sol Spending Limit</label>
+              <div class="inputRow">
+                <div class="inputWrapper full">
+                  <input type="number" placeholder="Not Limited" id="totalAvailable" />
+                  <div class="suffix">SOL</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fieldsWrapper">
+            <div class="inputRow">
+              <label for="tag" class="multiple" style="padding-top: 0px;">Copy Settings</label>
+              <div class="inputContainer">
+                <div class="inputWrapperSwitch">
+                  <label class="switch">
+                    <input type="checkbox" id="enableMev" />
+                    <span class="slider"></span>
+                  </label>
+                  <div class="switch-label">Anti-MEV</div>
+                </div>
+                <div class="copy-settings">
+                  <div class="copy-settings-content">
+                    <div class="copy-settings-title">
+                      Buy Setting
+                    </div>
+                    <div class="copy-settings-content-item">
+                      <div class="copy-settings-content-item-row">
+                        <span>Slippage</span>
+                        <div class="inputWrapper">
+                          <input type="number" placeholder="e.g. 20" id="slippage" />
+                          <div class="suffix">%</div>
+                        </div>
+                      </div>
+                      <div class="copy-settings-content-item-row">
+                        <span>Pump Slippage</span>
+                        <div class="inputWrapper">
+                          <input type="number" placeholder="e.g. 20" id="pumpfunSlippageTimes" />
+                          <div class="suffix">%</div>
+                        </div>
+                      </div>
+                      <div class="copy-settings-content-item-row">
+                        <span>Prlority Fee</span>
+                        <div class="inputWrapper full">
+                          <input type="number" placeholder="e.g. 0.002" id="priorityFee" />
+                          <div class="suffix">SOL</div>
+                        </div>
+                      </div>
+                      <div class="copy-settings-content-item-row">
+                        <span>Buy Tip</span>
+                        <div class="inputWrapper full">
+                          <input type="number" placeholder="e.g. 0.002" id="jitoFee" />
+                          <div class="suffix">SOL</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="copy-settings-content">
+                    <div class="copy-settings-title">
+                      Sell Setting
+                    </div>
+                    <div class="copy-settings-content-item">
+                      <div class="copy-settings-content-item-row">
+                        <span>Slippage</span>
+                        <div class="inputWrapper">
+                          <input type="number" placeholder="e.g. 20" id="slippageSell" />
+                          <div class="suffix">%</div>
+                        </div>
+                      </div>
+                      <div class="copy-settings-content-item-row">
+                        <span>Pump Slippage</span>
+                        <div class="inputWrapper">
+                          <input type="number" placeholder="e.g. 20" id="slippagePumpSell" />
+                          <div class="suffix">%</div>
+                        </div>
+                      </div>
+                      <div class="copy-settings-content-item-row">
+                        <span>Prlority Fee</span>
+                        <div class="inputWrapper full">
+                          <input type="number" placeholder="e.g. 0.002" id="priorityFeeSell" />
+                          <div class="suffix">SOL</div>
+                        </div>
+                      </div>
+                      <div class="copy-settings-content-item-row">
+                        <span>Sell Tip</span>
+                        <div class="inputWrapper full">
+                          <input type="number" placeholder="e.g. 0.002" id="jitoFeeSell" />
+                          <div class="suffix">SOL</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fieldsWrapper">
+            <div class="inputRow">
+              <label for="autoSell" class="multiple" style="padding-top: 0px;">Take Proht/Stop Loss</label>
+              <div class="inputRow">
+                <div class="inputContainer">
+                  <div class="inputWrapperSwitch">
+                    <label class="switch">
+                      <input type="checkbox" id="autoSell" />
+                      <span class="slider"></span>
+                    </label>
+                  </div>
+                  <div class="copy-settings" style="gap: 0;">
+                    <div class="tp-title">
+                      <div>
+                        TP/SL (%)
+                      </div>
+                      <div>
+                        Trigger%
+                      </div>
+                      <div>
+                        Amount (%)
+                      </div>
+                    </div>
+                    <div class="fieldsWrapper tpsl-wrapper" style="flex-direction: column;">
+                    </div>
+                    <div class="addTPSL">
+                      <img src="/src/public/assets/images/add.png" alt="">
+                      Add TP/SL
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fieldsWrapper">
+            <div class="inputRow">
+              <label for="trailingStopBps" style="padding-top: 0px;">Trailing Stop</label>
+              <div class="inputRow">
+                <div class="inputContainer">
+                  <div class="inputWrapperSwitch">
+                    <label class="switch">
+                      <input type="checkbox" id="enableTrailingStop" />
+                      <span class="slider"></span>
+                    </label>
+                  </div>
+                  <div class="inputWrapper full">
+                    <input type="number" placeholder="Trailing Stop" id="trailingStopBps" />
+                    <div class="suffix">%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fieldsWrapper">
+            <div class="inputRow">
+              <label for="copySell">Copy Sells</label>
+              <div class="inputRow">
+                <div class="inputWrapperSwitch">
+                  <label class="switch">
+                    <input type="checkbox" id="copySell" checked />
+                    <span class="slider"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copy-content-item">
+          <div class="copy-content-item-title">
+            <img src="/src/public/assets/images/fence.png" alt="">
+            Advanced Settings
+            <div class="copy-content-item-title-right">
+              <img src="/src/public/assets/images/arrow-white.png" alt="">
+            </div>
+          </div>
+          <div class="copy-content-item-content toggle">
+            <div class="copy-content-item-content-item">
+              <div class="fieldsWrapper turbo-wrapper">
+                <div class="inputRow">
+                  <label for="unrenounced" class="full">Unrenounced</label>
+                  <div class="inputRow">
+                    <div class="inputWrapperSwitch">
+                      <label class="switch">
+                        <input type="checkbox" id="unrenounced" checked />
+                        <span class="slider"></span>
+                      </label>
+                      <div class="switch-label unrenounced-label">Buy</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper turbo-wrapper">
+                <div class="inputRow">
+                  <label for="unburned" class="full">Unburned</label>
+                  <div class="inputRow">
+                    <div class="inputWrapperSwitch">
+                      <label class="switch">
+                        <input type="checkbox" id="unburned" checked />
+                        <span class="slider"></span>
+                      </label>
+                      <div class="switch-label unburned-label">Buy</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper">
+                <div class="inputRow">
+                  <label for="Platforms" class="full">Platforms</label>
+                  <div class="inputWrapperSwitch">
+                    <label class="custom-checkbox">
+                      <input type="checkbox" name="platforms" value="pumpfun" checked>
+                      <span class="checkmark"></span>
+                      <span>PumpFun</span>
+                    </label>
+                    <label class="custom-checkbox">
+                      <input type="checkbox" name="platforms" value="raydium" checked>
+                      <span class="checkmark"></span>
+                      <span>Raydium</span>
+                    </label>
+
+                    <label class="custom-checkbox">
+                      <input type="checkbox" name="platforms" value="moonshot" checked>
+                      <span class="checkmark"></span>
+                      <span>Moonshot</span>
+                    </label>
+                    <label class="custom-checkbox">
+                      <input type="checkbox" name="platforms" value="meteora" checked>
+                      <span class="checkmark"></span>
+                      <span>Meteora</span>
+                    </label>
+                    <label class="custom-checkbox">
+                      <input type="checkbox" name="platforms" value="pumpswap" checked>
+                      <span class="checkmark"></span>
+                      <span>PumpSwap</span>
+                    </label>
+                    <label class="custom-checkbox">
+                      <input type="checkbox" name="platforms" value="jupiter" checked>
+                      <span class="checkmark"></span>
+                      <span>Jupiter Aggregator</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper">
+                <div class="inputRow">
+                  <label for="firstSellPercent" class="full">First Sell Copy Percentage</label>
+                  <div class="inputRow">
+                    <div class="inputWrapper full">
+                      <input type="number" placeholder="e.g. 20" id="firstSellPercent" />
+                      <div class="suffix">%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper">
+                <div class="inputRow">
+                  <label for="retryTimes" class="full">Auto retry</label>
+                  <div class="inputRow">
+                    <div class="inputWrapper">
+                      <select id="retryTimes" value="1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                      <div class="suffix">
+                        <img src="/src/public/assets/images/arrow.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper">
+                <div class="inputRow">
+                  <label for="buyTimes" class="full">Buy Limit per token</label>
+                  <div class="inputRow">
+                    <div class="inputWrapper full">
+                      <input type="number" placeholder="e.g. 1 2 3" id="buyTimes" />
+                      <div class="suffix">
+                        times
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper turbo-wrapper">
+                <div class="inputRow">
+                  <label for="sellByPositionProportion" class="full">Sell Propority to Target Wallet</label>
+                  <div class="inputRow">
+                    <div class="inputWrapperSwitch">
+                      <label class="switch">
+                        <input type="checkbox" id="sellByPositionProportion" />
+                        <span class="slider"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper turbo-wrapper">
+                <div class="inputRow">
+                  <label for="minMc" class="full">Maketcap</label>
+                  <div class="inputRow">
+                    <div class="inputWrapper">
+                      <input type="number" placeholder="Min Mc" id="minMc" />
+                      <div class="suffix">$</div>
+                    </div>
+                    <span class="wave"> ~ </span>
+                    <div class="inputWrapper">
+                      <input type="number" placeholder="Max Mc" id="maxMc" />
+                      <div class="suffix">$</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper">
+                <div class="inputRow">
+                  <label for="buyTimesResetAfterSold" class="full">Buy times reset after sold</label>
+                  <div class="inputRow">
+                    <div class="inputWrapperSwitch">
+                      <label class="switch">
+                        <input type="checkbox" id="buyTimesResetAfterSold" />
+                        <span class="slider"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrappe turbo-wrapper">
+                <div class="inputRow">
+                  <label for="tag" class="full">Sol for Target Wallet</label>
+                  <div class="inputRow">
+                    <div class="inputWrapper">
+                      <input type="number" placeholder="Min Sol Buy" id="targetSolMinBuy" />
+                      <div class="suffix">SOL</div>
+                    </div>
+                    <span class="wave"> ~ </span>
+                    <div class="inputWrapper">
+                      <input type="number" placeholder="Max Sol Buy" id="targetSolMaxBuy" />
+                      <div class="suffix">SOL</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper turbo-wrapper">
+                <div class="inputRow">
+                  <label for="notCopyPositionAddition" class="full">No Duplicate Buys from Target Wallet</label>
+                  <div class="inputRow">
+                    <div class="inputWrapperSwitch">
+                      <label class="switch">
+                        <input type="checkbox" id="notCopyPositionAddition" />
+                        <span class="slider"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper">
+                <div class="inputRow">
+                  <label for="notifyNoHolding" class="full">No Alert if No Positions</label>
+                  <div class="inputRow">
+                    <div class="inputWrapperSwitch">
+                      <label class="switch">
+                        <input type="checkbox" id="notifyNoHolding" />
+                        <span class="slider"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper turbo-wrapper">
+                <div class="inputRow">
+                  <label for="minLp" class="full">Min LP</label>
+                  <div class="inputRow">
+                    <div class="inputWrapper full">
+                      <input type="number" placeholder="Not Limited" id="minLp" />
+                      <div class="suffix">$</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper">
+                <div class="inputRow">
+                  <label for="tag" class="full">Token Age</label>
+                  <div class="inputRow">
+                    <div class="inputWrapper">
+                      <input type="number" placeholder="Min Age" id="minTokenAge" />
+                      <div class="suffix">m</div>
+                    </div>
+                    <span class="wave"> ~ </span>
+                    <div class="inputWrapper">
+                      <input type="number" placeholder="Max Age" id="maxTokenAge" />
+                      <div class="suffix">m</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fieldsWrapper">
+                <div class="inputRow">
+                  <label for="onlySell" class="full">Sell only</label>
+                  <div class="inputRow">
+                    <div class="inputWrapperSwitch">
+                      <label class="switch">
+                        <input type="checkbox" id="onlySell" />
+                        <span class="slider"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="action_buttons">
+        <button type="button" style="display: none;"></button>
+        <button type="button" class="createCopyBtn" data-active="true">
+          Create Copy
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="/src/public/scripts/copy/add.js"></script>
+  <script src="/src/lib/self-execution.js"></script>
+</body>
+
+</html>

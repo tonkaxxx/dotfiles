@@ -1,0 +1,5 @@
+{
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "python.defaultInterpreterPath": "/bin/python",
+    "extensions.ignoreRecommendations": true
+}

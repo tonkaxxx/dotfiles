@@ -1,0 +1,125 @@
+2025-11-14 20:15:55.614 [info] [main] Log level: Info
+2025-11-14 20:15:55.614 [info] [main] Validating found git in: "git"
+2025-11-14 20:15:55.614 [info] [main] Using git "2.51.2" from "git"
+2025-11-14 20:15:55.614 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-14 20:15:55.614 [info] > git rev-parse --show-toplevel [19ms]
+2025-11-14 20:15:55.614 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-14 20:15:55.614 [info] > git rev-parse --show-toplevel [39ms]
+2025-11-14 20:15:55.682 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [61ms]
+2025-11-14 20:15:55.706 [info] [Model][openRepository] Opened repository (path): /home/user/repos/weather_predictor
+2025-11-14 20:15:55.706 [info] [Model][openRepository] Opened repository (real path): /home/user/repos/weather_predictor
+2025-11-14 20:15:55.706 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-14 20:15:55.898 [info] > git config --get commit.template [134ms]
+2025-11-14 20:15:56.278 [info] > git rev-parse --show-toplevel [292ms]
+2025-11-14 20:15:56.278 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-14 20:15:56.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [424ms]
+2025-11-14 20:15:56.819 [info] > git status -z -uall [113ms]
+2025-11-14 20:15:56.819 [info] > git check-ignore -v -z --stdin [97ms]
+2025-11-14 20:15:56.820 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [107ms]
+2025-11-14 20:15:56.844 [info] > git rev-parse --show-toplevel [148ms]
+2025-11-14 20:15:56.844 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-14 20:15:57.194 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [352ms]
+2025-11-14 20:15:57.208 [info] > git config --get --local branch.main.vscode-merge-base [5ms]
+2025-11-14 20:15:57.208 [warning] [Git][config] git config failed: Failed to execute git
+2025-11-14 20:15:57.219 [info] > git rev-parse --show-toplevel [27ms]
+2025-11-14 20:15:57.219 [info] > git config --get commit.template [34ms]
+2025-11-14 20:15:57.242 [info] > git reflog main --grep-reflog=branch: Created from *. [24ms]
+2025-11-14 20:15:57.249 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [19ms]
+2025-11-14 20:15:57.254 [info] [Model][openRepository] Opened repository (path): /home/user/repos/my_test
+2025-11-14 20:15:57.254 [info] [Model][openRepository] Opened repository (real path): /home/user/repos/my_test
+2025-11-14 20:15:57.254 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-14 20:15:57.275 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to main [26ms]
+2025-11-14 20:15:57.286 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [46ms]
+2025-11-14 20:15:57.311 [info] > git status -z -uall [15ms]
+2025-11-14 20:15:57.311 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-14 20:15:57.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [29ms]
+2025-11-14 20:15:57.324 [info] > git rev-parse --show-toplevel [50ms]
+2025-11-14 20:15:57.324 [info] > git config --get commit.template [61ms]
+2025-11-14 20:15:57.344 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [21ms]
+2025-11-14 20:15:57.344 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-11-14 20:15:57.344 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-11-14 20:15:57.360 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [17ms]
+2025-11-14 20:15:57.373 [info] [Model][openRepository] Opened repository (path): /home/user/repos/test_repository
+2025-11-14 20:15:57.373 [info] [Model][openRepository] Opened repository (real path): /home/user/repos/test_repository
+2025-11-14 20:15:57.373 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-14 20:15:57.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [223ms]
+2025-11-14 20:15:57.610 [info] > git status -z -uall [19ms]
+2025-11-14 20:15:57.611 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-11-14 20:15:57.635 [info] > git rev-parse --show-toplevel [237ms]
+2025-11-14 20:15:57.635 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-14 20:15:57.635 [info] > git config --get commit.template [248ms]
+2025-11-14 20:15:57.698 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [65ms]
+2025-11-14 20:15:57.953 [info] > git rev-parse --show-toplevel [270ms]
+2025-11-14 20:15:57.953 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-14 20:15:57.954 [info] > git config --get commit.template [287ms]
+2025-11-14 20:15:58.183 [info] > git config --get --local branch.main.vscode-merge-base [472ms]
+2025-11-14 20:15:58.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [471ms]
+2025-11-14 20:15:58.241 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/repos/test_repository/.git/refs/remotes/origin/main'
+2025-11-14 20:15:58.243 [info] > git check-ignore -v -z --stdin [38ms]
+2025-11-14 20:15:58.243 [info] > git check-ignore -v -z --stdin [30ms]
+2025-11-14 20:15:58.243 [info] > git check-ignore -v -z --stdin [20ms]
+2025-11-14 20:15:58.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [52ms]
+2025-11-14 20:15:58.245 [info] > git rev-parse --show-toplevel [143ms]
+2025-11-14 20:15:58.316 [info] > git rev-parse refs/remotes/origin/main [75ms]
+2025-11-14 20:15:58.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [101ms]
+2025-11-14 20:15:58.355 [info] > git status -z -uall [31ms]
+2025-11-14 20:15:58.355 [info] > git status -z -uall [13ms]
+2025-11-14 20:15:58.355 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [22ms]
+2025-11-14 20:15:58.371 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [56ms]
+2025-11-14 20:15:58.376 [info] [Model][openRepository] Opened repository (path): /home/user/repos/xss-shop
+2025-11-14 20:15:58.376 [info] [Model][openRepository] Opened repository (real path): /home/user/repos/xss-shop
+2025-11-14 20:15:58.376 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-14 20:15:58.379 [info] [Model][doInitialScan] Initial repository scan completed - repositories (4), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-14 20:15:58.468 [info] > git show --textconv :main.py [75ms]
+2025-11-14 20:15:58.469 [info] > git ls-files --stage -- main.py [66ms]
+2025-11-14 20:15:58.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [113ms]
+2025-11-14 20:15:58.495 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [143ms]
+2025-11-14 20:15:58.510 [info] > git config --get --local branch.main.vscode-merge-base [15ms]
+2025-11-14 20:15:58.519 [info] > git cat-file -s 646f542997518dc883ede2491b884a47f33d5b65 [38ms]
+2025-11-14 20:15:58.519 [info] > git rev-parse --show-toplevel [76ms]
+2025-11-14 20:15:58.519 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-14 20:15:58.520 [info] > git config --get commit.template [90ms]
+2025-11-14 20:15:58.520 [info] > git config --get commit.template [103ms]
+2025-11-14 20:15:58.528 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [9ms]
+2025-11-14 20:15:58.727 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [173ms]
+2025-11-14 20:15:58.727 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [181ms]
+2025-11-14 20:15:58.727 [info] > git merge-base refs/heads/main refs/remotes/origin/main [190ms]
+2025-11-14 20:15:58.748 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/repos/xss-shop/.git/refs/remotes/origin/master'
+2025-11-14 20:15:58.756 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/repos/test_repository/.git/refs/remotes/origin/main'
+2025-11-14 20:15:58.758 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% c5711b66ad5e152a05fb6fbbd78abe531e7248e2...refs/remotes/origin/main -- [21ms]
+2025-11-14 20:15:58.760 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-11-14 20:15:58.780 [info] > git rev-parse refs/remotes/origin/master [32ms]
+2025-11-14 20:15:58.807 [info] > git status -z -uall [38ms]
+2025-11-14 20:15:58.807 [info] > git status -z -uall [12ms]
+2025-11-14 20:15:58.807 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-14 20:15:58.827 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [47ms]
+2025-11-14 20:15:58.925 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [102ms]
+2025-11-14 20:15:58.950 [info] > git config --get --local branch.master.vscode-merge-base [16ms]
+2025-11-14 20:15:58.960 [info] > git config --get commit.template [105ms]
+2025-11-14 20:15:58.972 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [13ms]
+2025-11-14 20:15:58.993 [info] > git merge-base refs/heads/master refs/remotes/origin/master [12ms]
+2025-11-14 20:15:59.007 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-11-14 20:15:59.007 [info] > git blame --root --incremental 3029ad9b7f26781cd9b9919f8e0d4ce30ab39b58 -- main.py [36ms]
+2025-11-14 20:15:59.071 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/repos/xss-shop/.git/refs/remotes/origin/master'
+2025-11-14 20:15:59.073 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 9d8d421c8527678bba71e07749d36202b94cac0f...refs/remotes/origin/master -- [68ms]
+2025-11-14 20:15:59.075 [info] > git check-ignore -v -z --stdin [45ms]
+2025-11-14 20:15:59.076 [info] > git check-ignore -v -z --stdin [36ms]
+2025-11-14 20:15:59.076 [info] > git check-ignore -v -z --stdin [26ms]
+2025-11-14 20:15:59.076 [info] > git check-ignore -v -z --stdin [17ms]
+2025-11-14 20:15:59.077 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2025-11-14 20:15:59.102 [info] > git status -z -uall [15ms]
+2025-11-14 20:15:59.104 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-14 20:19:15.125 [info] > git show --textconv :back/assistant/assistant.py [12ms]
+2025-11-14 20:19:15.126 [info] > git ls-files --stage -- back/assistant/assistant.py [3ms]
+2025-11-14 20:19:15.137 [info] > git cat-file -s c8decb87b265d3746d83ae7a499d5b4566f9de46 [2ms]
+2025-11-14 20:19:15.176 [info] > git blame --root --incremental 3029ad9b7f26781cd9b9919f8e0d4ce30ab39b58 -- back/assistant/assistant.py [7ms]
+2025-11-14 20:19:31.923 [info] > git config --get commit.template [8ms]
+2025-11-14 20:19:31.924 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-11-14 20:19:31.940 [info] > git status -z -uall [9ms]
+2025-11-14 20:19:31.941 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]

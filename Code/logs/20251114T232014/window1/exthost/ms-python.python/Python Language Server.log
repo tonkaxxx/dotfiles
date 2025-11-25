@@ -1,0 +1,30 @@
+2025-11-14 23:20:25.771 [info] (Client) Pylance client (2025.9.1) started with python extension (2025.18.0)
+2025-11-14 23:20:26.522 [info] (105034) Server root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-14 23:20:26.522 [info] (105034) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-11-14 23:20:26.528 [info] (105034) Starting service instance "repos" for workspace "/home/user/repos"
+2025-11-14 23:20:26.589 [info] (105034) Starting Mcp server id:3814 ...
+2025-11-14 23:20:26.623 [info] (105034) Setting environmentName for service "repos": "Python 3.13.7"
+2025-11-14 23:20:26.623 [info] (105034) Setting pythonPath for service "repos": "/bin/python"
+2025-11-14 23:20:26.623 [info] (105034) No include entries specified; assuming /home/user/repos
+2025-11-14 23:20:26.624 [info] (105034) Auto-excluding **/node_modules
+2025-11-14 23:20:26.624 [info] (105034) Auto-excluding **/__pycache__
+2025-11-14 23:20:26.624 [info] (105034) Auto-excluding **/.*
+2025-11-14 23:20:26.650 [info] (105034) Assuming Python version 3.13.7.final.0
+2025-11-14 23:20:26.753 [info] (105034) Settings have not changed. Skipping update.
+2025-11-14 23:20:26.774 [info] (105034) Found 19 source files
+2025-11-14 23:20:26.800 [info] (105034) Settings have not changed. Skipping update.
+2025-11-14 23:20:26.802 [info] (105034) Settings have not changed. Skipping update.
+2025-11-14 23:20:27.596 [info] (105034) BG: Priority queue background worker(2) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-14 23:20:27.597 [info] (105034) BG: Priority queue background worker(2) started
+2025-11-14 23:20:28.023 [info] (105034) BG: Indexer background runner(3) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-11-14 23:20:28.023 [info] (105034) BG: Indexing(3) started
+2025-11-14 23:20:28.900 [info] (105034) BG: scanned(3) 302 files over 1 exec env
+2025-11-14 23:20:29.369 [info] (105034) BG: indexed(3) 302 files over 1 exec env
+2025-11-14 23:20:29.614 [info] (105034) BG: Indexing finished(3).
+2025-11-14 23:20:29.964 [info] (105034) BG: [BG(1)] Long operation: SemanticTokens range 242:0 - 341:51 at file:///home/user/repos/weather_predictor/main.py (2185ms)
+2025-11-14 23:48:14.767 [info] (105034) [FG] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (10798ms)
+2025-11-14 23:48:14.771 [info] (105034) [FG] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (10941ms)
+2025-11-14 23:48:14.810 [info] (105034) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (11579ms)
+2025-11-14 23:48:14.810 [info] (105034) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (11684ms)
+2025-11-14 23:48:14.810 [info] (105034) BG: [BG(1)] Long operation: checking: file:///home/user/repos/weather_predictor/back/assistant/assistant.py (11786ms)
+2025-11-14 23:48:14.810 [info] (105034) BG: [BG(1)] Long operation: analyzing: file:///home/user/repos/weather_predictor/back/assistant/assistant.py (11794ms)
