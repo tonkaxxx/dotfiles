@@ -1,0 +1,40 @@
+2025-12-07 13:00:27.753 [info] Native locator: Refresh started
+2025-12-07 13:00:28.185 [info] > pyenv which python
+2025-12-07 13:00:28.185 [info] cwd: .
+2025-12-07 13:00:29.270 [info] Active interpreter [/home/user/repos/homelab]:  /bin/python
+2025-12-07 13:00:29.275 [info] Native locator: Refresh finished in 1523 ms
+2025-12-07 13:00:29.957 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab
+2025-12-07 13:00:32.049 [info] Starting Pylance language server.
+2025-12-07 13:01:17.751 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:01:18.226 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:01:18.532 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:01:28.542 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:05:01.303 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:05:01.566 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:05:02.055 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:07:07.060 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:07:51.137 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:08:10.469 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:12:40.301 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:13:38.817 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:15:45.186 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:18:57.242 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:19:54.227 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:21:17.333 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:21:22.298 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:22:07.355 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:22:31.319 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:24:31.550 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:24:32.551 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:25:22.866 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:26:14.302 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:26:23.497 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:26:23.965 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:26:31.570 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:26:38.319 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:27:42.536 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:27:43.419 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:27:58.904 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:28:10.638 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:29:43.737 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-07 13:30:34.825 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py

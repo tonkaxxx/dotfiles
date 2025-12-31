@@ -1,0 +1,35 @@
+2025-12-04 23:28:33.523 [info] Native locator: Refresh started
+2025-12-04 23:28:33.523 [info] Native locator: Refresh started
+2025-12-04 23:28:34.275 [info] Native locator: Refresh finished in 754 ms
+2025-12-04 23:28:34.283 [info] > pyenv which python
+2025-12-04 23:28:34.283 [info] cwd: .
+2025-12-04 23:28:34.297 [info] Active interpreter [/home/user/repos/homelab]:  /bin/python
+2025-12-04 23:28:36.417 [info] Starting Pylance language server.
+2025-12-04 23:29:48.454 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/tg_bots/lenses_bot.py
+2025-12-04 23:29:49.016 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/tg_bots/7logpere.py
+2025-12-04 23:29:49.556 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/tg_bots/3remem_bot.py
+2025-12-04 23:34:44.951 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  displayName: 'Python 3.13.7',
+  detailedDisplayName: 'Python 3.13.7',
+  envType: 'System',
+  envPath: '/usr',
+  type: undefined,
+  path: '/bin/python',
+  version: {
+    raw: '3.13.7.final.0',
+    major: 3,
+    minor: 13,
+    patch: 7,
+    build: [],
+    prerelease: []
+  },
+  sysVersion: '3.13.7.final.0',
+  architecture: 3,
+  sysPrefix: '/usr'
+} /home/user/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/installed_check.py /home/user/repos/homelab/lenses/app/requirements.txt
+2025-12-04 23:34:44.951 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/installed_check.py ./lenses/app/requirements.txt
+2025-12-04 23:41:48.706 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/status_collector/main.py
+2025-12-04 23:44:05.979 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/tg_bots/7logpere.py
+2025-12-04 23:44:11.260 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/tg_bots/3remem_bot.py
+2025-12-04 23:45:52.810 [info] Discover tests for workspace name: homelab - uri: /home/user/repos/homelab/tg_bots/3remem_bot.py

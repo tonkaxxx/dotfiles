@@ -1,0 +1,39 @@
+2025-12-05 15:24:40.879 [info] Extension host with pid 7314 started
+2025-12-05 15:24:40.879 [info] Skipping acquiring lock for /home/user/.config/Code/User/workspaceStorage/18b71cc5ef703c6e486b557e4b31e4ed.
+2025-12-05 15:24:41.210 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-05 15:24:41.261 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-05 15:24:41.291 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-12-05 15:24:42.560 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-12-05 15:24:42.780 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-12-05 15:24:43.264 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-12-05 15:24:43.512 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-05 15:24:43.546 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-12-05 15:24:43.671 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-12-05 15:24:43.792 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-05 15:24:43.845 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-05 15:24:44.014 [info] Eager extensions activated
+2025-12-05 15:24:44.015 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-12-05 15:24:44.092 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-05 15:24:44.094 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-05 15:24:47.420 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-12-05 15:24:47.437 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-12-05 15:24:47.471 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-12-05 15:24:50.746 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-12-05 15:24:50.748 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-12-05 15:24:54.241 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at QKt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:511:6057)
+2025-12-05 15:24:56.252 [error] Error: Failed to get copilot token
+	at FG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async vj.updateCachedToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:1914:35986)
+2025-12-05 15:29:55.529 [error] Error: net::ERR_NETWORK_CHANGED
+	at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10610)
+	at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2025-12-05 20:39:56.997 [error] Error: net::ERR_NETWORK_CHANGED
+	at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10610)
+	at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2025-12-05 21:59:55.823 [error] Error: net::ERR_NETWORK_CHANGED
+	at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10610)
+	at SimpleURLLoaderWrapper.emit (node:events:519:28)

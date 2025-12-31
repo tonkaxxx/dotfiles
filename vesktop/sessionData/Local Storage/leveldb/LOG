@@ -1,0 +1,49 @@
+2025/12/29-13:50:23.821 19a6c Reusing MANIFEST /home/user/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/12/29-13:50:23.828 19a6c Recovering log #411
+2025/12/29-13:50:23.830 19a6c Level-0 table #415: started
+2025/12/29-13:50:23.832 19a6c Level-0 table #415: 33819 bytes OK
+2025/12/29-13:50:23.832 19a6c Delete type=0 #411
+2025/12/29-13:53:24.247 19a6c Level-0 table #418: started
+2025/12/29-13:53:24.248 19a6c Level-0 table #418: 47118 bytes OK
+2025/12/29-13:53:24.249 19a6c Delete type=0 #416
+2025/12/29-13:55:24.248 19a6c Level-0 table #420: started
+2025/12/29-13:55:24.249 19a6c Level-0 table #420: 60614 bytes OK
+2025/12/29-13:55:24.250 19a6c Delete type=0 #417
+2025/12/29-14:00:24.247 19a6c Level-0 table #422: started
+2025/12/29-14:00:24.248 19a6c Level-0 table #422: 41161 bytes OK
+2025/12/29-14:00:24.249 19a6c Delete type=0 #419
+2025/12/29-14:00:24.249 19a6c Compacting 4@0 + 1@1 files
+2025/12/29-14:00:24.251 19a6c Generated table #423@0: 37 keys, 61483 bytes
+2025/12/29-14:00:24.251 19a6c Compacted 4@0 + 1@1 files => 61483 bytes
+2025/12/29-14:00:24.252 19a6c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/29-14:00:24.252 19a6c Delete type=2 #413
+2025/12/29-14:00:24.252 19a6c Delete type=2 #420
+2025/12/29-14:00:24.252 19a6c Delete type=2 #422
+2025/12/29-14:00:24.252 19a6c Delete type=2 #418
+2025/12/29-14:00:24.252 19a6c Delete type=2 #415
+2025/12/29-14:02:24.248 19a6c Level-0 table #425: started
+2025/12/29-14:02:24.249 19a6c Level-0 table #425: 44326 bytes OK
+2025/12/29-14:02:24.250 19a6c Delete type=0 #421
+2025/12/29-14:05:24.247 19a6c Level-0 table #427: started
+2025/12/29-14:05:24.248 19a6c Level-0 table #427: 42111 bytes OK
+2025/12/29-14:05:24.248 19a6c Delete type=0 #424
+2025/12/29-14:08:24.247 19a6c Level-0 table #429: started
+2025/12/29-14:08:24.248 19a6c Level-0 table #429: 28822 bytes OK
+2025/12/29-14:08:24.249 19a6c Delete type=0 #426
+2025/12/29-14:11:24.248 19a6c Level-0 table #431: started
+2025/12/29-14:11:24.249 19a6c Level-0 table #431: 25997 bytes OK
+2025/12/29-14:11:24.249 19a6c Delete type=0 #428
+2025/12/29-14:11:24.250 19a6c Compacting 4@0 + 1@1 files
+2025/12/29-14:11:24.254 19a6c Generated table #432@0: 39 keys, 63013 bytes
+2025/12/29-14:11:24.254 19a6c Compacted 4@0 + 1@1 files => 63013 bytes
+2025/12/29-14:11:24.254 19a6c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/29-14:11:24.254 19a6c Delete type=2 #427
+2025/12/29-14:11:24.254 19a6c Delete type=2 #431
+2025/12/29-14:11:24.254 19a6c Delete type=2 #429
+2025/12/29-14:11:24.254 19a6c Delete type=2 #423
+2025/12/29-14:11:24.254 19a6c Delete type=2 #425
+2025/12/29-14:17:24.248 19a6c Level-0 table #434: started
+2025/12/29-14:17:24.249 19a6c Level-0 table #434: 52835 bytes OK
+2025/12/29-14:17:24.250 19a6c Delete type=0 #430
+2025/12/29-14:20:20.581 19a6c Level-0 table #436: started
+2025/12/29-14:20:20.583 19a6c Level-0 table #436: 48021 bytes OK

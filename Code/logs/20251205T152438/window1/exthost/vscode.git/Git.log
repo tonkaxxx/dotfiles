@@ -1,0 +1,38 @@
+2025-12-05 15:24:44.141 [info] [main] Log level: Info
+2025-12-05 15:24:44.141 [info] [main] Validating found git in: "git"
+2025-12-05 15:24:44.141 [info] [main] Using git "2.52.0" from "git"
+2025-12-05 15:24:44.141 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-05 15:24:44.141 [info] > git rev-parse --show-toplevel [14ms]
+2025-12-05 15:24:44.141 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [87ms]
+2025-12-05 15:24:44.141 [info] [Model][openRepository] Opened repository (path): /home/user/repos/homelab
+2025-12-05 15:24:44.141 [info] [Model][openRepository] Opened repository (real path): /home/user/repos/homelab
+2025-12-05 15:24:44.141 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-05 15:24:44.205 [info] > git rev-parse --show-toplevel [53ms]
+2025-12-05 15:24:44.206 [info] > git config --get commit.template [59ms]
+2025-12-05 15:24:44.243 [info] > git rev-parse --show-toplevel [16ms]
+2025-12-05 15:24:44.262 [info] > git rev-parse --show-toplevel [8ms]
+2025-12-05 15:24:44.262 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2025-12-05 15:24:44.277 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-05 15:24:44.303 [info] > git status -z -uall [7ms]
+2025-12-05 15:24:44.303 [info] > git rev-parse --show-toplevel [17ms]
+2025-12-05 15:24:44.309 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-12-05 15:24:44.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-12-05 15:24:44.345 [info] > git rev-parse --show-toplevel [37ms]
+2025-12-05 15:24:44.347 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-05 15:24:44.361 [info] > git config --get --local branch.main.vscode-merge-base [16ms]
+2025-12-05 15:24:44.367 [info] > git config --get commit.template [28ms]
+2025-12-05 15:24:44.368 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-12-05 15:24:44.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-05 15:24:44.382 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2025-12-05 15:24:44.390 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% d90a58a347dd02839f4741fccdcfc550246cc374...refs/remotes/origin/main -- [3ms]
+2025-12-05 15:24:44.407 [info] > git status -z -uall [6ms]
+2025-12-05 15:24:44.428 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2025-12-05 15:24:44.534 [info] > git show --textconv :tg_bots/3remem_bot.py [12ms]
+2025-12-05 15:24:44.541 [info] > git ls-files --stage -- tg_bots/3remem_bot.py [7ms]
+2025-12-05 15:24:44.549 [info] > git cat-file -s 1cdc0cf7a2d298421e996b787c40cfe788f545d6 [2ms]
+2025-12-05 15:24:44.602 [info] > git blame --root --incremental d90a58a347dd02839f4741fccdcfc550246cc374 -- tg_bots/3remem_bot.py [8ms]
+2025-12-05 15:24:44.702 [info] > git check-ignore -v -z --stdin [4ms]
+2025-12-05 15:24:52.165 [info] > git show --textconv :status_collector/main.py [7ms]
+2025-12-05 15:24:52.166 [info] > git ls-files --stage -- status_collector/main.py [2ms]
+2025-12-05 15:24:52.173 [info] > git cat-file -s 917615ff7c504d423473d48b2512c04f9a41972a [2ms]
+2025-12-05 15:24:52.187 [info] > git blame --root --incremental d90a58a347dd02839f4741fccdcfc550246cc374 -- status_collector/main.py [2ms]

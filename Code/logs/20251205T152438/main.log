@@ -1,0 +1,26 @@
+2025-12-05 15:24:38.574 [info] update#setState idle
+2025-12-05 15:25:08.581 [info] update#setState checking for updates
+2025-12-05 15:25:08.706 [info] update#setState idle
+2025-12-05 16:25:08.585 [info] update#setState checking for updates
+2025-12-05 16:25:08.827 [info] update#setState idle
+2025-12-05 17:25:08.586 [info] update#setState checking for updates
+2025-12-05 17:25:08.831 [info] update#setState idle
+2025-12-05 18:25:08.587 [info] update#setState checking for updates
+2025-12-05 18:25:08.848 [info] update#setState idle
+2025-12-05 19:25:08.589 [info] update#setState checking for updates
+2025-12-05 19:25:08.824 [info] update#setState idle
+2025-12-05 20:25:08.589 [info] update#setState checking for updates
+2025-12-05 20:25:08.926 [info] update#setState idle
+2025-12-05 21:25:08.590 [info] update#setState checking for updates
+2025-12-05 21:25:08.830 [info] update#setState idle
+2025-12-05 22:25:08.593 [info] update#setState checking for updates
+2025-12-05 22:25:08.839 [info] update#setState idle
+2025-12-05 23:25:08.595 [info] update#setState checking for updates
+2025-12-05 23:25:08.791 [info] update#setState idle
+2025-12-06 00:25:08.597 [info] update#setState checking for updates
+2025-12-06 00:25:08.885 [info] update#setState idle
+2025-12-06 01:25:08.598 [info] update#setState checking for updates
+2025-12-06 01:25:08.840 [info] update#setState idle
+2025-12-06 02:25:08.598 [info] update#setState checking for updates
+2025-12-06 02:25:08.859 [info] update#setState idle
+2025-12-06 02:41:39.917 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)

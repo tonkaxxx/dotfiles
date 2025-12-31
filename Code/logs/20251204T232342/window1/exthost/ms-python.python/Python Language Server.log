@@ -1,0 +1,24 @@
+2025-12-04 23:23:52.337 [info] (Client) Pylance client (2025.10.2) started with python extension (2025.18.0)
+2025-12-04 23:23:53.581 [info] (161625) Server root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.2/dist
+2025-12-04 23:23:53.582 [info] (161625) Pylance language server 2025.10.2 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-12-04 23:23:53.590 [info] (161625) Starting service instance "weather_predictor" for workspace "/home/user/repos/weather_predictor"
+2025-12-04 23:23:53.680 [info] (161625) Starting Mcp server id:4710 ...
+2025-12-04 23:23:53.725 [info] (161625) Setting environmentName for service "weather_predictor": "Python 3.13.7"
+2025-12-04 23:23:53.725 [info] (161625) Setting pythonPath for service "weather_predictor": "/bin/python"
+2025-12-04 23:23:53.725 [info] (161625) No include entries specified; assuming /home/user/repos/weather_predictor
+2025-12-04 23:23:53.726 [info] (161625) Auto-excluding **/node_modules
+2025-12-04 23:23:53.727 [info] (161625) Auto-excluding **/__pycache__
+2025-12-04 23:23:53.727 [info] (161625) Auto-excluding **/.*
+2025-12-04 23:23:53.805 [info] (161625) Assuming Python version 3.13.7.final.0
+2025-12-04 23:23:53.945 [info] (161625) Found 5 source files
+2025-12-04 23:23:53.977 [info] (161625) Settings have not changed. Skipping update.
+2025-12-04 23:23:53.998 [info] (161625) Settings have not changed. Skipping update.
+2025-12-04 23:23:54.007 [info] (161625) Settings have not changed. Skipping update.
+2025-12-04 23:23:54.987 [info] (161625) BG: Priority queue background worker(2) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.2/dist
+2025-12-04 23:23:54.989 [info] (161625) BG: Priority queue background worker(2) started
+2025-12-04 23:23:55.351 [info] (161625) BG: Indexer background runner(3) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.2/dist (index)
+2025-12-04 23:23:55.351 [info] (161625) BG: Indexing(3) started
+2025-12-04 23:23:56.844 [info] (161625) BG: scanned(3) 308 files over 1 exec env
+2025-12-04 23:23:57.664 [info] (161625) BG: indexed(3) 308 files over 1 exec env
+2025-12-04 23:23:57.919 [info] (161625) BG: Indexing finished(3).
+2025-12-04 23:23:58.065 [info] (161625) BG: [BG(1)] Long operation: SemanticTokens range 284:0 - 341:51 at file:///home/user/repos/weather_predictor/main.py (2854ms)

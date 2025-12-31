@@ -1,0 +1,179 @@
+2025-12-05 15:24:43.971 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-12-05 15:24:43.971 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-12-05 15:24:43.971 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-12-05 15:24:43.971 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-12-05 15:24:44.437 [info] Logged in as tonkaxxx
+2025-12-05 15:24:44.442 [info] Using the Electron fetcher.
+2025-12-05 15:24:45.018 [info] FetcherService: electron-fetch failed with status: 403 
+2025-12-05 15:24:45.423 [info] FetcherService: node-fetch failed with status: 403 
+2025-12-05 15:24:45.838 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-12-05 15:24:45.839 [warning] Invalid copilot token: missing token: 403 
+2025-12-05 15:24:54.198 [error] Copilot extension not found
+2025-12-05 15:24:54.200 [warning] Copilot API is undefined, unable to register context provider.
+2025-12-05 15:24:54.251 [info] Logged in as tonkaxxx
+2025-12-05 15:24:54.589 [info] FetcherService: electron-fetch failed with status: 403 
+2025-12-05 15:24:54.735 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 15:24:54.736 [error] [GitHubAPI] GET https://api.githubcopilot.com/agents/swe/custom-agents/tonkaxxx/homelab?exclude_invalid_config=true - Status: 403
+2025-12-05 15:24:54.736 [error] Error fetching custom agents: TypeError: Cannot destructure property 'agents' of '(intermediate value)' as it is undefined.
+2025-12-05 15:24:54.840 [info] FetcherService: node-fetch failed with status: 403 
+2025-12-05 15:24:55.248 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-12-05 15:24:55.248 [warning] Invalid copilot token: missing token: 403 
+2025-12-05 15:24:55.250 [error] Error: Failed to get copilot token
+	at FG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async KI.waitForChatEnabled (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:29370)
+	at async KI.run (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:29254)
+	at async n5.askToUpgradeAuthPermissions (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:28734): Failed to get copilot token
+2025-12-05 15:24:55.250 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token"
+2025-12-05 15:24:55.250 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-12-05 15:24:55.250 [error] Error: Failed to get copilot token
+	at FG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async FG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:4043:30347)
+	at async LV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:963:26751)
+	at async k6._getToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:1122:5850)
+	at async r (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:1122:5314)
+	at async k6._registerEmbeddings (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:1122:5811)
+	at async Promise.all (index 1)
+	at async Promise.allSettled (index 1)
+	at async QB.waitForActivationBlockers (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:938:1262)
+	at async /home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:938:2021
+	at async S_t (/home/user/.vscode/extensions/github.copilot-chat-0.33.4/dist/extension.js:938:1889)
+	at async Uy.n (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+	at async Uy.m (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+	at async Uy.l (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+2025-12-05 15:24:55.250 [info] activationBlocker from 'languageModelAccess' took for 1080ms
+2025-12-05 15:34:54.750 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 15:39:54.639 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 15:44:54.883 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 15:49:54.826 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 15:54:54.871 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 15:59:54.857 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 16:04:54.754 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 16:09:54.794 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 16:14:54.939 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 16:19:54.814 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 16:24:54.753 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 16:29:54.692 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 16:34:54.879 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 16:39:54.931 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 16:44:54.869 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 16:49:55.014 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 16:54:54.956 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 16:59:54.722 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 17:04:54.940 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 17:09:54.900 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 17:14:54.801 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 17:19:54.762 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 17:24:54.765 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 17:29:54.762 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 17:34:54.811 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 17:39:54.784 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 17:44:54.841 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 17:49:54.767 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 17:54:54.806 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 17:59:54.796 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 18:04:54.839 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 18:09:54.779 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 18:14:54.799 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 18:19:54.808 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 18:24:54.856 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 18:29:54.795 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 18:34:54.794 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 18:39:54.883 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 18:44:54.794 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 18:49:54.859 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 18:54:54.805 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 18:59:54.866 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 19:04:54.861 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 19:09:54.824 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 19:14:54.863 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 19:19:54.893 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 19:24:55.057 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 19:29:54.856 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 19:34:54.847 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 19:39:54.928 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 19:44:54.877 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 19:49:54.875 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 19:54:54.902 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 19:59:54.954 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 20:04:54.956 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 20:09:54.953 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 20:14:54.900 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 20:19:54.987 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 20:24:54.931 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 20:29:55.195 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 20:34:55.131 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 20:44:55.314 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 20:49:55.153 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 20:54:55.197 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 20:59:54.952 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 21:04:54.964 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 21:09:54.986 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 21:14:55.045 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 21:19:55.013 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 21:24:55.048 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 21:29:55.002 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 21:34:55.046 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 21:39:55.094 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 21:44:55.047 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 21:49:55.060 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 21:54:55.068 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 22:04:55.081 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 22:09:55.157 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 22:14:55.137 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 22:19:55.138 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 22:24:55.187 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 22:29:55.220 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 22:34:55.149 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 22:39:55.288 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 22:44:55.233 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 22:49:55.199 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 22:54:55.183 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 22:59:55.211 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 23:04:55.238 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 23:09:55.228 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 23:14:55.219 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 23:19:55.212 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 23:24:55.247 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 23:29:55.286 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 23:34:55.508 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 23:39:55.449 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 23:44:55.252 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 23:49:55.260 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 23:54:55.319 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-05 23:59:55.303 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 00:04:55.371 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 00:09:55.336 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 00:14:55.363 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 00:19:55.328 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 00:24:55.318 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 00:29:55.530 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 00:34:55.436 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 00:39:55.506 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 00:44:55.411 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 00:49:55.586 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 00:54:55.624 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 00:59:55.449 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 01:04:55.601 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 01:09:55.608 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 01:14:55.678 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 01:19:55.615 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 01:24:55.655 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 01:29:55.488 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 01:34:55.653 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 01:39:55.566 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 01:44:55.605 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 01:49:55.646 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 01:54:55.682 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 01:59:55.497 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 02:04:55.656 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 02:09:55.557 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 02:14:55.482 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 02:19:55.712 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 02:24:55.513 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 02:29:55.567 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 02:34:55.533 [error] [GitHubAPI] Failed to fetch sessions: 403
+2025-12-06 02:39:55.715 [error] [GitHubAPI] Failed to fetch sessions: 403

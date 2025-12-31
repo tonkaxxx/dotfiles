@@ -1,0 +1,25 @@
+2025-11-25 16:02:48.398 [info] (Client) Pylance client (2025.9.1) started with python extension (Unknown)
+2025-11-25 16:02:49.756 [info] (26929) Server root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-25 16:02:49.756 [info] (26929) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-11-25 16:02:49.774 [info] Failed to get active python environment for MCP server. MCP server disabled.
+2025-11-25 16:02:49.784 [info] (26929) Starting service instance "<default>" for workspace ""
+2025-11-25 16:02:49.827 [info] (26929) No include entries specified; assuming /<default workspace root>
+2025-11-25 16:02:49.827 [info] (26929) Auto-excluding **/node_modules
+2025-11-25 16:02:49.828 [info] (26929) Auto-excluding **/__pycache__
+2025-11-25 16:02:49.828 [info] (26929) Auto-excluding **/.*
+2025-11-25 16:02:49.985 [info] (26929) Settings have not changed. Skipping update.
+2025-11-25 16:02:50.396 [error] (26929) File or directory "/<default workspace root>" does not exist.
+2025-11-25 16:02:50.397 [info] (26929) No source files found.
+2025-11-25 16:02:50.698 [info] (26929) BG: Priority queue background worker(2) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-25 16:02:50.699 [info] (26929) BG: Priority queue background worker(2) started
+2025-11-25 16:03:09.344 [info] Failed to get active python environment for MCP server. MCP server disabled.
+2025-11-25 16:03:09.384 [error] (26929) File or directory "/<default workspace root>" does not exist.
+2025-11-25 16:03:09.384 [info] (26929) No source files found.
+2025-11-25 16:03:09.446 [info] (26929) No include entries specified; assuming /<default workspace root>
+2025-11-25 16:03:09.448 [info] (26929) Auto-excluding **/node_modules
+2025-11-25 16:03:09.448 [info] (26929) Auto-excluding **/__pycache__
+2025-11-25 16:03:09.448 [info] (26929) Auto-excluding **/.*
+2025-11-25 16:03:09.481 [info] (26929) Assuming Python version 3.13.7.final.0
+2025-11-25 16:03:09.551 [error] (26929) File or directory "/<default workspace root>" does not exist.
+2025-11-25 16:03:09.551 [info] (26929) No source files found.
+2025-11-25 16:03:09.594 [info] (26929) Settings have not changed. Skipping update.

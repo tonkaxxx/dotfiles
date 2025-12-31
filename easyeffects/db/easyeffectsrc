@@ -8,7 +8,7 @@ visiblePlugin=rnnoise#0
 outputDevice=alsa_output.pci-0000_00_1b.0.analog-stereo
 
 [Window]
-height=1397
-visiblePage=inputPage
-visiblePipeWirePage=testSignalsPage
+height=694
+showTrayIcon=false
+visiblePresetSheetPage=autoloadingPage
 width=1270

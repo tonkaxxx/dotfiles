@@ -1,9 +1,0 @@
-2025-11-14 20:15:53.152 [info] Native locator: Refresh started
-2025-11-14 20:15:55.745 [info] > pyenv which python
-2025-11-14 20:15:55.745 [info] cwd: .
-2025-11-14 20:15:59.291 [info] Active interpreter [/home/user/repos]:  /bin/python
-2025-11-14 20:15:59.296 [info] Native locator: Refresh finished in 6184 ms
-2025-11-14 20:15:59.907 [info] Discover tests for workspace name: repos - uri: /home/user/repos
-2025-11-14 20:16:01.603 [info] Starting Pylance language server.
-2025-11-14 20:19:30.584 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py
-2025-11-14 20:19:31.028 [info] Discover tests for workspace name: repos - uri: /home/user/repos/weather_predictor/back/assistant/assistant.py

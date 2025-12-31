@@ -1,0 +1,5 @@
+2025-11-25 16:03:13.827 [info] Native locator: Refresh started
+2025-11-25 16:03:14.959 [info] Active interpreter [global]:  /bin/python
+2025-11-25 16:03:14.962 [info] Native locator: Refresh finished in 1151 ms
+2025-11-25 16:03:15.278 [info] Starting Pylance language server.
+2025-11-25 16:07:30.301 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/normalizeSelection.py

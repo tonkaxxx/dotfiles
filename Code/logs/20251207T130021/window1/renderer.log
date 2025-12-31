@@ -1,0 +1,288 @@
+2025-12-07 13:00:23.570 [info] Started local extension host with pid 35497.
+2025-12-07 13:00:25.798 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-07 13:00:25.913 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-12-07 13:00:26.401 [error] [Extension Host] (node:35497) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-07 13:00:26.404 [error] [Extension Host] (node:35497) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-07 13:00:26.423 [info] [perf] Render performance baseline is 31ms
+2025-12-07 13:00:28.054 [error] Failed to fetch token entitlements Server returned 403
+2025-12-07 13:00:28.154 [error] chatParticipant must be declared in package.json: claude-code
+2025-12-07 13:00:28.400 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at Q6 (file:///opt/visual-studio-code/resources/app/out/main.js:30:64382)
+    at new cd (file:///opt/visual-studio-code/resources/app/out/main.js:30:67762)
+    at new zr (file:///opt/visual-studio-code/resources/app/out/main.js:30:69200)
+    at cd.revive (file:///opt/visual-studio-code/resources/app/out/main.js:30:68977)
+    at d2.call (file:///opt/visual-studio-code/resources/app/out/main.js:88:106862)
+    at Wf.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14859)
+    at Wf.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14382)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13784)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2660)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5145)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5333)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at F (file:///opt/visual-studio-code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106419)
+    at Session.emit (node:events:519:28)
+2025-12-07 13:00:30.980 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:01:15.060 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at Q6 (file:///opt/visual-studio-code/resources/app/out/main.js:30:64382)
+    at new cd (file:///opt/visual-studio-code/resources/app/out/main.js:30:67762)
+    at new zr (file:///opt/visual-studio-code/resources/app/out/main.js:30:69200)
+    at cd.revive (file:///opt/visual-studio-code/resources/app/out/main.js:30:68977)
+    at d2.call (file:///opt/visual-studio-code/resources/app/out/main.js:88:106862)
+    at Wf.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14859)
+    at Wf.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14382)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13784)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2660)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5145)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5333)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at F (file:///opt/visual-studio-code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106419)
+    at Session.emit (node:events:519:28)
+2025-12-07 13:01:17.619 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:01:19.719 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:01:24.536 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:01:27.847 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:01:28.898 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:01:33.802 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:05:00.506 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:05:01.632 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:05:06.547 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:06:28.987 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:06:30.319 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:06:31.319 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:06:33.189 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:06:34.197 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:06:36.152 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:06:37.181 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:06:39.018 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:06:44.135 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:04.412 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:05.436 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:07.227 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:08.310 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:13.217 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:21.105 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:22.209 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:28.276 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:47.422 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:48.451 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:50.287 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:52.030 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:53.147 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:07:58.276 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:08:11.487 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:08:17.424 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:08:46.202 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:08:49.272 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:08:55.314 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:12:35.792 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:12:36.818 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:12:38.760 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:12:41.218 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:12:42.444 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:12:47.448 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:12.665 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:13.891 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:17.964 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:19.112 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:21.105 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:27.119 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:33.932 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:34.988 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:40.623 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:41.753 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:44.254 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:45.439 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:46.455 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:48.918 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:50.860 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:53.426 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:54.649 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:14:57.987 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:03.255 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:04.378 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:06.575 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:07.691 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:08.698 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:09.708 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:10.709 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:15.742 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:31.926 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:32.954 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:35.162 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:41.183 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:44.431 [error] CodeExpectedError: No default agent registered
+    at pct.activateDefaultAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2183:13445)
+2025-12-07 13:15:45.431 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:47.452 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:49.231 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:50.560 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:55.170 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:15:59.061 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:16:00.087 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:16:05.308 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:17:19.995 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:17:22.013 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:17:23.031 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:17:24.048 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:17:25.082 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:17:26.719 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:17:27.768 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:17:29.689 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:17:31.010 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:17:32.041 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:17:36.959 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:19.112 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:21.079 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:24.379 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:25.396 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:26.828 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:31.294 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:32.358 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:33.399 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:35.336 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:36.503 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:40.142 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:41.277 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:42.500 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:43.728 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:44.748 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:46.633 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:47.736 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:50.487 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:52.427 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:53.535 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:55.506 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:56.886 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:18:58.972 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:04.250 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:09.829 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:10.864 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:13.227 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:15.213 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:16.243 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:17.619 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:19.059 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:24.072 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:30.122 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:32.878 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:33.922 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:38.409 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:40.354 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:45.677 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:47.845 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:49.786 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:19:55.817 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:20:21.224 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:20:22.243 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:20:24.393 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:20:29.112 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:20:56.137 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:20:57.370 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:20:58.454 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:20:59.728 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:01.602 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:03.504 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:08.463 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:09.601 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:10.776 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:13.512 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:16.885 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:17.949 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:21.536 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:22.584 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:24.500 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:28.390 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:34.024 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:35.045 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:40.268 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:47.747 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:48.909 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:50.774 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:51.830 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:52.965 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:56.863 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:21:57.886 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:22:03.003 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:22:32.212 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:22:33.417 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:22:38.231 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:24:27.805 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:24:29.651 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:24:30.831 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:24:32.019 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:24:33.230 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:24:38.035 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:25:20.485 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:25:26.476 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:07.553 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:08.781 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:10.816 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:12.273 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:14.209 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:15.285 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:20.171 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:22.093 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:23.191 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:24.403 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:25.469 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:28.242 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:32.439 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:36.027 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:37.039 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:40.008 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:41.035 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:42.154 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:43.293 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:48.212 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:49.640 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:50.665 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:51.689 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:57.011 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:27:59.376 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:28:04.899 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:28:05.919 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:28:07.259 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:28:08.498 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:28:09.610 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:28:10.629 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:28:12.575 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:28:17.799 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:24.579 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:25.590 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:26.591 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:28.158 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:30.077 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:31.328 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:32.334 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:34.293 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:35.729 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:37.748 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:38.800 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:40.848 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:43.204 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:44.247 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:29:49.333 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:30:18.843 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:30:21.607 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:30:26.321 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:30:27.343 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:30:29.197 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:30:34.405 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-07 13:30:40.419 [error] An unknown error occurred. Please consult the log for more details.

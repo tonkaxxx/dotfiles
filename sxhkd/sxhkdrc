@@ -17,17 +17,23 @@ super + d
     rofi -show drun
 
 # Launch Applications
-super + shift + {f,n,t,k,c,a}
+super + shift + {f,n,t,k,e,b,p,c,a}
 	{firefox, \
 	thunar, \
 	Telegram, \
-	kitty --title "calc" -e fish -c "python; fish", \
+	kitty --title "calc" -e fish -c "python .config/calculator.py; fish", \
+	kitty --title "translator" -e fish -c "python .config/translator.py; fish", \
+	kitty --title "btop" -e fish -c "btop; fish", \
+	xset dpms force suspend, \
 	code, \
 	bash /home/user/.config/start.sh}
 
 # copy manager
 super + v
 	gpaste-client ui
+
+super + k + alt + c
+	shutdown now
      
 # screenshot
 super + shift + s

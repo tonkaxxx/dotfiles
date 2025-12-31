@@ -1,6 +1,6 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 536870913,
+        "prev_ver": 536870914,
         "name": "Desktop Audio",
         "uuid": "e8eb07d5-4dd1-48eb-9884-b934f0012db9",
         "id": "pulse_output_capture",
@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 536870913,
+        "prev_ver": 536870914,
         "name": "Mic/Aux",
         "uuid": "d1d0d48e-0777-41ac-af08-3cbb951971cb",
         "id": "pulse_input_capture",
@@ -71,7 +71,7 @@
     "name": "Untitled",
     "sources": [
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "Scene",
             "uuid": "a8cc5794-82b3-4331-bd5e-a6b0b7920964",
             "id": "scene",
@@ -160,7 +160,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "Display Capture (XSHM)",
             "uuid": "b380cb20-574e-4986-8907-b202fb7eb9b7",
             "id": "xshm_input_v2",
@@ -217,7 +217,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -6,
+    "scaling_level": 0,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {

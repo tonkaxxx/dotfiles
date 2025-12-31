@@ -1,0 +1,37 @@
+2025-11-25 16:03:13.833 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-25 16:03:13.833 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-25 16:03:13.833 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-25 16:03:13.833 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-25 16:03:14.217 [info] Using the Electron fetcher.
+2025-11-25 16:03:14.469 [info] Logged in as tonkaxxx
+2025-11-25 16:03:14.750 [info] FetcherService: electron-fetch failed with status: 403 
+2025-11-25 16:03:15.160 [info] FetcherService: node-fetch failed with status: 403 
+2025-11-25 16:03:15.601 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-11-25 16:03:15.602 [warning] Invalid copilot token: missing token: 403 
+2025-11-25 16:03:15.605 [error] Error: Failed to get copilot token
+    at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:4043:32667)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:4043:30347)
+    at NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:963:26597)
+    at KI.waitForChatEnabled (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:963:29216)
+    at KI.run (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:963:29100)
+    at n5.askToUpgradeAuthPermissions (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:963:28580): Failed to get copilot token
+2025-11-25 16:03:15.605 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token"
+2025-11-25 16:03:15.605 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-11-25 16:03:15.605 [error] Error: Failed to get copilot token
+    at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:4043:32667)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:4043:30347)
+    at NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:963:26597)
+    at k6._getToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:1122:5850)
+    at r (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:1122:5314)
+    at k6._registerEmbeddings (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:1122:5811)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 1)
+    at QB.waitForActivationBlockers (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:938:1262)
+    at /home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:938:2021
+    at k_t (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:938:1889)
+    at Uy.n (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Uy.m (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Uy.l (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+2025-11-25 16:03:15.605 [info] activationBlocker from 'languageModelAccess' took for 1641ms

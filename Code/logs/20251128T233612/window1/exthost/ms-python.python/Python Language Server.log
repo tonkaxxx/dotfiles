@@ -1,0 +1,52 @@
+2025-11-28 23:36:23.185 [info] Client: Pylance client (2025.10.1) started with python extension (2025.18.0)
+2025-11-28 23:36:23.497 [info] (117371): Server root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-28 23:36:23.498 [info] (117371): Pylance language server 2025.10.1 (pyright version 1.1.407, commit 906e40aa) starting
+2025-11-28 23:36:23.544 [info] (117371): Starting service instance "<default>" for workspace ""
+2025-11-28 23:36:24.718 [info] (117371): Loading background bundle file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js into ...
+2025-11-28 23:36:24.834 [info] (117371): Starting Mcp server id:3889 ...
+2025-11-28 23:36:24.908 [info] (117371): FG(<default>): Setting environmentName for service "<default>": "Python 3.13.7"
+2025-11-28 23:36:24.908 [info] (117371): FG(<default>): Setting pythonPath for service "<default>": "/bin/python"
+2025-11-28 23:36:24.909 [info] (117371): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-11-28 23:36:24.910 [info] (117371): FG(<default>): Auto-excluding **/node_modules
+2025-11-28 23:36:24.911 [info] (117371): FG(<default>): Auto-excluding **/__pycache__
+2025-11-28 23:36:24.911 [info] (117371): FG(<default>): Auto-excluding **/.*
+2025-11-28 23:36:24.963 [info] (117371): FG(<default>): Assuming Python version 3.13.7.final.0
+2025-11-28 23:36:25.217 [info] (117371): Settings have not changed. Skipping update.
+2025-11-28 23:36:25.219 [error] (117371): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-11-28 23:36:25.219 [info] (117371): FG(<default>): No source files found.
+2025-11-28 23:36:25.222 [info] (117371): Settings have not changed. Skipping update.
+2025-11-28 23:36:25.718 [info] (117371): PQ(<default>): Priority queue background worker(2) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-28 23:36:25.720 [info] (117371): PQ(<default>): Priority queue background worker(2) started
+2025-11-28 23:36:26.092 [info] (117371): BG(<default>): Loaded external background bundle file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js. 
+2025-11-28 23:36:57.566 [info] (Client) Pylance client (2025.10.2) started with python extension (2025.18.0)
+2025-11-28 23:36:58.363 [info] (118967) Server root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.2/dist
+2025-11-28 23:36:58.364 [info] (118967) Pylance language server 2025.10.2 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-11-28 23:36:58.370 [info] (118967) Starting service instance "weather_predictor" for workspace "/home/user/repos/weather_predictor"
+2025-11-28 23:36:58.435 [info] (118967) Starting Mcp server id:4666 ...
+2025-11-28 23:36:58.477 [info] (118967) Setting environmentName for service "weather_predictor": "Python 3.13.7"
+2025-11-28 23:36:58.477 [info] (118967) Setting pythonPath for service "weather_predictor": "/bin/python"
+2025-11-28 23:36:58.477 [info] (118967) No include entries specified; assuming /home/user/repos/weather_predictor
+2025-11-28 23:36:58.477 [info] (118967) Auto-excluding **/node_modules
+2025-11-28 23:36:58.477 [info] (118967) Auto-excluding **/__pycache__
+2025-11-28 23:36:58.477 [info] (118967) Auto-excluding **/.*
+2025-11-28 23:36:58.498 [info] (118967) Assuming Python version 3.13.7.final.0
+2025-11-28 23:36:58.589 [info] (118967) Settings have not changed. Skipping update.
+2025-11-28 23:36:58.603 [info] (118967) Found 5 source files
+2025-11-28 23:36:58.628 [info] (118967) Settings have not changed. Skipping update.
+2025-11-28 23:36:59.638 [info] (118967) BG: Priority queue background worker(2) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.2/dist
+2025-11-28 23:36:59.639 [info] (118967) BG: Priority queue background worker(2) started
+2025-11-28 23:36:59.804 [info] (118967) BG: Indexer background runner(3) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.2/dist (index)
+2025-11-28 23:36:59.804 [info] (118967) BG: Indexing(3) started
+2025-11-28 23:37:00.771 [info] (118967) BG: scanned(3) 303 files over 1 exec env
+2025-11-28 23:37:13.500 [info] (118967) [FG] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (11293ms)
+2025-11-28 23:37:13.504 [info] (118967) [FG] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (11392ms)
+2025-11-28 23:37:13.537 [info] (118967) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (12447ms)
+2025-11-28 23:37:13.537 [info] (118967) BG: [BG(1)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (12595ms)
+2025-11-28 23:37:13.577 [info] (118967) BG: [IDX(3)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (5273ms)
+2025-11-28 23:37:13.578 [info] (118967) BG: [IDX(3)] Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (5355ms)
+2025-11-28 23:37:13.580 [info] (118967) BG: [IDX(3)] Long operation: indexing: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (6124ms)
+2025-11-28 23:37:13.582 [info] (118967) BG: [IDX(3)] Long operation: index execution environment file:///home/user/repos/weather_predictor (11566ms)
+2025-11-28 23:37:13.582 [info] (118967) BG: [IDX(3)] Long operation: index packages file:///home/user/repos/weather_predictor (11625ms)
+2025-11-28 23:37:13.582 [info] (118967) BG: indexed(3) 303 files over 1 exec env
+2025-11-28 23:37:13.709 [info] (118967) BG: Indexing finished(3).
+2025-11-28 23:37:13.808 [info] (118967) BG: [BG(1)] Long operation: SemanticTokens range 0:0 - 109:0 at file:///home/user/repos/weather_predictor/back/assistant/assistant.py (14049ms)

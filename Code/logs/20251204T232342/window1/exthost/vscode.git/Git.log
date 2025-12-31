@@ -1,0 +1,36 @@
+2025-12-04 23:23:49.698 [info] [main] Log level: Info
+2025-12-04 23:23:49.698 [info] [main] Validating found git in: "git"
+2025-12-04 23:23:49.698 [info] [main] Using git "2.52.0" from "git"
+2025-12-04 23:23:49.698 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-04 23:23:49.698 [info] > git rev-parse --show-toplevel [12ms]
+2025-12-04 23:23:49.698 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [44ms]
+2025-12-04 23:23:49.698 [info] [Model][openRepository] Opened repository (path): /home/user/repos/weather_predictor
+2025-12-04 23:23:49.698 [info] [Model][openRepository] Opened repository (real path): /home/user/repos/weather_predictor
+2025-12-04 23:23:49.698 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-04 23:23:49.723 [info] > git rev-parse --show-toplevel [137ms]
+2025-12-04 23:23:49.724 [info] > git config --get commit.template [144ms]
+2025-12-04 23:23:49.999 [info] > git rev-parse --show-toplevel [204ms]
+2025-12-04 23:23:50.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [61ms]
+2025-12-04 23:23:50.083 [info] > git status -z -uall [27ms]
+2025-12-04 23:23:50.084 [info] > git rev-parse --show-toplevel [50ms]
+2025-12-04 23:23:50.145 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [70ms]
+2025-12-04 23:23:50.234 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2025-12-04 23:23:50.247 [info] > git rev-parse --show-toplevel [115ms]
+2025-12-04 23:23:50.250 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-04 23:23:50.280 [info] > git check-ignore -v -z --stdin [13ms]
+2025-12-04 23:23:50.282 [info] > git config --get --local branch.main.vscode-merge-base [35ms]
+2025-12-04 23:23:50.282 [warning] [Git][config] git config failed: Failed to execute git
+2025-12-04 23:23:50.290 [info] > git config --get commit.template [63ms]
+2025-12-04 23:23:50.321 [info] > git show --textconv :main.py [18ms]
+2025-12-04 23:23:50.322 [info] > git ls-files --stage -- main.py [8ms]
+2025-12-04 23:23:50.351 [info] > git cat-file -s 84c7bd186f6c98c3fc3f2e3af082fbb4fb566ece [21ms]
+2025-12-04 23:23:50.352 [info] > git reflog main --grep-reflog=branch: Created from *. [63ms]
+2025-12-04 23:23:50.363 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-12-04 23:23:50.388 [info] > git status -z -uall [13ms]
+2025-12-04 23:23:50.389 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to main [28ms]
+2025-12-04 23:23:50.413 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [11ms]
+2025-12-04 23:23:50.421 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [35ms]
+2025-12-04 23:23:50.427 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2025-12-04 23:23:50.427 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-12-04 23:23:50.427 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-12-04 23:23:50.705 [info] > git blame --root --incremental a579a5db1c9633f27b2dfb1a7d27cf65748bb03e -- main.py [247ms]

@@ -1,0 +1,28 @@
+2025-12-05 15:24:45.364 [info] Client: Command pylance.registerNotebookStartupCommands is already registered.
+2025-12-05 15:24:45.874 [info] Client: Pylance client (2025.10.3) started with python extension (2025.18.0)
+2025-12-05 15:24:46.059 [info] (8220): Server root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.3/dist
+2025-12-05 15:24:46.061 [info] (8220): Pylance language server 2025.10.3 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-05 15:24:46.066 [info] (8220): Starting service instance "homelab" for workspace "/home/user/repos/homelab"
+2025-12-05 15:24:47.092 [info] (8220): Loading background bundle file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.3/dist/copilot-background.bundle.js into file:///home/user/repos/homelab...
+2025-12-05 15:24:47.202 [info] (8220): Starting Mcp server id:3456 ...
+2025-12-05 15:24:47.240 [info] (8220): FG(homelab): Setting environmentName for service "homelab": "Python 3.13.7"
+2025-12-05 15:24:47.240 [info] (8220): FG(homelab): Setting pythonPath for service "homelab": "/bin/python"
+2025-12-05 15:24:47.240 [info] (8220): FG(homelab): No include entries specified; assuming /home/user/repos/homelab
+2025-12-05 15:24:47.243 [info] (8220): FG(homelab): Auto-excluding **/node_modules
+2025-12-05 15:24:47.243 [info] (8220): FG(homelab): Auto-excluding **/__pycache__
+2025-12-05 15:24:47.243 [info] (8220): FG(homelab): Auto-excluding **/.*
+2025-12-05 15:24:47.294 [info] (8220): FG(homelab): Assuming Python version 3.13.7.final.0
+2025-12-05 15:24:47.424 [info] (8220): FG(homelab): Found 6 source files
+2025-12-05 15:24:47.433 [info] (8220): Settings have not changed. Skipping update.
+2025-12-05 15:24:47.467 [info] (8220): Settings have not changed. Skipping update.
+2025-12-05 15:24:47.484 [info] (8220): Settings have not changed. Skipping update.
+2025-12-05 15:24:48.129 [info] (8220): PQ(homelab): Priority queue background worker(2) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.3/dist
+2025-12-05 15:24:48.130 [info] (8220): PQ(homelab): Priority queue background worker(2) started
+2025-12-05 15:24:48.480 [info] (8220): BG(homelab): Loaded external background bundle file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.3/dist/copilot-background.bundle.js. 
+2025-12-05 15:24:48.527 [info] (8220): IDX(homelab): Indexer background runner(3) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.3/dist (index)
+2025-12-05 15:24:48.527 [info] (8220): IDX(homelab): Indexing(3) started
+2025-12-05 15:24:49.522 [info] (8220): IDX(homelab): scanned(3) 322 files over 1 exec env
+2025-12-05 15:24:49.857 [info] (8220): IDX(homelab): indexed(3) 322 files over 1 exec env
+2025-12-05 15:24:50.053 [info] (8220): IDX(homelab): Indexing finished(3).
+2025-12-05 15:24:50.745 [info] (8220): Settings have not changed. Skipping update.
+2025-12-05 15:24:50.747 [info] (8220): Settings have not changed. Skipping update.

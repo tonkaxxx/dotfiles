@@ -1,0 +1,221 @@
+2025-11-28 23:36:17.588 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-28 23:36:17.588 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-28 23:36:17.588 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-28 23:36:17.588 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-28 23:36:20.209 [info] Using the Electron fetcher.
+2025-11-28 23:36:21.340 [info] Logged in as tonkaxxx
+2025-11-28 23:36:22.558 [info] FetcherService: electron-fetch failed with status: 403 
+2025-11-28 23:36:22.997 [info] FetcherService: node-fetch failed with status: 403 
+2025-11-28 23:36:23.458 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-11-28 23:36:23.459 [warning] Invalid copilot token: missing token: 403 
+2025-11-28 23:36:23.462 [error] Error: Failed to get copilot token
+    at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:4043:32667)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:4043:30347)
+    at NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:963:26597)
+    at KI.waitForChatEnabled (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:963:29216)
+    at KI.run (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:963:29100)
+    at n5.askToUpgradeAuthPermissions (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:963:28580): Failed to get copilot token
+2025-11-28 23:36:23.462 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token"
+2025-11-28 23:36:23.462 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-11-28 23:36:23.462 [error] Error: Failed to get copilot token
+    at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:4043:32667)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:4043:30347)
+    at NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:963:26597)
+    at k6._getToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:1122:5850)
+    at r (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:1122:5314)
+    at k6._registerEmbeddings (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:1122:5811)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 1)
+    at QB.waitForActivationBlockers (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:938:1262)
+    at /home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:938:2021
+    at k_t (/home/user/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:938:1889)
+    at Uy.n (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Uy.m (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Uy.l (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+2025-11-28 23:36:23.462 [info] activationBlocker from 'languageModelAccess' took for 3367ms
+2025-11-28 23:36:43.643 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-28 23:36:43.666 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-28 23:36:43.666 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-28 23:36:43.666 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-28 23:36:43.958 [error] Copilot extension not found
+2025-11-28 23:36:43.960 [warning] Copilot API is undefined, unable to register context provider.
+2025-11-28 23:36:44.467 [info] Logged in as tonkaxxx
+2025-11-28 23:36:44.470 [info] Using the Electron fetcher.
+2025-11-28 23:36:45.161 [info] FetcherService: electron-fetch failed with status: 403 
+2025-11-28 23:36:45.829 [info] FetcherService: node-fetch failed with status: 403 
+2025-11-28 23:36:46.524 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-11-28 23:36:46.525 [warning] Invalid copilot token: missing token: 403 
+2025-11-28 23:36:46.527 [error] Error: Failed to get copilot token
+	at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:30347)
+	at async NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:26751)
+	at async KI.waitForChatEnabled (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:29370)
+	at async KI.run (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:29254)
+	at async n5.askToUpgradeAuthPermissions (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:28734): Failed to get copilot token
+2025-11-28 23:36:46.527 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token"
+2025-11-28 23:36:46.527 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-11-28 23:36:46.527 [error] Error: Failed to get copilot token
+	at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:30347)
+	at async NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:26751)
+	at async k6._getToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1122:5850)
+	at async r (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1122:5314)
+	at async k6._registerEmbeddings (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1122:5811)
+	at async Promise.all (index 1)
+	at async Promise.allSettled (index 1)
+	at async QB.waitForActivationBlockers (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:938:1262)
+	at async /home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:938:2021
+	at async k_t (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:938:1889)
+	at async Uy.n (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+	at async Uy.m (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+	at async Uy.l (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+2025-11-28 23:36:46.527 [info] activationBlocker from 'languageModelAccess' took for 2613ms
+2025-11-28 23:37:06.851 [info] Logged in as tonkaxxx
+2025-11-28 23:37:07.205 [info] FetcherService: electron-fetch failed with status: 403 
+2025-11-28 23:37:07.593 [info] FetcherService: node-fetch failed with status: 403 
+2025-11-28 23:37:08.003 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-11-28 23:37:08.004 [warning] Invalid copilot token: missing token: 403 
+2025-11-28 23:37:08.017 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: Failed to get copilot token
+	at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:30347)
+	at async NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:26751)
+	at async _j.updateCachedToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1920:5709)
+	at async X3r (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:10090)
+	at async Gtt (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:6893)
+	at async _Gr (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:1302)
+	at async Dhn (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2164)
+	at async EG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2831)
+	at async SG._provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1944)
+	at async SG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-11-28 23:37:08.017 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: Failed to get copilot token
+	at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:30347)
+	at async NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:26751)
+	at async _j.updateCachedToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1920:5709)
+	at async X3r (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:10090)
+	at async Gtt (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:6893)
+	at async _Gr (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:1302)
+	at async Dhn (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2164)
+	at async EG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2831)
+	at async SG._provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1944)
+	at async SG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-11-28 23:37:08.018 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: Failed to get copilot token
+	at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:30347)
+	at async NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:26751)
+	at async _j.updateCachedToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1920:5709)
+	at async X3r (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:10090)
+	at async Gtt (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:6893)
+	at async _Gr (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:1302)
+	at async Dhn (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2164)
+	at async EG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2831)
+	at async SG._provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1944)
+	at async SG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-11-28 23:37:08.018 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: Failed to get copilot token
+	at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:30347)
+	at async NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:26751)
+	at async _j.updateCachedToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1920:5709)
+	at async X3r (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:10090)
+	at async Gtt (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:6893)
+	at async _Gr (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:1302)
+	at async Dhn (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2164)
+	at async EG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2831)
+	at async SG._provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1944)
+	at async SG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-11-28 23:37:08.051 [info] Logged in as tonkaxxx
+2025-11-28 23:37:08.429 [info] FetcherService: electron-fetch failed with status: 403 
+2025-11-28 23:37:09.129 [info] FetcherService: node-fetch failed with status: 403 
+2025-11-28 23:37:09.510 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-11-28 23:37:09.511 [warning] Invalid copilot token: missing token: 403 
+2025-11-28 23:37:11.047 [info] Logged in as tonkaxxx
+2025-11-28 23:37:11.422 [info] FetcherService: electron-fetch failed with status: 403 
+2025-11-28 23:37:11.765 [info] FetcherService: node-fetch failed with status: 403 
+2025-11-28 23:37:12.701 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-11-28 23:37:14.302 [warning] Invalid copilot token: missing token: 403 
+2025-11-28 23:37:14.310 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: Failed to get copilot token
+	at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:30347)
+	at async NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:26751)
+	at async _j.updateCachedToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1920:5709)
+	at async X3r (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:10090)
+	at async Gtt (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:6893)
+	at async _Gr (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:1302)
+	at async Dhn (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2164)
+	at async EG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2831)
+	at async SG._provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1944)
+	at async SG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-11-28 23:37:14.310 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: Failed to get copilot token
+	at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:30347)
+	at async NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:26751)
+	at async _j.updateCachedToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1920:5709)
+	at async X3r (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:10090)
+	at async Gtt (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:6893)
+	at async _Gr (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:1302)
+	at async Dhn (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2164)
+	at async EG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2831)
+	at async SG._provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1944)
+	at async SG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-11-28 23:37:14.310 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: Failed to get copilot token
+	at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:30347)
+	at async NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:26751)
+	at async _j.updateCachedToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1920:5709)
+	at async X3r (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:10090)
+	at async Gtt (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:6893)
+	at async _Gr (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:1302)
+	at async Dhn (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2164)
+	at async EG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2831)
+	at async SG._provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1944)
+	at async SG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-11-28 23:37:14.311 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: [Error: Failed to get copilot token
+	at MG._authShowWarnings (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:32667)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async MG.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:30347)
+	at async NV.getCopilotToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:963:26751)
+	at async _j.updateCachedToken (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1914:35986)
+	at async Dr.updateExPValuesAndAssignments (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:1920:5709)
+	at async X3r (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:10090)
+	at async Gtt (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:2155:6893)
+	at async _Gr (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:1302)
+	at async Dhn (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2164)
+	at async EG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4027:2831)
+	at async SG._provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1944)
+	at async SG.provideInlineCompletionItems (/home/user/.vscode/extensions/github.copilot-chat-0.33.3/dist/extension.js:4043:1267)
+	at async Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567)]
+2025-11-28 23:37:14.320 [info] Logged in as tonkaxxx
+2025-11-28 23:37:14.672 [info] FetcherService: electron-fetch failed with status: 403 
+2025-11-28 23:37:15.033 [info] FetcherService: node-fetch failed with status: 403 
+2025-11-28 23:37:15.381 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-11-28 23:37:15.381 [warning] Invalid copilot token: missing token: 403 
+2025-11-28 23:37:19.315 [info] Logged in as tonkaxxx
+2025-11-28 23:37:19.699 [info] FetcherService: electron-fetch failed with status: 403 
+2025-11-28 23:37:20.086 [info] FetcherService: node-fetch failed with status: 403 
+2025-11-28 23:37:20.811 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-11-28 23:37:20.812 [warning] Invalid copilot token: missing token: 403 

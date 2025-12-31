@@ -1,5 +1,13 @@
 #!/bin/bash
 steam &
+xset s off
+xset s noblank
+xset s noexpose
+xset -dpms
+xset dpms 3600 3600 3600
+
+sudo mount -t ntfs-3g /dev/sda1 /mnt/999
+sudo mount -t ntfs-3g /dev/sdc3 /mnt/222
 
 bspc desktop -f 0
 firefox &
@@ -12,6 +20,7 @@ sleep 3.5
 bspc desktop -f 4
 easyeffects &
 helvum &
+pavucontrol &
 sleep 2.5
 
 bspc desktop -f 6

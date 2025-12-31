@@ -1,0 +1,10 @@
+2025-12-05 15:24:40.820 [info] Marked extension as removed github.copilot-chat-0.33.3
+2025-12-05 15:24:41.128 [info] Deleted marked for removal extension from disk github.copilot-chat /home/user/.vscode/extensions/github.copilot-chat-0.33.3
+2025-12-05 15:24:41.141 [info] Deleted marked for removal extension from disk ms-python.vscode-pylance /home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.2
+2025-12-05 15:25:46.738 [info] Getting Manifest... ms-python.vscode-pylance
+2025-12-05 15:25:47.191 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.106.3","date":"2025-11-25T22:28:18.024Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/user/.vscode/extensions/extensions.json","path":"/home/user/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-12-05 15:25:50.079 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 1049ms.
+2025-12-05 15:25:53.841 [info] Extracted extension to file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4: ms-python.vscode-pylance
+2025-12-05 15:25:54.066 [info] Renamed to /home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4
+2025-12-05 15:25:54.088 [info] Marked extension as removed ms-python.vscode-pylance-2025.10.3
+2025-12-05 15:25:54.095 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/user/.vscode/extensions/extensions.json

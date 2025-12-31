@@ -1,0 +1,83 @@
+2025-12-07 13:00:30.529 [info] Client: Pylance client (2025.10.4) started with python extension (2025.18.0)
+2025-12-07 13:00:30.910 [info] (36532): Server root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 13:00:30.912 [info] (36532): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-07 13:00:30.923 [info] (36532): Starting service instance "homelab" for workspace "/home/user/repos/homelab"
+2025-12-07 13:00:32.032 [info] (36532): Loading background bundle file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/user/repos/homelab...
+2025-12-07 13:00:32.150 [info] (36532): Starting Mcp server id:4780 ...
+2025-12-07 13:00:32.187 [info] (36532): FG(homelab): Setting environmentName for service "homelab": "Python 3.13.7"
+2025-12-07 13:00:32.187 [info] (36532): FG(homelab): Setting pythonPath for service "homelab": "/bin/python"
+2025-12-07 13:00:32.187 [info] (36532): FG(homelab): No include entries specified; assuming /home/user/repos/homelab
+2025-12-07 13:00:32.188 [info] (36532): FG(homelab): Auto-excluding **/node_modules
+2025-12-07 13:00:32.188 [info] (36532): FG(homelab): Auto-excluding **/__pycache__
+2025-12-07 13:00:32.189 [info] (36532): FG(homelab): Auto-excluding **/.*
+2025-12-07 13:00:32.237 [info] (36532): FG(homelab): Assuming Python version 3.13.7.final.0
+2025-12-07 13:00:32.374 [info] (36532): Settings have not changed. Skipping update.
+2025-12-07 13:00:32.378 [info] (36532): FG(homelab): Found 6 source files
+2025-12-07 13:00:32.382 [info] (36532): Settings have not changed. Skipping update.
+2025-12-07 13:00:32.408 [info] (36532): Settings have not changed. Skipping update.
+2025-12-07 13:00:32.965 [info] (36532): PQ(homelab): Priority queue background worker(2) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 13:00:32.967 [info] (36532): PQ(homelab): Priority queue background worker(2) started
+2025-12-07 13:00:33.339 [info] (36532): IDX(homelab): Indexer background runner(3) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2025-12-07 13:00:33.339 [info] (36532): IDX(homelab): Indexing(3) started
+2025-12-07 13:00:33.355 [info] (36532): BG(homelab): Loaded external background bundle file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2025-12-07 13:00:34.680 [info] (36532): IDX(homelab): scanned(3) 322 files over 1 exec env
+2025-12-07 13:00:35.722 [info] (36532): BG(homelab): Long operation: SemanticTokens range 0:0 - 26:23 at file:///home/user/repos/homelab/status_collector/main.py (2260ms)
+2025-12-07 13:00:44.249 [info] (36532): IDX(homelab): Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/models/__init__.py (4447ms)
+2025-12-07 13:00:44.257 [info] (36532): IDX(homelab): Long operation: binding: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (4521ms)
+2025-12-07 13:00:44.724 [info] (36532): IDX(homelab): Long operation: indexing: file:///home/user/.local/lib/python3.13/site-packages/transformers/__init__.py (5033ms)
+2025-12-07 13:00:45.094 [info] (36532): IDX(homelab): Long operation: index execution environment file:///home/user/repos/homelab (9854ms)
+2025-12-07 13:00:45.141 [info] (36532): IDX(homelab): Long operation: index packages file:///home/user/repos/homelab (9923ms)
+2025-12-07 13:00:45.141 [info] (36532): IDX(homelab): indexed(3) 322 files over 1 exec env
+2025-12-07 13:00:45.350 [info] (36532): IDX(homelab): Indexing finished(3).
+2025-12-07 13:01:13.848 [error] Unhandled Rejection in Pylance: A [Error]: request cancelled
+2025-12-07 13:01:13.848 [error]     at t.throwIfCancellationRequested (/home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/pyright.bundle.js:1:2396887)
+2025-12-07 13:01:13.848 [error]     at _0x33b4cd._throwIfOutOfDate (/home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:587355)
+2025-12-07 13:01:13.848 [error]     at _0x33b4cd.getSourceMapper (/home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:574316)
+2025-12-07 13:01:13.848 [error]     at new _0x5b9786 (/home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:2644011)
+2025-12-07 13:01:13.848 [error]     at new _0x1c767d (/home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:2646153)
+2025-12-07 13:01:13.848 [error]     at new _0x571742 (/home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:2736078)
+2025-12-07 13:01:13.848 [error]     at /home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:2389023
+2025-12-07 13:01:13.848 [error]     at _0x47daa6 (/home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:1633668)
+2025-12-07 13:01:13.848 [error]     at /home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:2388912
+2025-12-07 13:01:13.848 [error]     at _0x33b4cd.runAsync (/home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:573308)
+2025-12-07 13:01:13.848 [error]     at _0x1a7312._runCoreAsync (/home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:365268)
+2025-12-07 13:01:13.848 [error]     at _0x35ea16._getDefinitions (/home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js:1:2393107)
+2025-12-07 13:01:13.848 [error]     at /home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/vendor.bundle.js:2:2210000 {
+2025-12-07 13:01:13.848 [error]   code: -32800,
+2025-12-07 13:01:13.848 [error]   data: undefined,
+2025-12-07 13:01:13.848 [error]   isTypeCacheInvalid: false
+2025-12-07 13:01:13.848 [error] }
+2025-12-07 13:01:13.883 [error] Server process exited with code 10.
+2025-12-07 13:01:13.887 [info] Connection to server got closed. Server will restart.
+2025-12-07 13:01:14.521 [info] (36866): Server root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 13:01:14.522 [info] (36866): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-07 13:01:14.531 [info] (36866): Starting service instance "homelab" for workspace "/home/user/repos/homelab"
+2025-12-07 13:01:14.554 [info] Client: Failed to provide MCP server definitions: Error: Unhandled method python/mcpPort
+2025-12-07 13:01:14.588 [info] (36866): FG(homelab): Setting environmentName for service "homelab": "Python 3.13.7"
+2025-12-07 13:01:14.589 [info] (36866): FG(homelab): Setting pythonPath for service "homelab": "/bin/python"
+2025-12-07 13:01:14.589 [info] (36866): FG(homelab): No include entries specified; assuming /home/user/repos/homelab
+2025-12-07 13:01:14.589 [info] (36866): FG(homelab): Auto-excluding **/node_modules
+2025-12-07 13:01:14.590 [info] (36866): FG(homelab): Auto-excluding **/__pycache__
+2025-12-07 13:01:14.590 [info] (36866): FG(homelab): Auto-excluding **/.*
+2025-12-07 13:01:14.615 [info] (36866): FG(homelab): Assuming Python version 3.13.7.final.0
+2025-12-07 13:01:14.680 [info] (36866): Settings have not changed. Skipping update.
+2025-12-07 13:01:15.408 [info] (36866): FG(homelab): Found 6 source files
+2025-12-07 13:01:15.418 [info] (36866): PQ(homelab): Priority queue background worker(2) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 13:01:15.420 [info] (36866): PQ(homelab): Priority queue background worker(2) started
+2025-12-07 13:01:15.649 [info] (36866): IDX(homelab): Indexer background runner(3) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2025-12-07 13:01:15.650 [info] (36866): IDX(homelab): Indexing(3) started
+2025-12-07 13:01:16.362 [info] (36866): IDX(homelab): scanned(3) 322 files over 1 exec env
+2025-12-07 13:01:17.618 [info] (36866): IDX(homelab): indexed(3) 322 files over 1 exec env
+2025-12-07 13:01:17.750 [info] (36866): IDX(homelab): Indexing finished(3).
+2025-12-07 13:07:47.542 [info] (36866): Starting service instance "<default>" for workspace ""
+2025-12-07 13:07:47.592 [info] (36866): FG(<default>): Setting environmentName for service "<default>": "Python 3.13.7"
+2025-12-07 13:07:47.592 [info] (36866): FG(<default>): Setting pythonPath for service "<default>": "/bin/python"
+2025-12-07 13:07:47.593 [info] (36866): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-12-07 13:07:47.593 [info] (36866): FG(<default>): Auto-excluding **/node_modules
+2025-12-07 13:07:47.593 [info] (36866): FG(<default>): Auto-excluding **/__pycache__
+2025-12-07 13:07:47.593 [info] (36866): FG(<default>): Auto-excluding **/.*
+2025-12-07 13:07:47.638 [info] (36866): FG(<default>): Assuming Python version 3.13.7.final.0
+2025-12-07 13:07:47.718 [error] (36866): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-12-07 13:07:47.718 [info] (36866): FG(<default>): No source files found.
+2025-12-07 13:07:48.269 [info] (36866): PQ(<default>): Priority queue background worker(5) root directory: file:///home/user/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-07 13:07:48.271 [info] (36866): PQ(<default>): Priority queue background worker(5) started
